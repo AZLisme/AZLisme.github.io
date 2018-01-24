@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  <link href="https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+  
+
+<link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="游戏, KSP," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="Kerbal Space Program 是我非常喜欢的一款游戏，它是关于火箭、飞船与太空探索的一款半仿真游戏。玩家作为Kerbin(游戏中的地球)宇航局的管理者，要带领手下的Kerbal（游戏中的Kerbin人）建造火箭飞船、完成合约任务、募集资金、研发科技，最终探索整个太阳系。 之所以称这款游戏是半仿真游戏，是因为它在真实性和游戏性中取得了一个平衡。他采用了相对严谨的物理引擎，模拟了整个太阳系">
+<meta name="keywords" content="游戏, KSP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kerbal 火箭物理学 101">
+<meta property="og:url" content="http://azlisme.github.io/2017/08/16/kerbal-theory-intro/index.html">
+<meta property="og:site_name" content="AZLisme&#39;s Blog">
+<meta property="og:description" content="Kerbal Space Program 是我非常喜欢的一款游戏，它是关于火箭、飞船与太空探索的一款半仿真游戏。玩家作为Kerbin(游戏中的地球)宇航局的管理者，要带领手下的Kerbal（游戏中的Kerbin人）建造火箭飞船、完成合约任务、募集资金、研发科技，最终探索整个太阳系。 之所以称这款游戏是半仿真游戏，是因为它在真实性和游戏性中取得了一个平衡。他采用了相对严谨的物理引擎，模拟了整个太阳系">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://s-media-cache-ak0.pinimg.com/736x/a2/28/19/a228197e65c64b3937ba538640dd859b.jpg">
+<meta property="og:image" content="http://wiki.kerbalspaceprogram.com/images/thumb/7/73/KerbinDeltaVMap.png/424px-KerbinDeltaVMap.png">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/50/Geostationaryjava3D.gif">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Hohmann_transfer_orbit.svg/500px-Hohmann_transfer_orbit.svg.png">
+<meta property="og:updated_time" content="2017-08-16T07:16:37.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kerbal 火箭物理学 101">
+<meta name="twitter:description" content="Kerbal Space Program 是我非常喜欢的一款游戏，它是关于火箭、飞船与太空探索的一款半仿真游戏。玩家作为Kerbin(游戏中的地球)宇航局的管理者，要带领手下的Kerbal（游戏中的Kerbin人）建造火箭飞船、完成合约任务、募集资金、研发科技，最终探索整个太阳系。 之所以称这款游戏是半仿真游戏，是因为它在真实性和游戏性中取得了一个平衡。他采用了相对严谨的物理引擎，模拟了整个太阳系">
+<meta name="twitter:image" content="https://s-media-cache-ak0.pinimg.com/736x/a2/28/19/a228197e65c64b3937ba538640dd859b.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://azlisme.github.io/2017/08/16/kerbal-theory-intro/"/>
+
+
+
+
+
+  <title>Kerbal 火箭物理学 101 | AZLisme's Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">AZLisme's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">但行好事，莫问前程</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://azlisme.github.io/2017/08/16/kerbal-theory-intro/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="AZLisme">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="AZLisme's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Kerbal 火箭物理学 101</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-16T13:53:52+08:00">
+                2017-08-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/游戏/" itemprop="url" rel="index">
+                    <span itemprop="name">游戏</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/游戏/KSP/" itemprop="url" rel="index">
+                    <span itemprop="name">KSP</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/08/16/kerbal-theory-intro/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/08/16/kerbal-theory-intro/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2017/08/16/kerbal-theory-intro/" class="leancloud_visitors" data-flag-title="Kerbal 火箭物理学 101">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Kerbal Space Program 是我非常喜欢的一款游戏，它是关于火箭、飞船与太空探索的一款半仿真游戏。玩家作为<strong>Kerbin</strong>(游戏中的地球)宇航局的管理者，要带领手下的<strong>Kerbal</strong>（游戏中的Kerbin人）建造火箭飞船、完成合约任务、募集资金、研发科技，最终探索整个太阳系。</p>
+<p>之所以称这款游戏是半仿真游戏，是因为它在真实性和游戏性中取得了一个平衡。他采用了相对严谨的物理引擎，模拟了整个太阳系的运转，对玩家也提出了较高的物理知识要求；同时，它作为一款游戏又对玩家隐藏了真实航空的繁琐细节，专注于最核心、最刺激的部分。当玩家乘着自己造的火箭，完成一个漂亮的<a href="https://zh.wikipedia.org/zh/%E9%9C%8D%E6%9B%BC%E8%BD%89%E7%A7%BB%E8%BB%8C%E9%81%93" target="_blank" rel="external">霍曼转移</a>，最终被<strong>Mun</strong>(月球)引力捕获，登上Mun插上宇航局旗帜，回头遥望Kerbin的时候，一股难以言喻的自豪感油然而生。</p>
+<a id="more"></a>
+<p><img src="https://s-media-cache-ak0.pinimg.com/736x/a2/28/19/a228197e65c64b3937ba538640dd859b.jpg" alt="NASA and KSP"></p>
+<p><em>以上是关于KSP的一个梗：千万别在NASA提Kerbal Space Program</em></p>
+<p>这篇博客就介绍一下KSP基本的火箭物理学，帮助大家理解KSP中的物理引擎，造出更加合理的火箭。</p>
+<h2 id="推重比"><a href="#推重比" class="headerlink" title="推重比"></a>推重比</h2><p><strong>火箭如何工作？</strong></p>
+<p>我们一般指的火箭是指燃料燃烧形成喷流，以此产生反作用力获得推力的装置。在获得推力之后，就可以获得加速度、挣脱重力的粗暴束缚。</p>
+<p>那么推力和重力的比例，就是<strong>推重比(TWR)</strong>，英文全称是<strong>Thrust Weight Ratio</strong>。</p>
+<p>经过简单的推理我们可以知道：</p>
+<ol>
+<li>TWR &lt;= 1 的火箭是飞不起来的，因为连重力都无法克服；</li>
+<li>TWR &gt; 1 的时候，火箭才可以起飞，并且TWR越大，全力加速时的加速度就越大。</li>
+</ol>
+<p>那么是不是TWR越大越好呢？并不是这样，有几个主要的原因：</p>
+<ol>
+<li>TWR越大，在地表发射的时候加速度会过快，就是说会在大气层内达到更高的速度，这带来更多的摩擦，浪费燃料同时还会带来过热问题。</li>
+<li>即便是在没有摩擦真空之中，TWR也不是越大越好，因为过高的TWR往往意味着更重的引擎，而引擎的死重过高也会带来燃料浪费的问题。</li>
+</ol>
+<p><strong>那么合理的推重比大概在什么一个范围呢？</strong></p>
+<p>按照一般的经验来说，在地表起飞的阶段，TWR维持在1.5左右比较合适；而在太空之中，为了保证机动的灵活性，推重比一般保持在2～5之间都可以。</p>
+<p><strong>太空中的推重比？</strong></p>
+<p>众所周知，太空中是没有重力的（重力微乎其微，可以忽略不计）所以在太空中的推重中的重力其实指的仍然是在轨道中心海平面附近的重力。</p>
+<h2 id="Delta-V"><a href="#Delta-V" class="headerlink" title="$\Delta V$"></a>$\Delta V$</h2><p>在宇宙中航行，最绕不开的概念就是这个$\Delta V$，它的含义就是<strong>速度改变量</strong>。</p>
+<p>无论是径向加速，或是侧向拐弯，都需要用到喷射燃料来获得加速度改变当前的惯性速度方向，但是燃料的消耗世界上会让火箭的质量变小，其速度改变需要的能量也就越小，所以直接用燃料剩余量是不方便也不直观的，于是我们提出了$\Delta V$这样一个抽象的概念，表示火箭的剩余机动能力（结果上来说可以认为它是一个更加精确科学的“剩余燃料量“）</p>
+<h3 id="Delta-V-地图"><a href="#Delta-V-地图" class="headerlink" title="$\Delta V$地图"></a>$\Delta V$地图</h3><p><img src="http://wiki.kerbalspaceprogram.com/images/thumb/7/73/KerbinDeltaVMap.png/424px-KerbinDeltaVMap.png" alt="deltaV Map"></p>
+<p>这张地图显示了从Kerbin飞到太阳系内的每一个天体所需要的$\Delta V$的数量。</p>
+<p>例如，我想从Kerbin出发降落到月球Mun，我首先需要3400m/s的燃料进入Kerbin的环绕轨道，然后860m/s的燃料进行霍曼转移，310m/s的燃料进入绕月轨道，最后580m/s左右的燃料降落在月球表面。</p>
+<p>所以在设计这艘月球探险飞船我总共需要5150m/s，考虑到操作的不精确带来的损耗，再增加10%的裕量，携带5500m/s的燃料是一个合理的选择。</p>
+<p>等等，我们还没考虑到回来？</p>
+<p>由于返程不需要降落燃料（地球大气可以提供空气刹车！），所以我们返程大约需要580 + 310 = 890m/s左右的燃料，只要进行设计轨道，被地球引力捕获进入大气层就可以舒舒服服的让空气摩擦为我们减速降落。<br>（当然这里要考虑过热控制，这就是另外一个话题咯）</p>
+<h2 id="火箭方程"><a href="#火箭方程" class="headerlink" title="火箭方程"></a>火箭方程</h2><p>那么$\Delta V$是如何计算的呢？那就要请出大名鼎鼎的火箭方程了：</p>
+<p>$$\Delta V = v_{e}ln\frac{m_{0}}{m_{1}}$$</p>
+<ul>
+<li>$m_{0}$ 是火箭加速前的纯质量总合，即初始总质量</li>
+<li>$m_{1}$ 是火箭加速后的纯质量的总和，消耗掉的质量就是燃料的质量</li>
+<li>$v_{e}$ 是火箭排气速度(火箭喷射速度)，该速度与时间、地球重力加速度。</li>
+</ul>
+<p>在游戏中的引擎有一个重要的参数叫做比冲$I_{sp}$，为了简化实际的计算，可以认为$v_{e} = I_{sp} * 9.81 m/s$</p>
+<p>在实际应用中，我们通过使用：大型运载火箭来增加 $m_{0}$；对火箭分级来减小 $m_{1}$；更先进的发动机来增加 $I_{sp}$，来实现取得为了达到获得较大的 $\Delta V$ 的目的。</p>
+<h2 id="极限-Delta-V"><a href="#极限-Delta-V" class="headerlink" title="极限$\Delta V$"></a>极限$\Delta V$</h2><p>游戏中的每一个引擎都有它的极限$\Delta V$，如下表所示：</p>
+<table>
+<thead>
+<tr>
+<th>Isp(Vac) (s)</th>
+<th>Max $\Delta V$ (m/s)</th>
+<th>引擎</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>250</td>
+<td>5394</td>
+<td>O-10 “Puff”</td>
+</tr>
+<tr>
+<td>290</td>
+<td>6257</td>
+<td>LV-1R “Spider” 24-77 “Twitch”</td>
+</tr>
+<tr>
+<td>300</td>
+<td>6473</td>
+<td>KR-1x2 “Twin-Boar”</td>
+</tr>
+<tr>
+<td>305</td>
+<td>6581</td>
+<td>CR-7 R.A.P.I.E.R. Mk-55 “Thud”</td>
+</tr>
+<tr>
+<td>310</td>
+<td>6689</td>
+<td>LV-T30 “Reliant” RE-M3 “Mainsail”</td>
+</tr>
+<tr>
+<td>315</td>
+<td>6797</td>
+<td>LV-1 “Ant” KS-25 “Vector” KS-25x4 “Mammoth”</td>
+</tr>
+<tr>
+<td>320</td>
+<td>6905</td>
+<td>48-7S “Spark” LV-T45 “Swivel” RE-I5 “Skipper”</td>
+</tr>
+<tr>
+<td>340</td>
+<td>7336</td>
+<td>KR-2L+ “Rhino” T-1 “Dart”</td>
+</tr>
+<tr>
+<td>345</td>
+<td>7444</td>
+<td>LV-909 “Terrier”</td>
+</tr>
+<tr>
+<td>350</td>
+<td>7552</td>
+<td>RE-L10 “Poodle”</td>
+</tr>
+<tr>
+<td>800</td>
+<td>21837</td>
+<td>LV-N “Nerv”</td>
+</tr>
+<tr>
+<td>4200</td>
+<td>33751</td>
+<td>IX-6315 “Dawn”</td>
+</tr>
+</tbody>
+</table>
+<p>这是怎么计算的呢？</p>
+<p>假想在一个引擎前端增加燃料罐，一直增加到无限的燃料罐，似乎好像有无穷无尽的燃料，可以一直燃烧下去才对？</p>
+<p>但是燃料罐本身也有质量，这部分质量我们称之为「死重」，就是不能作为燃料而喷射的质量。</p>
+<p>如果无限的增加燃料罐，最终会让火箭公式中的 $\frac{m_{0}}{m_{1}}$ 无限接近于$\frac{燃料罐总质量}{燃料罐死重}$，<br>而这个比值在游戏里刚好是一个常数，大约是9。也就是说，在游戏里面，如果有一个9吨的燃料罐，<br>那么它其实只含8吨燃料，有1吨是罐子本身的重量。</p>
+<blockquote>
+<p>注意这个比值对最后两种引擎不成立，那是因为，他们用的是另一种燃料，氙气。</p>
+</blockquote>
+<h2 id="环绕轨道"><a href="#环绕轨道" class="headerlink" title="环绕轨道"></a>环绕轨道</h2><p>卫星由于万有引力作用，会围绕着中心做椭圆运动。假如一颗飞船围绕着Kerbin环绕，那么Kerbin就处在这个椭圆轨道的某个焦点上。</p>
+<h3 id="近地点-amp-远地点"><a href="#近地点-amp-远地点" class="headerlink" title="近地点 &amp; 远地点"></a>近地点 &amp; 远地点</h3><p>就是轨道中离Kerbin最近或者最远的那个点（两个尖头）</p>
+<h3 id="亚轨-amp-低轨-amp-高轨"><a href="#亚轨-amp-低轨-amp-高轨" class="headerlink" title="亚轨 &amp; 低轨 &amp; 高轨"></a>亚轨 &amp; 低轨 &amp; 高轨</h3><p>指的就是轨道的高度。</p>
+<p>Kerbin的大气层高度是69KM，如果近地点小于这个大气高度，那么飞船最终还是会掉下去的，这就是亚轨道，没有形成真正的环绕轨道。</p>
+<p>如果近地点已经大于69KM了，那么就真正进入了环绕轨道。一般认为600KM以内是低空轨道，以上则为高空轨道。</p>
+<h3 id="同步轨道"><a href="#同步轨道" class="headerlink" title="同步轨道"></a>同步轨道</h3><p><img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Geostationaryjava3D.gif" alt="同步轨道"></p>
+<p>同步轨道是一种特殊的轨道。</p>
+<p>首先，它是一个圆轨，也就是说近地点高度和远地点高度一致，卫星做圆周运动。</p>
+<p>其次，我们知道轨道高度越高，线性速度越慢。同步轨道的高度，刚刚好和Kerbin的自转速度一样。从Kerbin观察这颗卫星，就好像悬停在空中一样。</p>
+<p>Kerbin的同步轨道高度是 2868.75 KM，只有赤道正上方这么一条同步轨道，可以说是非常稀缺的资源了。</p>
+<h2 id="霍曼转移"><a href="#霍曼转移" class="headerlink" title="霍曼转移"></a>霍曼转移</h2><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Hohmann_transfer_orbit.svg/500px-Hohmann_transfer_orbit.svg.png" alt="霍曼转移轨道"></p>
+<p>霍曼转移是德国物理学家瓦尔特霍曼提出的一种太空变轨方法，相对的节省燃料，是我们在游戏中经常要使用的转移技巧。</p>
+<p>如图所示，飞行器在近地点加速，进入圆轨道，然后熄火到达远地点之后，再次加速将轨道拉成圆轨。</p>
+<p>这种方式不做多余的加速和减速，是节约燃料的最优方式，</p>
+<h2 id="引用目录"><a href="#引用目录" class="headerlink" title="引用目录"></a>引用目录</h2><ul>
+<li><a href="http://wiki.kerbalspaceprogram.com/wiki/Cheat_sheet" target="_blank" rel="external">KSP Wiki cheat sheet</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/%E9%9C%8D%E6%9B%BC%E8%BD%89%E7%A7%BB%E8%BB%8C%E9%81%93" target="_blank" rel="external">霍曼转移轨道</a></li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/游戏-KSP/" rel="tag"># 游戏, KSP</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/04/28/markindex/" rel="next" title="MarkIndex - 标题索引小工具">
+                <i class="fa fa-chevron-left"></i> MarkIndex - 标题索引小工具
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/avatar.png"
+               alt="AZLisme" />
+          <p class="site-author-name" itemprop="name">AZLisme</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/AZLisme" target="_blank" title="Github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                    
+                      Github
+                    
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:hello.zx@foxmail.com" target="_blank" title="E-Mail">
+                  
+                    <i class="fa fa-fw fa-envelope"></i>
+                  
+                    
+                      E-Mail
+                    
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#推重比"><span class="nav-number">1.</span> <span class="nav-text">推重比</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Delta-V"><span class="nav-number">2.</span> <span class="nav-text">$\Delta V$</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Delta-V-地图"><span class="nav-number">2.1.</span> <span class="nav-text">$\Delta V$地图</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#火箭方程"><span class="nav-number">3.</span> <span class="nav-text">火箭方程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#极限-Delta-V"><span class="nav-number">4.</span> <span class="nav-text">极限$\Delta V$</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#环绕轨道"><span class="nav-number">5.</span> <span class="nav-text">环绕轨道</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#近地点-amp-远地点"><span class="nav-number">5.1.</span> <span class="nav-text">近地点 & 远地点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#亚轨-amp-低轨-amp-高轨"><span class="nav-number">5.2.</span> <span class="nav-text">亚轨 & 低轨 & 高轨</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#同步轨道"><span class="nav-number">5.3.</span> <span class="nav-text">同步轨道</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#霍曼转移"><span class="nav-number">6.</span> <span class="nav-text">霍曼转移</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引用目录"><span class="nav-number">7.</span> <span class="nav-text">引用目录</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 &mdash; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">AZLisme</span>
+
+  
+</div>
+
+
+  <div class="powered-by">
+    由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+  </div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">
+    主题 &mdash;
+    <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+      NexT.Pisces
+    </a>
+  </div>
+
+
+        
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//tajs.qq.com/stats?sId=63410049";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://azlismesblog.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://azlisme.github.io/2017/08/16/kerbal-theory-intro/';
+          this.page.identifier = '2017/08/16/kerbal-theory-intro/';
+          this.page.title = 'Kerbal 火箭物理学 101';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://azlismesblog.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("WRt47AUzTPXGMahdNzLtbbE3-gzGzoHsz", "thOIKxoX4CAgJulPG4MMDIjh");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+</body>
+</html>
