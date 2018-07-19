@@ -1,7 +1,8 @@
 ---
 title: Kerbal 火箭物理学 101
 date: 2017-08-16 13:53:52
-tags: 游戏, KSP
+tags: 
+    - KSP
 categories:
     - 游戏
     - KSP

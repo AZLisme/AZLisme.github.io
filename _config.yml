@@ -68,9 +68,12 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@gitee.com:AZLisme/azlisme.git
-  branch: master
+  - type: git
+    repo: git@gitee.com:AZLisme/azlisme.git
+    branch: master
+  - type: git
+    repo: git@github.com:AZLisme/AZLisme.github.io.git
+    branch: master
 
 search:
   path: search.xml
