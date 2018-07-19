@@ -102,7 +102,7 @@
 <meta name="keywords" content="Github,Utils">
 <meta property="og:type" content="article">
 <meta property="og:title" content="MarkIndex - 标题索引小工具">
-<meta property="og:url" content="http://azlisme.github.io/2017/04/28/markindex/index.html">
+<meta property="og:url" content="http://azlisme.gitee.io/2017/04/28/markindex/index.html">
 <meta property="og:site_name" content="AZLisme&#39;s Blog">
 <meta property="og:description" content="今天在写一个巨大的Markdown文件的时候，需要给标题添加一个数字序号，方便组织整理，但纯粹用手打效率太低了一点，于是便写一个小工具来自动为Markdown文件的标题按照层级添加索引，日后还可以加上自动生成Table of content的小功能。">
 <meta property="og:locale" content="zh-Hans">
@@ -141,7 +141,7 @@
 
 
 
-  <link rel="canonical" href="http://azlisme.github.io/2017/04/28/markindex/"/>
+  <link rel="canonical" href="http://azlisme.gitee.io/2017/04/28/markindex/"/>
 
 
 
@@ -318,7 +318,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://azlisme.github.io/2017/04/28/markindex/">
+    <link itemprop="mainEntityOfPage" href="http://azlisme.gitee.io/2017/04/28/markindex/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="AZLisme">
@@ -442,17 +442,17 @@
       
         <p>今天在写一个巨大的Markdown文件的时候，需要给标题添加一个数字序号，方便组织整理，但纯粹用手打效率太低了一点，于是便写一个小工具来自动为Markdown文件的标题按照层级添加索引，日后还可以加上自动生成Table of content的小功能。</p>
 <a id="more"></a>
-<p>源代码查看这里<a href="https://github.com/AZLisme/markindex" target="_blank" rel="external">Github地址</a></p>
+<p>源代码查看这里<a href="https://github.com/AZLisme/markindex" target="_blank" rel="noopener">Github地址</a></p>
 <p>使用方法很简单，这是原始的Markdown文件:</p>
 <p><img src="https://github.com/AZLisme/markindex/raw/master/img/before.png" alt="origin"></p>
 <p>然后对它执行:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">python markindex.py example.md</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python markindex.py example.md</span><br></pre></td></tr></table></figure>
 <p>随后脚本生成了一个新的Markdown文件（为了不覆盖原文件）：example-1.md，它的内容是：</p>
 <p><img src="https://github.com/AZLisme/markindex/raw/master/img/after.png" alt="after"></p>
 <p>脚本自动为您的Markdown文件的标题添加了数字索引，按照1.1, 1.1.1这样的格式。</p>
 <p>注意此处一级标题被忽略了，因为他们通常是总标题，无须添加索引。</p>
 <p>您可以使用-h, –help选项来查看更多操作：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">usage: markindex.py [-h] [-r] [-f] markdown [markdown ...]</div><div class="line"></div><div class="line">Add Index to markdown titles.</div><div class="line"></div><div class="line">positional arguments:</div><div class="line">  markdown     markdown files to modify</div><div class="line"></div><div class="line">optional arguments:</div><div class="line">  -h, --<span class="built_in">help</span>   show this <span class="built_in">help</span> message and <span class="built_in">exit</span></div><div class="line">  -r, --rm     remove index, instead of adding it.</div><div class="line">  -f, --force  cover the original file, use with caution.</div></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">usage: markindex.py [-h] [-r] [-f] markdown [markdown ...]</span><br><span class="line"></span><br><span class="line">Add Index to markdown titles.</span><br><span class="line"></span><br><span class="line">positional arguments:</span><br><span class="line">  markdown     markdown files to modify</span><br><span class="line"></span><br><span class="line">optional arguments:</span><br><span class="line">  -h, --<span class="built_in">help</span>   show this <span class="built_in">help</span> message and <span class="built_in">exit</span></span><br><span class="line">  -r, --rm     remove index, instead of adding it.</span><br><span class="line">  -f, --force  cover the original file, use with caution.</span><br></pre></td></tr></table></figure>
 <p>还可以添加若干小功能，这就之后再说吧</p>
 
       
@@ -573,7 +573,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -595,7 +595,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">11</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -661,7 +661,7 @@
         <div class="copyright" >
   
   &copy;  2015 &mdash; 
-  <span itemprop="copyrightYear">2017</span>
+  <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
@@ -807,7 +807,7 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://azlisme.github.io/2017/04/28/markindex/';
+          this.page.url = 'http://azlisme.gitee.io/2017/04/28/markindex/';
           this.page.identifier = '2017/04/28/markindex/';
           this.page.title = 'MarkIndex - 标题索引小工具';
         };
