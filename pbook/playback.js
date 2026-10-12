@@ -1,0 +1,41 @@
+'use strict';
+class StoryPlayer {
+ constructor(audio,callbacks={}){this.audio=audio;this.cb=callbacks;this.book=null;this.base='';this.mode='idle';this.auto=false;this.pageIndex=0;this.end=Infinity;this.token=0;this.frame=null;
+  audio.addEventListener('timeupdate',()=>this.tick());audio.addEventListener('ended',()=>this.finish());audio.addEventListener('play',()=>{this.state();this.animate()});audio.addEventListener('pause',()=>this.state());audio.addEventListener('error',()=>this.fail('音频加载失败，请检查网络后重试。'));
+ }
+ load(book,base){this.stop();this.book=book;this.base=base;this.timeline=(book.narration?.pages||[]).map(p=>({...p,index:book.pages.findIndex(x=>x.id===p.pageId)})).filter(p=>p.index>=0)}
+ state(){this.cb.onState?.({auto:this.auto,paused:this.audio.paused,mode:this.mode})}
+ stop(){++this.token;this.auto=false;this.mode='idle';this.end=Infinity;this.audio.pause();this.cb.onSentence?.(null);this.state();if(this.frame!==null&&typeof cancelAnimationFrame==='function')cancelAnimationFrame(this.frame);this.frame=null}
+ fail(message){this.stop();this.cb.onError?.(message)}
+ pause(){this.audio.pause();this.state()}
+ range(index){return this.timeline.find(p=>p.index===index)}
+ start(start,end,mode,index){const token=++this.token;this.mode=mode;this.pageIndex=index;this.end=end;const src=new URL(this.book.narration.src,this.base).href;
+  if(this.audio.src!==src){this.audio.src=src;const seek=()=>{if(token===this.token)this.audio.currentTime=start};this.audio.addEventListener('loadedmetadata',seek,{once:true});try{this.audio.currentTime=start}catch{}}
+  else this.audio.currentTime=start;
+  this.cb.onPage?.(index);this.cb.onError?.('');this.state();
+  // Call play synchronously from the user's gesture; don't await metadata first.
+  let promise;try{promise=this.audio.play()}catch{this.fail('请再次点击播放以开始朗读。');return Promise.resolve(false)}
+  return Promise.resolve(promise).then(()=>token===this.token).catch(()=>{if(token===this.token)this.fail('浏览器暂停了播放，请点击自动或朗读按钮重试。');return false})
+ }
+ playPage(index,restart=false){const r=this.range(index);if(!r)return Promise.resolve(false);
+  if(!restart&&this.pageIndex===index&&['page','auto'].includes(this.mode)&&this.audio.currentTime>=r.start&&this.audio.currentTime<r.end){
+   if(!this.audio.paused){this.pause();return Promise.resolve(true)}
+   // Resume retains continuous mode when auto is still selected.
+   const token=++this.token;try{return Promise.resolve(this.audio.play()).catch(()=>{if(token===this.token)this.fail('请再次点击播放。');return false})}catch{if(token===this.token)this.fail('请再次点击播放。');return Promise.resolve(false)}
+  }
+  this.auto=false;this.cb.onSentence?.(null);return this.start(r.start,r.end,'page',index)
+ }
+ playSentence(index,s){this.auto=false;this.cb.onSentence?.(s.id);return this.start(s.start,s.end,'sentence',index)}
+ toggleAuto(index){if(this.auto){this.auto=false;this.pause();this.mode='page';this.end=this.range(this.pageIndex)?.end??Infinity;this.state();return Promise.resolve(true)}
+  const r=this.timeline.find(p=>p.index>=index);if(!r){this.cb.onError?.('后面没有可朗读的故事页了。');return Promise.resolve(false)}
+  this.auto=true;this.cb.onSentence?.(null);return this.start(r.start,this.timeline.at(-1).end,'auto',r.index)
+ }
+ finish(){const wasAuto=this.auto;this.auto=false;this.mode='idle';this.audio.pause();this.cb.onSentence?.(null);this.state();if(wasAuto)this.cb.onComplete?.()}
+ tick(){if(this.mode==='idle'||this.audio.paused)return;const t=this.audio.currentTime;
+  if(this.auto){const r=[...this.timeline].reverse().find(p=>t>=p.start);if(r&&r.index!==this.pageIndex){this.pageIndex=r.index;this.cb.onPage?.(r.index)}}
+  if(this.mode!=='sentence'){const s=this.book.pages[this.pageIndex]?.sentences?.find(s=>t>=s.start&&t<s.end);this.cb.onSentence?.(s?.id??null)}
+  if(t>=this.end-.015)this.finish()
+ }
+ animate(){if(typeof requestAnimationFrame!=='function')return;if(this.frame!==null)cancelAnimationFrame(this.frame);const loop=()=>{this.tick();if(!this.audio.paused&&this.mode!=='idle')this.frame=requestAnimationFrame(loop);else this.frame=null};this.frame=requestAnimationFrame(loop)}
+}
+if(typeof module!=='undefined')module.exports=StoryPlayer;
