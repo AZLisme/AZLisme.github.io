@@ -1,0 +1,4 @@
+interface:
+  display_name: "小小绘本上架"
+  short_description: "从绘本照片制作中英翻译、自然配音与点读坐标，校验后发布到小小绘本馆"
+  default_prompt: "使用 $publish-picturebook，把我上传的绘本照片制作成可点读、可朗读的数字绘本，并发布到小小绘本馆。"
