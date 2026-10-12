@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "1.0",
+  "revision": "pages-trial-v1",
+  "recommended": [
+    "drop"
+  ],
+  "books": [
+    {
+      "id": "drop",
+      "title": "DROP · 小水滴",
+      "subtitle": "一场穿越水循环的冒险",
+      "author": "Emily Kate Moon",
+      "cover": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v2/images/01.jpg",
+      "manifest": "books/drop/v2/book.json",
+      "pageCount": 18
+    }
+  ]
+}
