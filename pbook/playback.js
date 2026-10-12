@@ -1,8 +1,9 @@
 'use strict';
 class StoryPlayer {
- constructor(audio,callbacks={}){this.audio=audio;this.cb=callbacks;this.book=null;this.base='';this.mode='idle';this.auto=false;this.pageIndex=0;this.end=Infinity;this.token=0;this.frame=null;
+ constructor(audio,callbacks={}){this.audio=audio;this.cb=callbacks;this.book=null;this.base='';this.mode='idle';this.auto=false;this.pageIndex=0;this.end=Infinity;this.token=0;this.frame=null;this.speed=1;
   audio.addEventListener('timeupdate',()=>this.tick());audio.addEventListener('ended',()=>this.finish());audio.addEventListener('play',()=>{this.state();this.animate()});audio.addEventListener('pause',()=>this.state());audio.addEventListener('error',()=>this.fail('音频加载失败，请检查网络后重试。'));
  }
+ setSpeed(speed){if(![0.5,0.75,1,1.5,2].includes(speed))return false;this.speed=speed;this.audio.defaultPlaybackRate=speed;this.audio.playbackRate=speed;this.audio.preservesPitch=true;return true}
  load(book,base){this.stop();this.book=book;this.base=base;this.timeline=(book.narration?.pages||[]).map(p=>({...p,index:book.pages.findIndex(x=>x.id===p.pageId)})).filter(p=>p.index>=0)}
  state(){this.cb.onState?.({auto:this.auto,paused:this.audio.paused,mode:this.mode})}
  stop(){++this.token;this.auto=false;this.mode='idle';this.end=Infinity;this.audio.pause();this.cb.onSentence?.(null);this.state();if(this.frame!==null&&typeof cancelAnimationFrame==='function')cancelAnimationFrame(this.frame);this.frame=null}
@@ -12,7 +13,7 @@ class StoryPlayer {
  start(start,end,mode,index){const token=++this.token;this.mode=mode;this.pageIndex=index;this.end=end;const src=new URL(this.book.narration.src,this.base).href;
   if(this.audio.src!==src){this.audio.src=src;const seek=()=>{if(token===this.token)this.audio.currentTime=start};this.audio.addEventListener('loadedmetadata',seek,{once:true});try{this.audio.currentTime=start}catch{}}
   else this.audio.currentTime=start;
-  this.cb.onPage?.(index);this.cb.onError?.('');this.state();
+  this.setSpeed(this.speed);this.cb.onPage?.(index);this.cb.onError?.('');this.state();
   // Call play synchronously from the user's gesture; don't await metadata first.
   let promise;try{promise=this.audio.play()}catch{this.fail('请再次点击播放以开始朗读。');return Promise.resolve(false)}
   return Promise.resolve(promise).then(()=>token===this.token).catch(()=>{if(token===this.token)this.fail('浏览器暂停了播放，请点击自动或朗读按钮重试。');return false})
