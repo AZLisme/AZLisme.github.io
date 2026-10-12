@@ -7,6 +7,8 @@ description: 将家长上传的实体绘本照片整理成小小绘本馆的中�
 
 按已经验证的格式补充内容，保留现有网站设计和阅读行为。读取 [站点配置](references/site.md) 和 [内容格式](references/format.md)；不要依赖旧对话中的文件顺序、临时目录、密钥或部署状态。
 
+所有示例命令都以当前技能目录为工作目录；若在其他目录运行，使用技能目录下脚本的绝对路径。
+
 ## 1. 获取最新状态与素材
 
 - 通过 GitHub 连接读取目标仓库当前分支、提交、`pbook/catalog.json`；已有书籍修订同时读取其当前 manifest。保留书籍 ID、未更换页面 ID 和所有其他书目。
@@ -42,6 +44,10 @@ python3 scripts/pipeline.py validate --book /absolute/book-package --publish
 逐句生成并按采样数记录 start/end，再拼成整书 `audio/story.mp3`，生成逐页 MP3。自动模式使用整书音轨，句子按钮使用整书时间段。逐句检查英文完整性、时长、无空音频、全部 MP3 可解码以及点读坐标范围。发音质量不能仅凭文件存在判断；抽听或明确说明未人工听审。
 
 ## 4. 预览与发布
+
+预览使用现有阅读器：在临时目录复制仓库的 `pbook/` 阅读器，将本地成品包复制到其 `books/<id>/<revision>/`，把临时 `catalog.json` 改成仅包含这本书（沿用现有目录字段，manifest 指向其本地 book.json，cover 指向本地封面）。用 `python3 -m http.server 8000 --directory /absolute/preview-root` 提供 `/pbook/` 预览；不要把临时目录或预览书目提交到仓库。浏览器能力不可用时提供成品包并说明未验证交互。
+
+编号缩略图 QA：用 Pillow 读取成品图片，按页序生成带页号、page.id 的 contact-sheet.jpg；逐格与原照片对照。每页缩略图应足以看清布局，关键文字另看原尺寸图片。缩略图是 QA 辅助，不替代逐图检查。
 
 用户要求上架、发布，或调用本技能执行完整制作发布流程时，校验完成即在约定站点发布，不增加重复确认。用户明确仅预览/草稿时，停在本地包和预览。
 
