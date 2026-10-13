@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.2",
-  "revision": "pages-v4-point-read",
+  "revision": "pages-v5-narration-only",
   "recommended": [
     "drop"
   ],
@@ -11,7 +11,7 @@
       "subtitle": "一场穿越水循环的冒险",
       "author": "Emily Kate Moon",
       "cover": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v2/images/01.jpg",
-      "manifest": "books/drop/v4/book.json",
+      "manifest": "books/drop/v5/book.json",
       "pageCount": 18
     }
   ]

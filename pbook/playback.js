@@ -32,7 +32,13 @@ class StoryPlayer {
   this.auto=true;this.cb.onSentence?.(null);return this.start(r.start,this.timeline.at(-1).end,'auto',r.index)
  }
  finish(){const wasAuto=this.auto;this.auto=false;this.mode='idle';this.audio.pause();this.cb.onSentence?.(null);this.state();if(wasAuto)this.cb.onComplete?.()}
- tick(){if(this.mode==='idle'||this.audio.paused)return;const t=this.audio.currentTime;
+ tick(){if(this.mode==='idle'||this.audio.paused)return;let t=this.audio.currentTime;
+  // Filter the original track in media time, keeping only selected narration.
+  if(this.book.narration?.segments&&this.mode!=='sentence'){
+   const segments=this.book.narration.segments.filter(s=>this.auto||s.pageId===this.book.pages[this.pageIndex].id);
+   const current=segments.find(s=>t>=s.start&&t<s.end);
+   if(!current){const next=segments.find(s=>s.start>=t);if(!next){this.finish();return}this.audio.currentTime=t=next.start}
+  }
   if(this.auto){const r=[...this.timeline].reverse().find(p=>t>=p.start);if(r&&r.index!==this.pageIndex){this.pageIndex=r.index;this.cb.onPage?.(r.index)}}
   if(this.mode!=='sentence'){const s=this.book.pages[this.pageIndex]?.sentences?.find(s=>t>=s.start&&t<s.end);this.cb.onSentence?.(s?.id??null)}
   if(t>=this.end-.015)this.finish()
