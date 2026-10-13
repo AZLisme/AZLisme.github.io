@@ -1,4 +1,4 @@
-# 小小绘本馆 · GitHub Pages 试验
+# 寻宝绘本馆 · GitHub Pages 试验
 
 页面与书目 JSON 由当前 GitHub Pages 站点提供；图片与英文 MP3 使用广州 COS 存储桶 pbook-1252924514 的公开直链。未使用 CDN。
 
