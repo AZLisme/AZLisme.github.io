@@ -1,0 +1,9 @@
+'use strict';
+// Rectify the photographed book boundary for display; source pixels stay intact.
+function frameEdge(points,u){const z=u*(points.length-1),i=Math.min(points.length-2,Math.floor(z)),f=z-i;return points[i].map((v,k)=>v*(1-f)+points[i+1][k]*f)}
+function framePoint(frame,u,v){const a=frameEdge(frame.top,u),b=frameEdge(frame.bottom,u);return a.map((x,k)=>x+(b[k]-x)*v)}
+function drawBookArtwork(image,canvas,frame){const ctx=canvas.getContext('2d');if(!ctx)throw Error('Canvas unavailable');canvas.width=frame?.width||image.naturalWidth;canvas.height=frame?.height||image.naturalHeight;const w=canvas.width,h=canvas.height;if(!frame){ctx.drawImage(image,0,0,w,h);return}const src=(u,v)=>{const p=framePoint(frame,u,v);return [p[0]*image.naturalWidth,p[1]*image.naturalHeight]};
+ function triangle(s,t){const sx=s[1][0]-s[0][0],sy=s[1][1]-s[0][1],ux=s[2][0]-s[0][0],uy=s[2][1]-s[0][1],det=sx*uy-ux*sy,dx=t[1][0]-t[0][0],dy=t[1][1]-t[0][1],vx=t[2][0]-t[0][0],vy=t[2][1]-t[0][1];const a=(dx*uy-vx*sy)/det,b=(dy*uy-vy*sy)/det,c=(vx*sx-dx*ux)/det,d=(vy*sx-dy*ux)/det;const center=[t.reduce((n,p)=>n+p[0],0)/3,t.reduce((n,p)=>n+p[1],0)/3];ctx.save();ctx.beginPath();t.forEach((p,i)=>{const length=Math.hypot(p[0]-center[0],p[1]-center[1]);const q=p.map((x,k)=>x+(x-center[k])*.35/length);i?ctx.lineTo(...q):ctx.moveTo(...q)});ctx.closePath();ctx.clip();ctx.setTransform(a,b,c,d,t[0][0]-a*s[0][0]-c*s[0][1],t[0][1]-b*s[0][0]-d*s[0][1]);ctx.drawImage(image,0,0);ctx.restore()}
+ const cols=32,rows=12;for(let j=0;j<rows;j++)for(let i=0;i<cols;i++){const uv=[[i/cols,j/rows],[(i+1)/cols,j/rows],[(i+1)/cols,(j+1)/rows],[i/cols,(j+1)/rows]],s=uv.map(p=>src(...p)),t=uv.map(([u,v])=>[u*w,v*h]);triangle([s[0],s[1],s[2]],[t[0],t[1],t[2]]);triangle([s[0],s[2],s[3]],[t[0],t[2],t[3]])}
+}
+if(typeof module!=='undefined')module.exports={frameEdge,framePoint,drawBookArtwork};

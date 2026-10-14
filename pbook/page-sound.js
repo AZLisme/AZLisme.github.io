@@ -1,0 +1,8 @@
+'use strict';
+class PageTurnSound {
+ constructor(){this.enabled=true;this.context=null;this.source=null;try{this.enabled=localStorage.getItem('picturebook:pageSound')!=='false'}catch{}}
+ unlock(){if(!this.enabled)return;try{const Context=window.AudioContext||window.webkitAudioContext;if(!Context)return;this.context??=new Context();if(this.context.state==='suspended')this.context.resume().catch(()=>{})}catch{}}
+ play(){this.unlock();const ctx=this.context;if(!this.enabled||!ctx||ctx.state!=='running')return;try{this.source?.stop();const length=Math.floor(ctx.sampleRate*.18),buffer=ctx.createBuffer(1,length,ctx.sampleRate),data=buffer.getChannelData(0);let seed=214013;for(let i=0;i<length;i++){seed=(Math.imul(seed,1664525)+1013904223)>>>0;data[i]=(seed/4294967296*2-1)}const source=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),gain=ctx.createGain();filter.type='bandpass';filter.frequency.value=1700;filter.Q.value=.6;const t=ctx.currentTime;gain.gain.setValueAtTime(0,t);gain.gain.linearRampToValueAtTime(.065,t+.035);gain.gain.exponentialRampToValueAtTime(.001,t+.18);source.buffer=buffer;source.connect(filter);filter.connect(gain);gain.connect(ctx.destination);source.start();source.onended=()=>{source.disconnect();filter.disconnect();gain.disconnect();if(this.source===source)this.source=null};this.source=source}catch{}}
+ toggle(){this.enabled=!this.enabled;if(!this.enabled){try{this.source?.stop()}catch{}}else this.unlock();try{localStorage.setItem('picturebook:pageSound',String(this.enabled))}catch{}return this.enabled}
+}
+if(typeof module!=='undefined')module.exports=PageTurnSound;
