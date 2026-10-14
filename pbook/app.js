@@ -21,8 +21,10 @@ const player=new StoryPlayer(audio,{
  onError:t=>{notice(t);if(t&&queue.active){interruptQueue();$('queueStatus').textContent=t}},onComplete:()=>{if(audioOnlyMode)listeningVoyage.complete();if(queue.active)advanceQueue();else notice('故事读完啦！可以点一句再听，或返回书架。')}
 });
 let playbackSpeed=1;try{const saved=Number(localStorage.getItem('picturebook:playbackSpeed'));if([0.5,0.75,1,1.5,2].includes(saved))playbackSpeed=saved}catch{}
-player.setSpeed(playbackSpeed);$('playbackSpeed').value=String(playbackSpeed);
-$('playbackSpeed').onchange=()=>{const speed=Number($('playbackSpeed').value);if(player.setSpeed(speed)){playbackSpeed=speed;try{localStorage.setItem('picturebook:playbackSpeed',String(speed))}catch{}}};
+const speedControls=['playbackSpeed','shelfListeningSpeed','queueListeningSpeed'];
+function syncSpeed(){for(const id of speedControls)$(id).value=String(playbackSpeed)}
+player.setSpeed(playbackSpeed);syncSpeed();
+for(const id of speedControls)$(id).onchange=()=>{const speed=Number($(id).value);if(player.setSpeed(speed)){playbackSpeed=speed;syncSpeed();try{localStorage.setItem('picturebook:playbackSpeed',String(speed))}catch{}}};
 function notice(t){$('notice').textContent=t;}
 function readProgress(id){try{return JSON.parse(localStorage.getItem('picturebook:'+id))}catch{return null}}
 function saveProgress(){try{localStorage.setItem('picturebook:'+book.id,JSON.stringify({pageId:book.pages[page].id,updatedAt:Date.now()}))}catch{notice('浏览器无法保存进度，本次仍可正常阅读。')}}
@@ -47,7 +49,7 @@ viewport.onpointerdown=e=>{if(e.target.closest('.hotspot'))return;viewport.setPo
 viewport.onpointermove=e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2&&gesture?.d){scale=Math.max(1,Math.min(4,gesture.s*distance()/gesture.d));transform()}else if(pointers.size===1&&scale>1&&gesture&&!gesture.d){tx=gesture.tx+e.clientX-gesture.x;ty=gesture.ty+e.clientY-gesture.y;transform()}};
 function release(e){pointers.delete(e.pointerId);if(pointers.size===1){const p=[...pointers.values()][0];gesture={x:p.x,y:p.y,tx,ty}}else gesture=null}viewport.onpointerup=release;viewport.onpointercancel=release;viewport.ondblclick=e=>{if(e.target.closest('.hotspot'))return;scale=scale>1?1:2;tx=ty=0;transform()};viewport.onwheel=e=>{if(e.ctrlKey){e.preventDefault();scale=Math.max(1,Math.min(4,scale-e.deltaY*.01));transform()}else if(scale>1){e.preventDefault();tx-=e.deltaX;ty-=e.deltaY;transform()}};$('resetZoom').onclick=reset;window.onresize=fitImage;
 document.onkeydown=e=>{if($('reader').hidden||e.target?.closest('select,input,textarea'))return;if(e.key==='Escape'){$('contentsPanel').hidden=true;$('sentencesPanel').hidden=true;$('queuePanel').hidden=true}else if($('contentsPanel').hidden&&$('sentencesPanel').hidden){if(!$('queuePanel').hidden)return;if(e.key==='ArrowRight')move(1);if(e.key==='ArrowLeft')move(-1)}};
-async function init(){try{catalog=await fetch(url('catalog.json?v=26'),{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()});drawShelf();drawVoyages();initQueue()}catch{$('recommendations').textContent='书架未能加载，请检查网络后刷新。'}}init();
+async function init(){try{catalog=await fetch(url('catalog.json?v=27'),{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json()});drawShelf();drawVoyages();initQueue()}catch{$('recommendations').textContent='书架未能加载，请检查网络后刷新。'}}init();
 
 function interruptQueue(){queue.active=false;++queueRequest;if(catalog)drawQueue()}
 function persistQueue(){try{localStorage.setItem('picturebook:queue',JSON.stringify({ids:queue.ids,mode:queue.mode,knownIds:knownBooks||catalog.books.map(e=>e.id)}))}catch{}}
