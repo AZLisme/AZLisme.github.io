@@ -28,6 +28,7 @@ class StoryPlayer {
   }
   this.auto=false;this.cb.onSentence?.(null);return this.start(r.start,r.end,'page',index)
  }
+ playPageAfterTurn(index){this.stop();const r=this.range(index);if(!r)return;const token=this.token;this.mode='page';this.pageIndex=index;this.turning=true;this.cb.onSentence?.(null);this.state();this.turnTimer=setTimeout(()=>{this.turnTimer=null;if(token!==this.token||!this.turning)return;this.turning=false;this.start(r.start,r.end,'page',index)},this.turnDelay)}
  playSentence(index,s){this.auto=false;this.cb.onSentence?.(s.id);return this.start(s.start,s.end,'sentence',index)}
  toggleAuto(index){if(this.auto){this.auto=false;this.pause();this.mode='page';this.end=this.range(this.pageIndex)?.end??Infinity;this.state();return Promise.resolve(true)}
   const r=this.timeline.find(p=>p.index>=index);if(!r){this.cb.onError?.('后面没有可朗读的故事页了。');return Promise.resolve(false)}
