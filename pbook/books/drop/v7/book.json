@@ -1,0 +1,2758 @@
+{
+  "schemaVersion": "1.2",
+  "id": "drop",
+  "revision": "v7-paired-translation",
+  "title": "DROP · 小水滴",
+  "subtitle": "一场穿越水循环的冒险",
+  "author": "Emily Kate Moon",
+  "language": "en",
+  "translationLanguage": "zh-CN",
+  "cover": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v2/images/01.jpg",
+  "readingDirection": "ltr",
+  "pages": [
+    {
+      "id": "p01",
+      "title": "封面",
+      "kind": "cover",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p01.jpeg",
+      "text": {
+        "en": "Drop. An adventure through the water cycle. By Emily Kate Moon.",
+        "zh": "小水滴。\n\n一场穿越水循环的冒险。\n\n作者：Emily Kate Moon。"
+      },
+      "audio": {
+        "status": "omitted",
+        "src": null,
+        "reason": "reference-or-cover"
+      },
+      "source": {
+        "filename": "IMG_5654.jpeg",
+        "scriptSection": 1
+      },
+      "imageFrame": {
+        "top": [
+          [
+            0.18229166666666666,
+            0.006944444444444444
+          ],
+          [
+            0.8333333333333334,
+            0.013888888888888888
+          ]
+        ],
+        "bottom": [
+          [
+            0.17578125,
+            0.9973958333333334
+          ],
+          [
+            0.8463541666666666,
+            0.9782986111111112
+          ]
+        ],
+        "width": 1015,
+        "height": 1126
+      },
+      "translationPairs": [
+        {
+          "en": "Drop.",
+          "zh": "小水滴。"
+        },
+        {
+          "en": "An adventure through the water cycle.",
+          "zh": "一场穿越水循环的冒险。"
+        },
+        {
+          "en": "By Emily Kate Moon.",
+          "zh": "作者：Emily Kate Moon。"
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "title": "水的三种状态",
+      "kind": "reference",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p02.jpeg",
+      "text": {
+        "en": "States of water. Water can be liquid, called water. Water can be solid, called ice or snow. Water can be gas, called water vapor. Water moves freely from state to state, depending on temperature and pressure. When water evaporates, it moves from liquid to gas. When water condenses, it moves from gas to liquid. When water freezes, it moves from liquid to solid. When water melts, it moves from solid to liquid. When water crystallizes, it moves from gas to solid. When water sublimates, it moves from solid to gas, and skips the whole melting part! The three states of water. My many shapes, moods, and temperatures! Gas. Stretch! Solid. Hold still. Liquid. Go with the flow!",
+        "zh": "水的状态。\n\n水可以是液态，这时我们叫它水。\n\n水可以是固态，这时叫冰或雪。\n\n水可以是气态，这时叫水蒸气。\n\n水会随着温度和压力的变化，在不同状态之间自由转变。\n\n水蒸发时，会从液态变成气态。\n\n水凝结时，会从气态变成液态。\n\n水冻结时，会从液态变成固态。\n\n水融化时，会从固态变成液态。\n\n水凝华时，会从气态直接变成固态。\n\n水升华时，会从固态直接变成气态，跳过整个融化过程！\n\n水的三种状态。\n\n我有好多种形状、心情和温度！\n\n气态。\n\n伸展开来！\n\n固态。\n\n保持不动。\n\n液态。\n\n顺势流动！"
+      },
+      "audio": {
+        "status": "omitted",
+        "src": null,
+        "reason": "reference-or-cover"
+      },
+      "source": {
+        "filename": "IMG_5655.jpeg",
+        "scriptSection": 2
+      },
+      "imageFrame": {
+        "top": [
+          [
+            0.013020833333333334,
+            0.1545138888888889
+          ],
+          [
+            0.2571614583333333,
+            0.14583333333333334
+          ],
+          [
+            0.51171875,
+            0.1519097222222222
+          ],
+          [
+            0.7552083333333334,
+            0.15711805555555555
+          ],
+          [
+            0.9993489583333334,
+            0.16493055555555555
+          ]
+        ],
+        "bottom": [
+          [
+            0.0006510416666666666,
+            0.9244791666666666
+          ],
+          [
+            0.2604166666666667,
+            0.9375
+          ],
+          [
+            0.5091145833333334,
+            0.9383680555555556
+          ],
+          [
+            0.76171875,
+            0.9357638888888888
+          ],
+          [
+            0.9993489583333334,
+            0.9288194444444444
+          ]
+        ],
+        "width": 1525,
+        "height": 896
+      },
+      "translationPairs": [
+        {
+          "en": "States of water.",
+          "zh": "水的状态。"
+        },
+        {
+          "en": "Water can be liquid, called water.",
+          "zh": "水可以是液态，这时我们叫它水。"
+        },
+        {
+          "en": "Water can be solid, called ice or snow.",
+          "zh": "水可以是固态，这时叫冰或雪。"
+        },
+        {
+          "en": "Water can be gas, called water vapor.",
+          "zh": "水可以是气态，这时叫水蒸气。"
+        },
+        {
+          "en": "Water moves freely from state to state, depending on temperature and pressure.",
+          "zh": "水会随着温度和压力的变化，在不同状态之间自由转变。"
+        },
+        {
+          "en": "When water evaporates, it moves from liquid to gas.",
+          "zh": "水蒸发时，会从液态变成气态。"
+        },
+        {
+          "en": "When water condenses, it moves from gas to liquid.",
+          "zh": "水凝结时，会从气态变成液态。"
+        },
+        {
+          "en": "When water freezes, it moves from liquid to solid.",
+          "zh": "水冻结时，会从液态变成固态。"
+        },
+        {
+          "en": "When water melts, it moves from solid to liquid.",
+          "zh": "水融化时，会从固态变成液态。"
+        },
+        {
+          "en": "When water crystallizes, it moves from gas to solid.",
+          "zh": "水凝华时，会从气态直接变成固态。"
+        },
+        {
+          "en": "When water sublimates, it moves from solid to gas, and skips the whole melting part!",
+          "zh": "水升华时，会从固态直接变成气态，跳过整个融化过程！"
+        },
+        {
+          "en": "The three states of water.",
+          "zh": "水的三种状态。"
+        },
+        {
+          "en": "My many shapes, moods, and temperatures!",
+          "zh": "我有好多种形状、心情和温度！"
+        },
+        {
+          "en": "Gas.",
+          "zh": "气态。"
+        },
+        {
+          "en": "Stretch!",
+          "zh": "伸展开来！"
+        },
+        {
+          "en": "Solid.",
+          "zh": "固态。"
+        },
+        {
+          "en": "Hold still.",
+          "zh": "保持不动。"
+        },
+        {
+          "en": "Liquid.",
+          "zh": "液态。"
+        },
+        {
+          "en": "Go with the flow!",
+          "zh": "顺势流动！"
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "title": "认识小水滴",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p03.jpeg",
+      "text": {
+        "en": "This is water. Hi! I'm Drop!",
+        "zh": "这就是水。\n\n嗨！\n\n我是小水滴！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p03.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "336da4349aed3f84fc64c537461cbcee8510c9f6c331a202ea7ba3619825ded5"
+      },
+      "source": {
+        "filename": "IMG_5656.jpeg",
+        "scriptSection": 3
+      },
+      "sentences": [
+        {
+          "id": "p03-s01",
+          "text": "This is water.",
+          "spokenText": "This is water.",
+          "start": 0.15,
+          "end": 1.352,
+          "anchor": {
+            "x": 0.835,
+            "y": 0.2426
+          }
+        }
+      ],
+      "narrationText": "This is water.",
+      "imageFrame": {
+        "top": [
+          [
+            0.027994791666666668,
+            0.1423611111111111
+          ],
+          [
+            0.2688802083333333,
+            0.1310763888888889
+          ],
+          [
+            0.5084635416666666,
+            0.13975694444444445
+          ],
+          [
+            0.7486979166666666,
+            0.1527777777777778
+          ],
+          [
+            0.9993489583333334,
+            0.15625
+          ]
+        ],
+        "bottom": [
+          [
+            0.008463541666666666,
+            0.9071180555555556
+          ],
+          [
+            0.2545572916666667,
+            0.9244791666666666
+          ],
+          [
+            0.5065104166666666,
+            0.9288194444444444
+          ],
+          [
+            0.7552083333333334,
+            0.9270833333333334
+          ],
+          [
+            0.9993489583333334,
+            0.9123263888888888
+          ]
+        ],
+        "width": 1507,
+        "height": 894
+      },
+      "translationPairs": [
+        {
+          "en": "This is water.",
+          "zh": "这就是水。"
+        },
+        {
+          "en": "Hi!",
+          "zh": "嗨！"
+        },
+        {
+          "en": "I'm Drop!",
+          "zh": "我是小水滴！"
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "title": "小水滴的地球",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p04.jpeg",
+      "text": {
+        "en": "Drop lives here on planet Earth. She has been here about four and a half billion years. I'm four and a half billion! Drop has seen a thing or two. Oh, hello there!",
+        "zh": "小水滴住在地球上。\n\n她已经在这里待了大约四十五亿年。\n\n我四十五亿岁啦！\n\n小水滴可见过不少事情。\n\n哦，你好呀！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p04.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "fd2d494f4ea60eff26cfd87fc0b842897ee39724e65a786c556d1d9e17a23fa1"
+      },
+      "source": {
+        "filename": "IMG_5658.jpeg",
+        "scriptSection": 4
+      },
+      "sentences": [
+        {
+          "id": "p04-s01",
+          "text": "Drop lives here on planet Earth.",
+          "spokenText": "Drop lives here on planet Earth.",
+          "start": 5.0233,
+          "end": 7.2613,
+          "anchor": {
+            "x": 0.0329,
+            "y": 0.1408
+          }
+        },
+        {
+          "id": "p04-s02",
+          "text": "She has been here about four and a half billion years.",
+          "spokenText": "She has been here about four and a half billion years.",
+          "start": 7.5813,
+          "end": 10.7166,
+          "anchor": {
+            "x": 0.0333,
+            "y": 0.2177
+          }
+        },
+        {
+          "id": "p04-s04",
+          "text": "Drop has seen a thing or two.",
+          "spokenText": "Drop has seen a thing or two.",
+          "start": 13.192,
+          "end": 15.124,
+          "anchor": {
+            "x": 0.9611,
+            "y": 0.1032
+          }
+        }
+      ],
+      "narrationText": "Drop lives here on planet Earth. She has been here about four and a half billion years. Drop has seen a thing or two.",
+      "imageFrame": {
+        "top": [
+          [
+            0.006510416666666667,
+            0.15711805555555555
+          ],
+          [
+            0.22786458333333334,
+            0.13368055555555555
+          ],
+          [
+            0.4830729166666667,
+            0.13020833333333334
+          ],
+          [
+            0.7356770833333334,
+            0.1423611111111111
+          ],
+          [
+            0.9830729166666666,
+            0.1449652777777778
+          ]
+        ],
+        "bottom": [
+          [
+            0.0,
+            0.9114583333333334
+          ],
+          [
+            0.23567708333333334,
+            0.9288194444444444
+          ],
+          [
+            0.4869791666666667,
+            0.9279513888888888
+          ],
+          [
+            0.7356770833333334,
+            0.9201388888888888
+          ],
+          [
+            0.98828125,
+            0.90625
+          ]
+        ],
+        "width": 1509,
+        "height": 895
+      },
+      "translationPairs": [
+        {
+          "en": "Drop lives here on planet Earth.",
+          "zh": "小水滴住在地球上。"
+        },
+        {
+          "en": "She has been here about four and a half billion years.",
+          "zh": "她已经在这里待了大约四十五亿年。"
+        },
+        {
+          "en": "I'm four and a half billion!",
+          "zh": "我四十五亿岁啦！"
+        },
+        {
+          "en": "Drop has seen a thing or two.",
+          "zh": "小水滴可见过不少事情。"
+        },
+        {
+          "en": "Oh, hello there!",
+          "zh": "哦，你好呀！"
+        }
+      ]
+    },
+    {
+      "id": "p05",
+      "title": "湖泊与海洋",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p05.jpeg",
+      "text": {
+        "en": "She has lounged in every lake and soaked in every sea. Luxury! So much sea to see!",
+        "zh": "她在每一片湖泊里悠闲地躺过，也在每一片海洋里泡过。\n\n真享受！\n\n好多海洋等着我去看！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p05.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "eddb05b5827382bd714567bb258802636024e0e9bcb360b1e2a402fd00bfd74d"
+      },
+      "source": {
+        "filename": "IMG_5659.jpeg",
+        "scriptSection": 5
+      },
+      "sentences": [
+        {
+          "id": "p05-s01",
+          "text": "She has lounged in every lake and soaked in every sea.",
+          "spokenText": "She has lounged in every lake and soaked in every sea.",
+          "start": 17.848,
+          "end": 21.2393,
+          "anchor": {
+            "x": 0.0404,
+            "y": 0.118
+          }
+        }
+      ],
+      "narrationText": "She has lounged in every lake and soaked in every sea.",
+      "imageFrame": {
+        "top": [
+          [
+            0.027994791666666668,
+            0.140625
+          ],
+          [
+            0.2604166666666667,
+            0.1076388888888889
+          ],
+          [
+            0.5110677083333334,
+            0.11805555555555555
+          ],
+          [
+            0.7486979166666666,
+            0.1232638888888889
+          ],
+          [
+            0.9993489583333334,
+            0.1267361111111111
+          ]
+        ],
+        "bottom": [
+          [
+            0.021484375,
+            0.9131944444444444
+          ],
+          [
+            0.2643229166666667,
+            0.9375
+          ],
+          [
+            0.5110677083333334,
+            0.9435763888888888
+          ],
+          [
+            0.7552083333333334,
+            0.9375
+          ],
+          [
+            0.9993489583333334,
+            0.9262152777777778
+          ]
+        ],
+        "width": 1497,
+        "height": 931
+      },
+      "translationPairs": [
+        {
+          "en": "She has lounged in every lake and soaked in every sea.",
+          "zh": "她在每一片湖泊里悠闲地躺过，也在每一片海洋里泡过。"
+        },
+        {
+          "en": "Luxury!",
+          "zh": "真享受！"
+        },
+        {
+          "en": "So much sea to see!",
+          "zh": "好多海洋等着我去看！"
+        }
+      ]
+    },
+    {
+      "id": "p06",
+      "title": "海洋生活",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p06.jpeg",
+      "text": {
+        "en": "Drop spends most of her time in the ocean. She rides wild waves. Woo-hoo! And drifts on gentle currents. Sweeeet! She sunbathes on the surface of the sea. Ahhh... this is sea life!",
+        "zh": "小水滴大部分时间都待在海洋里。\n\n她乘着汹涌的海浪。\n\n呜呼！\n\n也随着温柔的洋流漂荡。\n\n太舒服啦！\n\n她在海面上晒太阳。\n\n啊……这就是海洋生活！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p06.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "2e20aa43fdf50ddf967267af23c9ae0fa4bc3fecb60ab432ad0333768846cb36"
+      },
+      "source": {
+        "filename": "IMG_5660.jpeg",
+        "scriptSection": 6
+      },
+      "sentences": [
+        {
+          "id": "p06-s01",
+          "text": "Drop spends most of her time in the ocean.",
+          "spokenText": "Drop spends most of her time in the ocean.",
+          "start": 25.4272,
+          "end": 28.1258,
+          "anchor": {
+            "x": 0.0286,
+            "y": 0.1698
+          }
+        },
+        {
+          "id": "p06-s02",
+          "text": "She rides wild waves.",
+          "spokenText": "She rides wild waves.",
+          "start": 28.4458,
+          "end": 30.3438,
+          "anchor": {
+            "x": 0.1387,
+            "y": 0.2179
+          }
+        },
+        {
+          "id": "p06-s04",
+          "text": "And drifts on gentle currents.",
+          "spokenText": "And drifts on gentle currents.",
+          "start": 32.0364,
+          "end": 34.1691,
+          "anchor": {
+            "x": 0.0966,
+            "y": 0.6373
+          }
+        },
+        {
+          "id": "p06-s06",
+          "text": "She sunbathes on the surface of the sea.",
+          "spokenText": "She sunbathes on the surface of the sea.",
+          "start": 35.7978,
+          "end": 38.3271,
+          "anchor": {
+            "x": 0.5713,
+            "y": 0.2589
+          }
+        }
+      ],
+      "narrationText": "Drop spends most of her time in the ocean. She rides wild waves. And drifts on gentle currents. She sunbathes on the surface of the sea.",
+      "imageFrame": {
+        "top": [
+          [
+            0.0006510416666666666,
+            0.1171875
+          ],
+          [
+            0.25,
+            0.10069444444444445
+          ],
+          [
+            0.4986979166666667,
+            0.10243055555555555
+          ],
+          [
+            0.7486979166666666,
+            0.11197916666666667
+          ],
+          [
+            0.9993489583333334,
+            0.1267361111111111
+          ]
+        ],
+        "bottom": [
+          [
+            0.005859375,
+            0.8975694444444444
+          ],
+          [
+            0.25390625,
+            0.9123263888888888
+          ],
+          [
+            0.4986979166666667,
+            0.9201388888888888
+          ],
+          [
+            0.7486979166666666,
+            0.9079861111111112
+          ],
+          [
+            0.9993489583333334,
+            0.8940972222222222
+          ]
+        ],
+        "width": 1530,
+        "height": 915
+      },
+      "translationPairs": [
+        {
+          "en": "Drop spends most of her time in the ocean.",
+          "zh": "小水滴大部分时间都待在海洋里。"
+        },
+        {
+          "en": "She rides wild waves.",
+          "zh": "她乘着汹涌的海浪。"
+        },
+        {
+          "en": "Woo-hoo!",
+          "zh": "呜呼！"
+        },
+        {
+          "en": "And drifts on gentle currents.",
+          "zh": "也随着温柔的洋流漂荡。"
+        },
+        {
+          "en": "Sweeeet!",
+          "zh": "太舒服啦！"
+        },
+        {
+          "en": "She sunbathes on the surface of the sea.",
+          "zh": "她在海面上晒太阳。"
+        },
+        {
+          "en": "Ahhh... this is sea life!",
+          "zh": "啊……这就是海洋生活！"
+        }
+      ]
+    },
+    {
+      "id": "p07",
+      "title": "蒸发",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p07.jpeg",
+      "text": {
+        "en": "The sun fills Drop with energy. She gets all warm and wiggly. Then she pops off the surface of the water and floats into the air! Mmmmm! All bouncy-pouncy! Poof! Here I go!",
+        "zh": "太阳给小水滴注入能量。\n\n她变得暖暖的，扭来扭去。\n\n然后，她从水面上蹦起来，飘进空气中！\n\n嗯！\n\n蹦蹦跳跳的！\n\n噗！\n\n我出发啦！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p07.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "9187faecd0f61fa489010a8819415228037b63cfa4a830ec6e14a21115f494a9"
+      },
+      "source": {
+        "filename": "IMG_5661.jpeg",
+        "scriptSection": 7
+      },
+      "sentences": [
+        {
+          "id": "p07-s01",
+          "text": "The sun fills Drop with energy.",
+          "spokenText": "The sun fills Drop with energy.",
+          "start": 42.0384,
+          "end": 44.1624,
+          "anchor": {
+            "x": 0.0249,
+            "y": 0.1852
+          }
+        },
+        {
+          "id": "p07-s02",
+          "text": "She gets all warm and wiggly.",
+          "spokenText": "She gets all warm and wiggly.",
+          "start": 44.4824,
+          "end": 46.5537,
+          "anchor": {
+            "x": 0.0245,
+            "y": 0.2603
+          }
+        },
+        {
+          "id": "p07-s03",
+          "text": "Then she pops off the surface of the water and floats into the air!",
+          "spokenText": "Then she pops off the surface of the water and floats into the air!",
+          "start": 46.8737,
+          "end": 50.7544,
+          "anchor": {
+            "x": 0.024,
+            "y": 0.3677
+          }
+        }
+      ],
+      "narrationText": "The sun fills Drop with energy. She gets all warm and wiggly. Then she pops off the surface of the water and floats into the air!",
+      "imageFrame": {
+        "top": [
+          [
+            0.009114583333333334,
+            0.1449652777777778
+          ],
+          [
+            0.2604166666666667,
+            0.1154513888888889
+          ],
+          [
+            0.5045572916666666,
+            0.12586805555555555
+          ],
+          [
+            0.7486979166666666,
+            0.13368055555555555
+          ],
+          [
+            0.99609375,
+            0.1388888888888889
+          ]
+        ],
+        "bottom": [
+          [
+            0.014322916666666666,
+            0.9184027777777778
+          ],
+          [
+            0.2604166666666667,
+            0.9305555555555556
+          ],
+          [
+            0.5110677083333334,
+            0.9348958333333334
+          ],
+          [
+            0.7486979166666666,
+            0.9045138888888888
+          ],
+          [
+            0.998046875,
+            0.8810763888888888
+          ]
+        ],
+        "width": 1514,
+        "height": 901
+      },
+      "translationPairs": [
+        {
+          "en": "The sun fills Drop with energy.",
+          "zh": "太阳给小水滴注入能量。"
+        },
+        {
+          "en": "She gets all warm and wiggly.",
+          "zh": "她变得暖暖的，扭来扭去。"
+        },
+        {
+          "en": "Then she pops off the surface of the water and floats into the air!",
+          "zh": "然后，她从水面上蹦起来，飘进空气中！"
+        },
+        {
+          "en": "Mmmmm!",
+          "zh": "嗯！"
+        },
+        {
+          "en": "All bouncy-pouncy!",
+          "zh": "蹦蹦跳跳的！"
+        },
+        {
+          "en": "Poof!",
+          "zh": "噗！"
+        },
+        {
+          "en": "Here I go!",
+          "zh": "我出发啦！"
+        }
+      ]
+    },
+    {
+      "id": "p08",
+      "title": "云朵",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p08.jpeg",
+      "text": {
+        "en": "Invisible, Drop bounces around the air for days. Abracadabra! When she gets colder, and less bouncy, she reappears from teeny-tiny droplets. Ta-daa! Her friends show up too! Drop and her friends like to get together and hang out. Bonding time! When a lot of them get together, they make clouds. Clouds are cool.",
+        "zh": "小水滴变得看不见了，在空气里蹦跳好几天。\n\n变个魔术！\n\n冷下来、不再那么活跃时，她又以极小的水滴形态出现了。\n\n当当！\n\n朋友们也来了！\n\n小水滴和朋友喜欢聚在一起玩。\n\n相聚时间！\n\n许多小水滴聚到一起，就形成了云。\n\n云可真酷！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p08.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "61007a30813316f6664b2fa475da586f0fe999c71387846e7f808cf4e7ad415e"
+      },
+      "source": {
+        "filename": "IMG_5662.jpeg",
+        "scriptSection": 8
+      },
+      "sentences": [
+        {
+          "id": "p08-s01",
+          "text": "Invisible, Drop bounces around the air for days.",
+          "spokenText": "Invisible, Drop bounces around the air for days.",
+          "start": 57.9664,
+          "end": 61.3324,
+          "anchor": {
+            "x": 0.0346,
+            "y": 0.1375
+          }
+        },
+        {
+          "id": "p08-s03",
+          "text": "When she gets colder, and less bouncy, she reappears from teeny-tiny droplets.",
+          "spokenText": "When she gets colder, and less bouncy, she reappears from teeny-tiny droplets.",
+          "start": 63.2697,
+          "end": 68.6197,
+          "anchor": {
+            "x": 0.0349,
+            "y": 0.4749
+          }
+        },
+        {
+          "id": "p08-s05",
+          "text": "Her friends show up too!",
+          "spokenText": "Her friends show up too!",
+          "start": 70.3977,
+          "end": 72.1364,
+          "anchor": {
+            "x": 0.4471,
+            "y": 0.7165
+          }
+        },
+        {
+          "id": "p08-s06",
+          "text": "Drop and her friends like to get together and hang out.",
+          "spokenText": "Drop and her friends like to get together and hang out.",
+          "start": 72.4564,
+          "end": 75.815,
+          "anchor": {
+            "x": 0.5505,
+            "y": 0.1445
+          }
+        },
+        {
+          "id": "p08-s08",
+          "text": "When a lot of them get together, they make clouds.",
+          "spokenText": "When a lot of them get together, they make clouds.",
+          "start": 77.721,
+          "end": 80.7257,
+          "anchor": {
+            "x": 0.9657,
+            "y": 0.3896
+          }
+        }
+      ],
+      "narrationText": "Invisible, Drop bounces around the air for days. When she gets colder, and less bouncy, she reappears from teeny-tiny droplets. Her friends show up too! Drop and her friends like to get together and hang out. When a lot of them get together, they make clouds.",
+      "imageFrame": {
+        "top": [
+          [
+            0.0,
+            0.11024305555555555
+          ],
+          [
+            0.25390625,
+            0.0859375
+          ],
+          [
+            0.4986979166666667,
+            0.10243055555555555
+          ],
+          [
+            0.7486979166666666,
+            0.10416666666666667
+          ],
+          [
+            0.9993489583333334,
+            0.11805555555555555
+          ]
+        ],
+        "bottom": [
+          [
+            0.0,
+            0.9201388888888888
+          ],
+          [
+            0.24739583333333334,
+            0.9461805555555556
+          ],
+          [
+            0.505859375,
+            0.9418402777777778
+          ],
+          [
+            0.7486979166666666,
+            0.9201388888888888
+          ],
+          [
+            0.9993489583333334,
+            0.9036458333333334
+          ]
+        ],
+        "width": 1535,
+        "height": 947
+      },
+      "translationPairs": [
+        {
+          "en": "Invisible, Drop bounces around the air for days.",
+          "zh": "小水滴变得看不见了，在空气里蹦跳好几天。"
+        },
+        {
+          "en": "Abracadabra!",
+          "zh": "变个魔术！"
+        },
+        {
+          "en": "When she gets colder, and less bouncy, she reappears from teeny-tiny droplets.",
+          "zh": "冷下来、不再那么活跃时，她又以极小的水滴形态出现了。"
+        },
+        {
+          "en": "Ta-daa!",
+          "zh": "当当！"
+        },
+        {
+          "en": "Her friends show up too!",
+          "zh": "朋友们也来了！"
+        },
+        {
+          "en": "Drop and her friends like to get together and hang out.",
+          "zh": "小水滴和朋友喜欢聚在一起玩。"
+        },
+        {
+          "en": "Bonding time!",
+          "zh": "相聚时间！"
+        },
+        {
+          "en": "When a lot of them get together, they make clouds.",
+          "zh": "许多小水滴聚到一起，就形成了云。"
+        },
+        {
+          "en": "Clouds are cool.",
+          "zh": "云可真酷！"
+        }
+      ]
+    },
+    {
+      "id": "p09",
+      "title": "闪电",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p09.jpeg",
+      "text": {
+        "en": "A crowded cloud can become quite an event! Drop and her friends bounce around so much that they create sparks! Eeeek! Their clouds turn electric! Zzzzt! Downright shocking! It can get loud and dark, but Drop hangs in there. We've got this! She knows it will all be worth it...",
+        "zh": "一朵挤满水滴的云，可会变得很热闹！\n\n小水滴和朋友蹦跳得那么厉害，竟产生了火花！\n\n呀！\n\n云朵带上了电！\n\n滋滋！\n\n真让人震惊！\n\n天色可能变暗，声音可能很响，但小水滴坚持着。\n\n我们能行！\n\n她知道，这一切都会值得……"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p09.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "8c45c5ac4499c9946e4d41aa78e23998893bc669d47afb3dcaec319c08299415"
+      },
+      "source": {
+        "filename": "IMG_5663.jpeg",
+        "scriptSection": 9
+      },
+      "sentences": [
+        {
+          "id": "p09-s01",
+          "text": "A crowded cloud can become quite an event!",
+          "spokenText": "A crowded cloud can become quite an event!",
+          "start": 83.4157,
+          "end": 86.1143,
+          "anchor": {
+            "x": 0.02,
+            "y": 0.1088
+          }
+        },
+        {
+          "id": "p09-s02",
+          "text": "Drop and her friends bounce around so much that they create sparks!",
+          "spokenText": "Drop and her friends bounce around so much that they create sparks!",
+          "start": 86.4343,
+          "end": 90.739,
+          "anchor": {
+            "x": 0.0567,
+            "y": 0.194
+          }
+        },
+        {
+          "id": "p09-s04",
+          "text": "Their clouds turn electric!",
+          "spokenText": "Their clouds turn electric!",
+          "start": 92.271,
+          "end": 94.1363,
+          "anchor": {
+            "x": 0.3508,
+            "y": 0.3885
+          }
+        },
+        {
+          "id": "p09-s07",
+          "text": "It can get loud and dark, but Drop hangs in there.",
+          "spokenText": "It can get loud and dark, but Drop hangs in there.",
+          "start": 98.181,
+          "end": 101.389,
+          "anchor": {
+            "x": 0.6635,
+            "y": 0.1383
+          }
+        },
+        {
+          "id": "p09-s09",
+          "text": "She knows it will all be worth it...",
+          "spokenText": "She knows it will all be worth it...",
+          "start": 103.3236,
+          "end": 105.3969,
+          "anchor": {
+            "x": 0.9569,
+            "y": 0.8969
+          }
+        }
+      ],
+      "narrationText": "A crowded cloud can become quite an event! Drop and her friends bounce around so much that they create sparks! Their clouds turn electric! It can get loud and dark, but Drop hangs in there. She knows it will all be worth it...",
+      "imageFrame": {
+        "top": [
+          [
+            0.021484375,
+            0.11284722222222222
+          ],
+          [
+            0.25390625,
+            0.0920138888888889
+          ],
+          [
+            0.5045572916666666,
+            0.10243055555555555
+          ],
+          [
+            0.7421875,
+            0.109375
+          ],
+          [
+            0.9993489583333334,
+            0.12760416666666666
+          ]
+        ],
+        "bottom": [
+          [
+            0.026692708333333332,
+            0.8680555555555556
+          ],
+          [
+            0.25390625,
+            0.8958333333333334
+          ],
+          [
+            0.5045572916666666,
+            0.8975694444444444
+          ],
+          [
+            0.7421875,
+            0.8836805555555556
+          ],
+          [
+            0.9993489583333334,
+            0.8645833333333334
+          ]
+        ],
+        "width": 1498,
+        "height": 891
+      },
+      "translationPairs": [
+        {
+          "en": "A crowded cloud can become quite an event!",
+          "zh": "一朵挤满水滴的云，可会变得很热闹！"
+        },
+        {
+          "en": "Drop and her friends bounce around so much that they create sparks!",
+          "zh": "小水滴和朋友蹦跳得那么厉害，竟产生了火花！"
+        },
+        {
+          "en": "Eeeek!",
+          "zh": "呀！"
+        },
+        {
+          "en": "Their clouds turn electric!",
+          "zh": "云朵带上了电！"
+        },
+        {
+          "en": "Zzzzt!",
+          "zh": "滋滋！"
+        },
+        {
+          "en": "Downright shocking!",
+          "zh": "真让人震惊！"
+        },
+        {
+          "en": "It can get loud and dark, but Drop hangs in there.",
+          "zh": "天色可能变暗，声音可能很响，但小水滴坚持着。"
+        },
+        {
+          "en": "We've got this!",
+          "zh": "我们能行！"
+        },
+        {
+          "en": "She knows it will all be worth it...",
+          "zh": "她知道，这一切都会值得……"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "title": "下雨啦",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p10.jpeg",
+      "text": {
+        "en": "Because that's when Drop gets to be... rain! Wheeee!",
+        "zh": "因为这时候，小水滴就能变成……雨！\n\n耶——！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p10.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "f646b8eff6f66fdf30379b05d588e44b0965397e10d0ebee68501e0cf27bdd44"
+      },
+      "source": {
+        "filename": "IMG_5664.jpeg",
+        "scriptSection": 10
+      },
+      "sentences": [
+        {
+          "id": "p10-s01",
+          "text": "Because that's when Drop gets to be... rain!",
+          "spokenText": "Because that's when Drop gets to be... rain!",
+          "start": 106.3669,
+          "end": 109.4896,
+          "anchor": {
+            "x": 0.02,
+            "y": 0.1211
+          }
+        }
+      ],
+      "narrationText": "Because that's when Drop gets to be... rain!",
+      "imageFrame": {
+        "top": [
+          [
+            0.026041666666666668,
+            0.1814236111111111
+          ],
+          [
+            0.2604166666666667,
+            0.1675347222222222
+          ],
+          [
+            0.5045572916666666,
+            0.16493055555555555
+          ],
+          [
+            0.7356770833333334,
+            0.1762152777777778
+          ],
+          [
+            0.9811197916666666,
+            0.19010416666666666
+          ]
+        ],
+        "bottom": [
+          [
+            0.024088541666666668,
+            0.9105902777777778
+          ],
+          [
+            0.2604166666666667,
+            0.9253472222222222
+          ],
+          [
+            0.5078125,
+            0.9314236111111112
+          ],
+          [
+            0.7356770833333334,
+            0.9270833333333334
+          ],
+          [
+            0.9772135416666666,
+            0.9027777777777778
+          ]
+        ],
+        "width": 1466,
+        "height": 856
+      },
+      "translationPairs": [
+        {
+          "en": "Because that's when Drop gets to be... rain!",
+          "zh": "因为这时候，小水滴就能变成……雨！"
+        },
+        {
+          "en": "Wheeee!",
+          "zh": "耶——！"
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "title": "雨、冰雹和雪",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p11.jpeg",
+      "text": {
+        "en": "Drop has been every kind of rain there is. Sprinkling. Drizzling. Pouring. Sprinklicious! Drippity-drip! Splishy-sploosh! She's been hail and snow too. Drop loves the adventure of it. Ice ball! Snow day! She never knows where she'll fall...",
+        "zh": "小水滴当过各种各样的雨。\n\n零星的小雨。\n\n绵绵细雨。\n\n倾盆大雨。\n\n洒洒洒！\n\n滴答滴答！\n\n哗啦哗啦！\n\n她也当过冰雹和雪。\n\n小水滴喜欢这样的冒险。\n\n冰球！\n\n下雪啦！\n\n她从来不知道，自己会落在哪里……"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p11.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "7f4eecdb1e0eca96ef71c47e48f2425781fda1d68341fe7b1aabd210991ba0e8"
+      },
+      "source": {
+        "filename": "IMG_5665.jpeg",
+        "scriptSection": 11
+      },
+      "sentences": [
+        {
+          "id": "p11-s01",
+          "text": "Drop has been every kind of rain there is.",
+          "spokenText": "Drop has been every kind of rain there is.",
+          "start": 111.6829,
+          "end": 114.2949,
+          "anchor": {
+            "x": 0.0499,
+            "y": 0.1613
+          }
+        },
+        {
+          "id": "p11-s08",
+          "text": "She's been hail and snow too.",
+          "spokenText": "She's been hail and snow too.",
+          "start": 123.5749,
+          "end": 125.5496,
+          "anchor": {
+            "x": 0.5413,
+            "y": 0.1626
+          }
+        },
+        {
+          "id": "p11-s09",
+          "text": "Drop loves the adventure of it.",
+          "spokenText": "Drop loves the adventure of it.",
+          "start": 125.8696,
+          "end": 128.0349,
+          "anchor": {
+            "x": 0.5413,
+            "y": 0.2329
+          }
+        },
+        {
+          "id": "p11-s12",
+          "text": "She never knows where she'll fall...",
+          "spokenText": "She never knows where she'll fall...",
+          "start": 131.3775,
+          "end": 133.4295,
+          "anchor": {
+            "x": 0.6663,
+            "y": 0.6277
+          }
+        }
+      ],
+      "narrationText": "Drop has been every kind of rain there is. She's been hail and snow too. Drop loves the adventure of it. She never knows where she'll fall...",
+      "imageFrame": {
+        "top": [
+          [
+            0.0,
+            0.08072916666666667
+          ],
+          [
+            0.2513020833333333,
+            0.0642361111111111
+          ],
+          [
+            0.4986979166666667,
+            0.08333333333333333
+          ],
+          [
+            0.7486979166666666,
+            0.0876736111111111
+          ],
+          [
+            0.9993489583333334,
+            0.0998263888888889
+          ]
+        ],
+        "bottom": [
+          [
+            0.0,
+            0.9027777777777778
+          ],
+          [
+            0.24739583333333334,
+            0.9123263888888888
+          ],
+          [
+            0.4986979166666667,
+            0.9149305555555556
+          ],
+          [
+            0.7486979166666666,
+            0.9175347222222222
+          ],
+          [
+            0.9993489583333334,
+            0.8862847222222222
+          ]
+        ],
+        "width": 1535,
+        "height": 949
+      },
+      "translationPairs": [
+        {
+          "en": "Drop has been every kind of rain there is.",
+          "zh": "小水滴当过各种各样的雨。"
+        },
+        {
+          "en": "Sprinkling.",
+          "zh": "零星的小雨。"
+        },
+        {
+          "en": "Drizzling.",
+          "zh": "绵绵细雨。"
+        },
+        {
+          "en": "Pouring.",
+          "zh": "倾盆大雨。"
+        },
+        {
+          "en": "Sprinklicious!",
+          "zh": "洒洒洒！"
+        },
+        {
+          "en": "Drippity-drip!",
+          "zh": "滴答滴答！"
+        },
+        {
+          "en": "Splishy-sploosh!",
+          "zh": "哗啦哗啦！"
+        },
+        {
+          "en": "She's been hail and snow too.",
+          "zh": "她也当过冰雹和雪。"
+        },
+        {
+          "en": "Drop loves the adventure of it.",
+          "zh": "小水滴喜欢这样的冒险。"
+        },
+        {
+          "en": "Ice ball!",
+          "zh": "冰球！"
+        },
+        {
+          "en": "Snow day!",
+          "zh": "下雪啦！"
+        },
+        {
+          "en": "She never knows where she'll fall...",
+          "zh": "她从来不知道，自己会落在哪里……"
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "title": "小溪与河流",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p12.jpeg",
+      "text": {
+        "en": "If she makes it to a mountain, she may slip into a stream, dive off a cliff, roll down a river, and land in a lake. Tickly trickly! Super Drop! Yes! Hi, new home!",
+        "zh": "如果落在山上，她可能滑进小溪、从悬崖跃下、顺着河流滚动，最后落进湖泊。\n\n痒痒的，涓涓流！\n\n超级小水滴！\n\n好耶！\n\n嗨，新家！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p12.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "40851d0da2c96c80d2b18af3a0b81f574c1018551894ef8388cb285117eb9586"
+      },
+      "source": {
+        "filename": "IMG_5666.jpeg",
+        "scriptSection": 12
+      },
+      "sentences": [
+        {
+          "id": "p12-s01",
+          "text": "If she makes it to a mountain, she may slip into a stream, dive off a cliff, roll down a river, and land in a lake.",
+          "spokenText": "If she makes it to a mountain, she may slip into a stream, dive off a cliff, roll down a river, and land in a lake.",
+          "start": 134.3995,
+          "end": 141.5969,
+          "anchor": {
+            "x": 0.0685,
+            "y": 0.1074
+          }
+        }
+      ],
+      "narrationText": "If she makes it to a mountain, she may slip into a stream, dive off a cliff, roll down a river, and land in a lake.",
+      "imageFrame": {
+        "top": [
+          [
+            0.0006510416666666666,
+            0.11284722222222222
+          ],
+          [
+            0.25390625,
+            0.0998263888888889
+          ],
+          [
+            0.5078125,
+            0.1111111111111111
+          ],
+          [
+            0.7486979166666666,
+            0.1232638888888889
+          ],
+          [
+            0.99609375,
+            0.1345486111111111
+          ]
+        ],
+        "bottom": [
+          [
+            0.0006510416666666666,
+            0.8984375
+          ],
+          [
+            0.25390625,
+            0.9036458333333334
+          ],
+          [
+            0.5078125,
+            0.9053819444444444
+          ],
+          [
+            0.7486979166666666,
+            0.8984375
+          ],
+          [
+            0.9993489583333334,
+            0.8828125
+          ]
+        ],
+        "width": 1532,
+        "height": 900
+      },
+      "translationPairs": [
+        {
+          "en": "If she makes it to a mountain, she may slip into a stream, dive off a cliff, roll down a river, and land in a lake.",
+          "zh": "如果落在山上，她可能滑进小溪、从悬崖跃下、顺着河流滚动，最后落进湖泊。"
+        },
+        {
+          "en": "Tickly trickly!",
+          "zh": "痒痒的，涓涓流！"
+        },
+        {
+          "en": "Super Drop!",
+          "zh": "超级小水滴！"
+        },
+        {
+          "en": "Yes!",
+          "zh": "好耶！"
+        },
+        {
+          "en": "Hi, new home!",
+          "zh": "嗨，新家！"
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "title": "冰川与冰山",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p13.jpeg",
+      "text": {
+        "en": "If she freezes into snow or ice, she may be stuck somewhere for thousands of years! Brrrr! Drop has been glaciers... Are we there yet? ...and icebergs... Guess I gotta be cool with this! ...for a long, long time.",
+        "zh": "如果冻成了雪或冰，她可能在某个地方被困上几千年！\n\n好冷啊！\n\n小水滴当过冰川……\n\n到了没有呀？\n\n……也当过冰山……\n\n看来我得冷静接受啦！\n\n……一待就是很久很久。"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p13.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "1f721d5d3901feff486d23c1151bad8669ee815dbe68ab49e9573bbdc6372be5"
+      },
+      "source": {
+        "filename": "IMG_5667.jpeg",
+        "scriptSection": 13
+      },
+      "sentences": [
+        {
+          "id": "p13-s01",
+          "text": "If she freezes into snow or ice, she may be stuck somewhere for thousands of years!",
+          "spokenText": "If she freezes into snow or ice, she may be stuck somewhere for thousands of years!",
+          "start": 148.6042,
+          "end": 153.7535,
+          "anchor": {
+            "x": 0.365,
+            "y": 0.105
+          }
+        },
+        {
+          "id": "p13-s03",
+          "text": "Drop has been glaciers...",
+          "spokenText": "Drop has been glaciers...",
+          "start": 156.0142,
+          "end": 158.0581,
+          "anchor": {
+            "x": 0.0713,
+            "y": 0.5748
+          }
+        },
+        {
+          "id": "p13-s05",
+          "text": "...and icebergs...",
+          "spokenText": "...and icebergs...",
+          "start": 160.0881,
+          "end": 161.9793,
+          "anchor": {
+            "x": 0.6737,
+            "y": 0.1865
+          }
+        },
+        {
+          "id": "p13-s07",
+          "text": "...for a long, long time.",
+          "spokenText": "...for a long, long time.",
+          "start": 164.6666,
+          "end": 167.0139,
+          "anchor": {
+            "x": 0.7275,
+            "y": 0.98
+          }
+        }
+      ],
+      "narrationText": "If she freezes into snow or ice, she may be stuck somewhere for thousands of years! Drop has been glaciers... ...and icebergs... ...for a long, long time.",
+      "imageFrame": {
+        "top": [
+          [
+            0.033854166666666664,
+            0.08072916666666667
+          ],
+          [
+            0.2604166666666667,
+            0.06684027777777778
+          ],
+          [
+            0.5240885416666666,
+            0.0859375
+          ],
+          [
+            0.7552083333333334,
+            0.0920138888888889
+          ],
+          [
+            0.9993489583333334,
+            0.10503472222222222
+          ]
+        ],
+        "bottom": [
+          [
+            0.025390625,
+            0.8411458333333334
+          ],
+          [
+            0.2604166666666667,
+            0.8637152777777778
+          ],
+          [
+            0.5305989583333334,
+            0.8663194444444444
+          ],
+          [
+            0.7552083333333334,
+            0.8741319444444444
+          ],
+          [
+            0.9993489583333334,
+            0.859375
+          ]
+        ],
+        "width": 1490,
+        "height": 893
+      },
+      "translationPairs": [
+        {
+          "en": "If she freezes into snow or ice, she may be stuck somewhere for thousands of years!",
+          "zh": "如果冻成了雪或冰，她可能在某个地方被困上几千年！"
+        },
+        {
+          "en": "Brrrr!",
+          "zh": "好冷啊！"
+        },
+        {
+          "en": "Drop has been glaciers...",
+          "zh": "小水滴当过冰川……"
+        },
+        {
+          "en": "Are we there yet?",
+          "zh": "到了没有呀？"
+        },
+        {
+          "en": "...and icebergs...",
+          "zh": "……也当过冰山……"
+        },
+        {
+          "en": "Guess I gotta be cool with this!",
+          "zh": "看来我得冷静接受啦！"
+        },
+        {
+          "en": "...for a long, long time.",
+          "zh": "……一待就是很久很久。"
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "title": "森林里的水",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p14.jpeg",
+      "text": {
+        "en": "If she falls in a forest, she may trickle down a tree and soak into the soil. Hi, tree! She could sink down to the bedrock and rest with the groundwater. Zzz... Or she could get pulled in by roots, getting back to my roots! Sucked up through stems, up, up, up! And pushed out through a leaf! What a ride!",
+        "zh": "如果落在森林里，她可能顺着树干流下，渗进土壤。\n\n嗨，大树！\n\n她可能深入到基岩，在地下水中休息。\n\n呼……\n\n也可能被树根吸进去，\n\n回到根的怀抱！\n\n沿着茎向上走，\n\n上去，上去，上去！\n\n再从叶子里释放出去！\n\n多棒的旅程！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p14.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "79bcbe6e358cfaf88d51ef91e55d794091eadfa99baa5a7a987ea50b3fd584e0"
+      },
+      "source": {
+        "filename": "IMG_5668.jpeg",
+        "scriptSection": 14
+      },
+      "sentences": [
+        {
+          "id": "p14-s01",
+          "text": "If she falls in a forest, she may trickle down a tree and soak into the soil.",
+          "spokenText": "If she falls in a forest, she may trickle down a tree and soak into the soil.",
+          "start": 167.9839,
+          "end": 172.7593,
+          "anchor": {
+            "x": 0.0379,
+            "y": 0.1627
+          }
+        },
+        {
+          "id": "p14-s03",
+          "text": "She could sink down to the bedrock and rest with the groundwater.",
+          "spokenText": "She could sink down to the bedrock and rest with the groundwater.",
+          "start": 174.6652,
+          "end": 178.2899,
+          "anchor": {
+            "x": 0.02,
+            "y": 0.7159
+          }
+        },
+        {
+          "id": "p14-s05",
+          "text": "Or she could get pulled in by roots,",
+          "spokenText": "Or she could get pulled in by roots,",
+          "start": 180.2899,
+          "end": 182.2812,
+          "anchor": {
+            "x": 0.5188,
+            "y": 0.5537
+          }
+        },
+        {
+          "id": "p14-s07",
+          "text": "Sucked up through stems,",
+          "spokenText": "Sucked up through stems,",
+          "start": 184.6699,
+          "end": 186.2132,
+          "anchor": {
+            "x": 0.7131,
+            "y": 0.4949
+          }
+        },
+        {
+          "id": "p14-s09",
+          "text": "And pushed out through a leaf!",
+          "spokenText": "And pushed out through a leaf!",
+          "start": 188.1139,
+          "end": 189.9052,
+          "anchor": {
+            "x": 0.8266,
+            "y": 0.3941
+          }
+        }
+      ],
+      "narrationText": "If she falls in a forest, she may trickle down a tree and soak into the soil. She could sink down to the bedrock and rest with the groundwater. Or she could get pulled in by roots, Sucked up through stems, And pushed out through a leaf!",
+      "imageFrame": {
+        "top": [
+          [
+            0.005859375,
+            0.1032986111111111
+          ],
+          [
+            0.2604166666666667,
+            0.08854166666666667
+          ],
+          [
+            0.5149739583333334,
+            0.08940972222222222
+          ],
+          [
+            0.7552083333333334,
+            0.09722222222222222
+          ],
+          [
+            0.9993489583333334,
+            0.11371527777777778
+          ]
+        ],
+        "bottom": [
+          [
+            0.009765625,
+            0.8776041666666666
+          ],
+          [
+            0.2604166666666667,
+            0.8828125
+          ],
+          [
+            0.5188802083333334,
+            0.8810763888888888
+          ],
+          [
+            0.7552083333333334,
+            0.8854166666666666
+          ],
+          [
+            0.9993489583333334,
+            0.8541666666666666
+          ]
+        ],
+        "width": 1523,
+        "height": 896
+      },
+      "translationPairs": [
+        {
+          "en": "If she falls in a forest, she may trickle down a tree and soak into the soil.",
+          "zh": "如果落在森林里，她可能顺着树干流下，渗进土壤。"
+        },
+        {
+          "en": "Hi, tree!",
+          "zh": "嗨，大树！"
+        },
+        {
+          "en": "She could sink down to the bedrock and rest with the groundwater.",
+          "zh": "她可能深入到基岩，在地下水中休息。"
+        },
+        {
+          "en": "Zzz...",
+          "zh": "呼……"
+        },
+        {
+          "en": "Or she could get pulled in by roots,",
+          "zh": "也可能被树根吸进去，"
+        },
+        {
+          "en": "getting back to my roots!",
+          "zh": "回到根的怀抱！"
+        },
+        {
+          "en": "Sucked up through stems,",
+          "zh": "沿着茎向上走，"
+        },
+        {
+          "en": "up, up, up!",
+          "zh": "上去，上去，上去！"
+        },
+        {
+          "en": "And pushed out through a leaf!",
+          "zh": "再从叶子里释放出去！"
+        },
+        {
+          "en": "What a ride!",
+          "zh": "多棒的旅程！"
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "title": "植物与动物",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p15.jpeg",
+      "text": {
+        "en": "Everywhere she flows, Drop keeps things moving. She even moves through plants and animals. Drop travels from flower nectar to bees and butterflies. So busy! Look at those wings! She fills fruit with juice for birds and bears. Mmmmm! And you know who else?",
+        "zh": "无论流到哪里，小水滴都让万物运转。\n\n她也会穿过植物和动物的身体。\n\n小水滴从花蜜来到蜜蜂和蝴蝶身上。\n\n真忙呀！\n\n看看那些翅膀！\n\n她把果实变得汁水充盈，供鸟儿和熊享用。\n\n嗯，真好吃！\n\n你知道还有谁吗？"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p15.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "2b288013f8bccf466978f2310988e08e2490df8435717f2ab984d50bcd89f5e1"
+      },
+      "source": {
+        "filename": "IMG_5669.jpeg",
+        "scriptSection": 15
+      },
+      "sentences": [
+        {
+          "id": "p15-s01",
+          "text": "Everywhere she flows, Drop keeps things moving.",
+          "spokenText": "Everywhere she flows, Drop keeps things moving.",
+          "start": 192.3759,
+          "end": 195.3819,
+          "anchor": {
+            "x": 0.0499,
+            "y": 0.1107
+          }
+        },
+        {
+          "id": "p15-s02",
+          "text": "She even moves through plants and animals.",
+          "spokenText": "She even moves through plants and animals.",
+          "start": 195.7019,
+          "end": 198.2825,
+          "anchor": {
+            "x": 0.454,
+            "y": 0.1669
+          }
+        },
+        {
+          "id": "p15-s03",
+          "text": "Drop travels from flower nectar to bees and butterflies.",
+          "spokenText": "Drop travels from flower nectar to bees and butterflies.",
+          "start": 198.6025,
+          "end": 202.4805,
+          "anchor": {
+            "x": 0.2241,
+            "y": 0.3069
+          }
+        },
+        {
+          "id": "p15-s06",
+          "text": "She fills fruit with juice for birds and bears.",
+          "spokenText": "She fills fruit with juice for birds and bears.",
+          "start": 205.9785,
+          "end": 208.7525,
+          "anchor": {
+            "x": 0.5246,
+            "y": 0.1143
+          }
+        },
+        {
+          "id": "p15-s08",
+          "text": "And you know who else?",
+          "spokenText": "And you know who else?",
+          "start": 210.5092,
+          "end": 212.0345,
+          "anchor": {
+            "x": 0.98,
+            "y": 0.431
+          }
+        }
+      ],
+      "narrationText": "Everywhere she flows, Drop keeps things moving. She even moves through plants and animals. Drop travels from flower nectar to bees and butterflies. She fills fruit with juice for birds and bears. And you know who else?",
+      "imageFrame": {
+        "top": [
+          [
+            0.016927083333333332,
+            0.13020833333333334
+          ],
+          [
+            0.2604166666666667,
+            0.11024305555555555
+          ],
+          [
+            0.5104166666666666,
+            0.12586805555555555
+          ],
+          [
+            0.7552083333333334,
+            0.1345486111111111
+          ],
+          [
+            0.9798177083333334,
+            0.1501736111111111
+          ]
+        ],
+        "bottom": [
+          [
+            0.011067708333333334,
+            0.8888888888888888
+          ],
+          [
+            0.2604166666666667,
+            0.8967013888888888
+          ],
+          [
+            0.5149739583333334,
+            0.9001736111111112
+          ],
+          [
+            0.7552083333333334,
+            0.8923611111111112
+          ],
+          [
+            0.9817708333333334,
+            0.8524305555555556
+          ]
+        ],
+        "width": 1485,
+        "height": 871
+      },
+      "translationPairs": [
+        {
+          "en": "Everywhere she flows, Drop keeps things moving.",
+          "zh": "无论流到哪里，小水滴都让万物运转。"
+        },
+        {
+          "en": "She even moves through plants and animals.",
+          "zh": "她也会穿过植物和动物的身体。"
+        },
+        {
+          "en": "Drop travels from flower nectar to bees and butterflies.",
+          "zh": "小水滴从花蜜来到蜜蜂和蝴蝶身上。"
+        },
+        {
+          "en": "So busy!",
+          "zh": "真忙呀！"
+        },
+        {
+          "en": "Look at those wings!",
+          "zh": "看看那些翅膀！"
+        },
+        {
+          "en": "She fills fruit with juice for birds and bears.",
+          "zh": "她把果实变得汁水充盈，供鸟儿和熊享用。"
+        },
+        {
+          "en": "Mmmmm!",
+          "zh": "嗯，真好吃！"
+        },
+        {
+          "en": "And you know who else?",
+          "zh": "你知道还有谁吗？"
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "title": "水与你",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p16.jpeg",
+      "text": {
+        "en": "You! Every time you eat or drink, Drop also gets to flow into you! And that's when...",
+        "zh": "你！\n\n每当你吃东西或喝水，小水滴也会流进你的身体！\n\n然后……"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p16.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "37ff3392e024be9b5baba3cba0a3558dd5e78da9f412f5c5f8fbad1e21b3d168"
+      },
+      "source": {
+        "filename": "IMG_5670.jpeg",
+        "scriptSection": 16
+      },
+      "sentences": [
+        {
+          "id": "p16-s02",
+          "text": "Every time you eat or drink, Drop also gets to flow into you!",
+          "spokenText": "Every time you eat or drink, Drop also gets to flow into you!",
+          "start": 214.2278,
+          "end": 218.4285,
+          "anchor": {
+            "x": 0.1461,
+            "y": 0.9212
+          }
+        },
+        {
+          "id": "p16-s03",
+          "text": "And that's when...",
+          "spokenText": "And that's when...",
+          "start": 218.7485,
+          "end": 220.143,
+          "anchor": {
+            "x": 0.8419,
+            "y": 0.9771
+          }
+        }
+      ],
+      "narrationText": "Every time you eat or drink, Drop also gets to flow into you! And that's when...",
+      "imageFrame": {
+        "top": [
+          [
+            0.009765625,
+            0.1232638888888889
+          ],
+          [
+            0.2604166666666667,
+            0.09722222222222222
+          ],
+          [
+            0.515625,
+            0.0954861111111111
+          ],
+          [
+            0.7552083333333334,
+            0.1076388888888889
+          ],
+          [
+            0.9993489583333334,
+            0.1310763888888889
+          ]
+        ],
+        "bottom": [
+          [
+            0.006510416666666667,
+            0.8888888888888888
+          ],
+          [
+            0.2604166666666667,
+            0.8993055555555556
+          ],
+          [
+            0.5247395833333334,
+            0.8871527777777778
+          ],
+          [
+            0.7552083333333334,
+            0.8932291666666666
+          ],
+          [
+            0.9993489583333334,
+            0.8680555555555556
+          ]
+        ],
+        "width": 1523,
+        "height": 894
+      },
+      "translationPairs": [
+        {
+          "en": "You!",
+          "zh": "你！"
+        },
+        {
+          "en": "Every time you eat or drink, Drop also gets to flow into you!",
+          "zh": "每当你吃东西或喝水，小水滴也会流进你的身体！"
+        },
+        {
+          "en": "And that's when...",
+          "zh": "然后……"
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "title": "新的冒险",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p17.jpeg",
+      "text": {
+        "en": "A whole new adventure begins! Yay!",
+        "zh": "一场全新的冒险就开始啦！\n\n耶！"
+      },
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/p17.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "textSha256": "c2ea93a93dca2a4c2ca35cecc1842b1f4ba84530c751462ed5a278d3d6909796"
+      },
+      "source": {
+        "filename": "IMG_5671.jpeg",
+        "scriptSection": 17
+      },
+      "sentences": [
+        {
+          "id": "p17-s01",
+          "text": "A whole new adventure begins!",
+          "spokenText": "A whole new adventure begins!",
+          "start": 221.113,
+          "end": 223.1817,
+          "anchor": {
+            "x": 0.6155,
+            "y": 0.1391
+          }
+        }
+      ],
+      "narrationText": "A whole new adventure begins!",
+      "imageFrame": {
+        "top": [
+          [
+            0.0,
+            0.13194444444444445
+          ],
+          [
+            0.2604166666666667,
+            0.11284722222222222
+          ],
+          [
+            0.521484375,
+            0.11458333333333333
+          ],
+          [
+            0.7552083333333334,
+            0.1310763888888889
+          ],
+          [
+            0.9993489583333334,
+            0.1449652777777778
+          ]
+        ],
+        "bottom": [
+          [
+            0.0,
+            0.9331597222222222
+          ],
+          [
+            0.2604166666666667,
+            0.9427083333333334
+          ],
+          [
+            0.5286458333333334,
+            0.9375
+          ],
+          [
+            0.7552083333333334,
+            0.9418402777777778
+          ],
+          [
+            0.9993489583333334,
+            0.9088541666666666
+          ]
+        ],
+        "width": 1535,
+        "height": 928
+      },
+      "translationPairs": [
+        {
+          "en": "A whole new adventure begins!",
+          "zh": "一场全新的冒险就开始啦！"
+        },
+        {
+          "en": "Yay!",
+          "zh": "耶！"
+        }
+      ]
+    },
+    {
+      "id": "p18",
+      "title": "水循环",
+      "kind": "reference",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v6/images/p18.jpeg",
+      "text": {
+        "en": "The water cycle. My favorite big words! Condensation. Precipitation. Evaporation. Infiltration. Collection. Transpiration. More about the water cycle. The water cycle starts with the sun. Energy from the sun lifts water into the air, changing it from liquid to gas. This process of expanding from water to vapor is called evaporation. When water vapor floats around in the air, it is called humidity. Sometimes you can feel how humid the air is when there is a lot of water vapor floating around. Snow and ice can also disappear into the air without melting first. This is called sublimation. As water vapor cools, it forms millions of tiny liquid droplets. This process of turning back to liquid from gas is called condensation. Still floating in the air, these droplets make clouds. When droplets rest on the ground, they make dew. As water droplets squish into each other, they grow. Once they are too heavy to float, they fall as raindrops. Water that falls from the sky is called precipitation. Rain, hail, and snow are all precipitation. When water falls on land, some of it washes off the surface and into streams and rivers, called runoff. Some water soaks into the ground. This is called infiltration. Water that is in the ground is called groundwater. Plants drink in groundwater through their roots, use it to grow, and then release it as vapor from their leaves. This is called transpiration. And when water finds a place to rest in rivers, lakes, oceans, and even in leaves, it is called collection. And then, the whole cycle starts again!",
+        "zh": "水循环。\n\n我最喜欢的这些大词！\n\n凝结。\n\n降水。\n\n蒸发。\n\n下渗。\n\n汇集。\n\n蒸腾。\n\n关于水循环的更多知识。\n\n水循环从太阳开始。\n\n太阳的能量把水带到空中，让水从液态变成气态。\n\n水变成水蒸气的这个过程叫蒸发。\n\n空气中水蒸气的含量，可以用湿度来表示。\n\n当空气中有很多水蒸气时，有时你能感觉到空气很潮湿。\n\n雪和冰也能不经过融化，直接进入空气。\n\n这叫升华。\n\n水蒸气冷却时，会形成数以百万计的微小液态水滴。\n\n从气态变回液态的这个过程叫凝结。\n\n这些小水滴继续悬浮在空气里，形成云。\n\n小水滴停留在地面物体上时，就形成了露水。\n\n小水滴互相挤在一起时，会变得越来越大。\n\n当它们重得无法继续悬浮，就会作为雨滴落下。\n\n从天空落下的水叫降水。\n\n雨、冰雹和雪都属于降水。\n\n水落到陆地后，一部分沿着地表流进小溪和河流，这叫地表径流。\n\n一部分水渗进地下。\n\n这叫下渗。\n\n地下的水叫地下水。\n\n植物通过根吸收地下水，用它来生长，然后通过叶片把水以水蒸气的形式释放出去。\n\n这叫蒸腾。\n\n水在河流、湖泊、海洋，甚至叶片里找到地方停留时，就叫汇集。\n\n然后，整个循环又重新开始！"
+      },
+      "audio": {
+        "status": "omitted",
+        "src": null,
+        "reason": "reference-or-cover"
+      },
+      "source": {
+        "filename": "IMG_5672.jpeg",
+        "scriptSection": 18
+      },
+      "imageFrame": {
+        "top": [
+          [
+            0.01171875,
+            0.09027777777777778
+          ],
+          [
+            0.25390625,
+            0.07552083333333333
+          ],
+          [
+            0.4928385416666667,
+            0.07465277777777778
+          ],
+          [
+            0.7356770833333334,
+            0.08333333333333333
+          ],
+          [
+            0.9778645833333334,
+            0.0998263888888889
+          ]
+        ],
+        "bottom": [
+          [
+            0.006510416666666667,
+            0.8263888888888888
+          ],
+          [
+            0.2506510416666667,
+            0.8402777777777778
+          ],
+          [
+            0.4915364583333333,
+            0.8376736111111112
+          ],
+          [
+            0.7356770833333334,
+            0.8289930555555556
+          ],
+          [
+            0.9895833333333334,
+            0.8177083333333334
+          ]
+        ],
+        "width": 1497,
+        "height": 859
+      },
+      "translationPairs": [
+        {
+          "en": "The water cycle.",
+          "zh": "水循环。"
+        },
+        {
+          "en": "My favorite big words!",
+          "zh": "我最喜欢的这些大词！"
+        },
+        {
+          "en": "Condensation.",
+          "zh": "凝结。"
+        },
+        {
+          "en": "Precipitation.",
+          "zh": "降水。"
+        },
+        {
+          "en": "Evaporation.",
+          "zh": "蒸发。"
+        },
+        {
+          "en": "Infiltration.",
+          "zh": "下渗。"
+        },
+        {
+          "en": "Collection.",
+          "zh": "汇集。"
+        },
+        {
+          "en": "Transpiration.",
+          "zh": "蒸腾。"
+        },
+        {
+          "en": "More about the water cycle.",
+          "zh": "关于水循环的更多知识。"
+        },
+        {
+          "en": "The water cycle starts with the sun.",
+          "zh": "水循环从太阳开始。"
+        },
+        {
+          "en": "Energy from the sun lifts water into the air, changing it from liquid to gas.",
+          "zh": "太阳的能量把水带到空中，让水从液态变成气态。"
+        },
+        {
+          "en": "This process of expanding from water to vapor is called evaporation.",
+          "zh": "水变成水蒸气的这个过程叫蒸发。"
+        },
+        {
+          "en": "When water vapor floats around in the air, it is called humidity.",
+          "zh": "空气中水蒸气的含量，可以用湿度来表示。"
+        },
+        {
+          "en": "Sometimes you can feel how humid the air is when there is a lot of water vapor floating around.",
+          "zh": "当空气中有很多水蒸气时，有时你能感觉到空气很潮湿。"
+        },
+        {
+          "en": "Snow and ice can also disappear into the air without melting first.",
+          "zh": "雪和冰也能不经过融化，直接进入空气。"
+        },
+        {
+          "en": "This is called sublimation.",
+          "zh": "这叫升华。"
+        },
+        {
+          "en": "As water vapor cools, it forms millions of tiny liquid droplets.",
+          "zh": "水蒸气冷却时，会形成数以百万计的微小液态水滴。"
+        },
+        {
+          "en": "This process of turning back to liquid from gas is called condensation.",
+          "zh": "从气态变回液态的这个过程叫凝结。"
+        },
+        {
+          "en": "Still floating in the air, these droplets make clouds.",
+          "zh": "这些小水滴继续悬浮在空气里，形成云。"
+        },
+        {
+          "en": "When droplets rest on the ground, they make dew.",
+          "zh": "小水滴停留在地面物体上时，就形成了露水。"
+        },
+        {
+          "en": "As water droplets squish into each other, they grow.",
+          "zh": "小水滴互相挤在一起时，会变得越来越大。"
+        },
+        {
+          "en": "Once they are too heavy to float, they fall as raindrops.",
+          "zh": "当它们重得无法继续悬浮，就会作为雨滴落下。"
+        },
+        {
+          "en": "Water that falls from the sky is called precipitation.",
+          "zh": "从天空落下的水叫降水。"
+        },
+        {
+          "en": "Rain, hail, and snow are all precipitation.",
+          "zh": "雨、冰雹和雪都属于降水。"
+        },
+        {
+          "en": "When water falls on land, some of it washes off the surface and into streams and rivers, called runoff.",
+          "zh": "水落到陆地后，一部分沿着地表流进小溪和河流，这叫地表径流。"
+        },
+        {
+          "en": "Some water soaks into the ground.",
+          "zh": "一部分水渗进地下。"
+        },
+        {
+          "en": "This is called infiltration.",
+          "zh": "这叫下渗。"
+        },
+        {
+          "en": "Water that is in the ground is called groundwater.",
+          "zh": "地下的水叫地下水。"
+        },
+        {
+          "en": "Plants drink in groundwater through their roots, use it to grow, and then release it as vapor from their leaves.",
+          "zh": "植物通过根吸收地下水，用它来生长，然后通过叶片把水以水蒸气的形式释放出去。"
+        },
+        {
+          "en": "This is called transpiration.",
+          "zh": "这叫蒸腾。"
+        },
+        {
+          "en": "And when water finds a place to rest in rivers, lakes, oceans, and even in leaves, it is called collection.",
+          "zh": "水在河流、湖泊、海洋，甚至叶片里找到地方停留时，就叫汇集。"
+        },
+        {
+          "en": "And then, the whole cycle starts again!",
+          "zh": "然后，整个循环又重新开始！"
+        }
+      ]
+    }
+  ],
+  "narration": {
+    "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v3/audio/story.mp3",
+    "engine": "Kokoro-82M",
+    "voice": "af_heart",
+    "speed": 0.9,
+    "duration": 225.3537,
+    "pages": [
+      {
+        "pageId": "p03",
+        "start": 0.15,
+        "end": 1.352
+      },
+      {
+        "pageId": "p04",
+        "start": 5.0233,
+        "end": 15.124
+      },
+      {
+        "pageId": "p05",
+        "start": 17.848,
+        "end": 21.2393
+      },
+      {
+        "pageId": "p06",
+        "start": 25.4272,
+        "end": 38.3271
+      },
+      {
+        "pageId": "p07",
+        "start": 42.0384,
+        "end": 50.7544
+      },
+      {
+        "pageId": "p08",
+        "start": 57.9664,
+        "end": 80.7257
+      },
+      {
+        "pageId": "p09",
+        "start": 83.4157,
+        "end": 105.3969
+      },
+      {
+        "pageId": "p10",
+        "start": 106.3669,
+        "end": 109.4896
+      },
+      {
+        "pageId": "p11",
+        "start": 111.6829,
+        "end": 133.4295
+      },
+      {
+        "pageId": "p12",
+        "start": 134.3995,
+        "end": 141.5969
+      },
+      {
+        "pageId": "p13",
+        "start": 148.6042,
+        "end": 167.0139
+      },
+      {
+        "pageId": "p14",
+        "start": 167.9839,
+        "end": 189.9052
+      },
+      {
+        "pageId": "p15",
+        "start": 192.3759,
+        "end": 212.0345
+      },
+      {
+        "pageId": "p16",
+        "start": 214.2278,
+        "end": 220.143
+      },
+      {
+        "pageId": "p17",
+        "start": 221.113,
+        "end": 223.1817
+      }
+    ],
+    "segments": [
+      {
+        "pageId": "p03",
+        "sentenceId": "p03-s01",
+        "start": 0.15,
+        "end": 1.352
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s01",
+        "start": 5.0233,
+        "end": 7.2613
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s02",
+        "start": 7.5813,
+        "end": 10.7166
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s04",
+        "start": 13.192,
+        "end": 15.124
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s01",
+        "start": 17.848,
+        "end": 21.2393
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s01",
+        "start": 25.4272,
+        "end": 28.1258
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s02",
+        "start": 28.4458,
+        "end": 30.3438
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s04",
+        "start": 32.0364,
+        "end": 34.1691
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s06",
+        "start": 35.7978,
+        "end": 38.3271
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s01",
+        "start": 42.0384,
+        "end": 44.1624
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s02",
+        "start": 44.4824,
+        "end": 46.5537
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s03",
+        "start": 46.8737,
+        "end": 50.7544
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s01",
+        "start": 57.9664,
+        "end": 61.3324
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s03",
+        "start": 63.2697,
+        "end": 68.6197
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s05",
+        "start": 70.3977,
+        "end": 72.1364
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s06",
+        "start": 72.4564,
+        "end": 75.815
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s08",
+        "start": 77.721,
+        "end": 80.7257
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s01",
+        "start": 83.4157,
+        "end": 86.1143
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s02",
+        "start": 86.4343,
+        "end": 90.739
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s04",
+        "start": 92.271,
+        "end": 94.1363
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s07",
+        "start": 98.181,
+        "end": 101.389
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s09",
+        "start": 103.3236,
+        "end": 105.3969
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s01",
+        "start": 106.3669,
+        "end": 109.4896
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s01",
+        "start": 111.6829,
+        "end": 114.2949
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s08",
+        "start": 123.5749,
+        "end": 125.5496
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s09",
+        "start": 125.8696,
+        "end": 128.0349
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s12",
+        "start": 131.3775,
+        "end": 133.4295
+      },
+      {
+        "pageId": "p12",
+        "sentenceId": "p12-s01",
+        "start": 134.3995,
+        "end": 141.5969
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s01",
+        "start": 148.6042,
+        "end": 153.7535
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s03",
+        "start": 156.0142,
+        "end": 158.0581
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s05",
+        "start": 160.0881,
+        "end": 161.9793
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s07",
+        "start": 164.6666,
+        "end": 167.0139
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s01",
+        "start": 167.9839,
+        "end": 172.7593
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s03",
+        "start": 174.6652,
+        "end": 178.2899
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s05",
+        "start": 180.2899,
+        "end": 182.2812
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s07",
+        "start": 184.6699,
+        "end": 186.2132
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s09",
+        "start": 188.1139,
+        "end": 189.9052
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s01",
+        "start": 192.3759,
+        "end": 195.3819
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s02",
+        "start": 195.7019,
+        "end": 198.2825
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s03",
+        "start": 198.6025,
+        "end": 202.4805
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s06",
+        "start": 205.9785,
+        "end": 208.7525
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s08",
+        "start": 210.5092,
+        "end": 212.0345
+      },
+      {
+        "pageId": "p16",
+        "sentenceId": "p16-s02",
+        "start": 214.2278,
+        "end": 218.4285
+      },
+      {
+        "pageId": "p16",
+        "sentenceId": "p16-s03",
+        "start": 218.7485,
+        "end": 220.143
+      },
+      {
+        "pageId": "p17",
+        "sentenceId": "p17-s01",
+        "start": 221.113,
+        "end": 223.1817
+      }
+    ],
+    "content": "main-narration-only"
+  }
+}
