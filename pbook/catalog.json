@@ -1,7 +1,8 @@
 {
   "schemaVersion": "1.2",
-  "revision": "pages-v9-bilingual-contents",
+  "revision": "finding-calm-v1",
   "recommended": [
+    "finding-calm",
     "drop"
   ],
   "books": [
@@ -12,7 +13,18 @@
       "author": "Emily Kate Moon",
       "cover": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/drop/v2/images/01.jpg",
       "manifest": "books/drop/v9/book.json",
-      "pageCount": 18
+      "pageCount": 18,
+      "tag": "自然探索 · 中英共读"
+    },
+    {
+      "id": "finding-calm",
+      "title": "Finding Calm · 寻找平静",
+      "subtitle": "和孩子一起寻找平静的方法",
+      "author": "",
+      "tag": "情绪成长 · 中英共读",
+      "cover": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/images/cover.jpeg",
+      "manifest": "books/finding-calm/v1/book.json",
+      "pageCount": 16
     }
   ]
 }
