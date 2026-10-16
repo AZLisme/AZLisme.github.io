@@ -3,6 +3,13 @@ const $=id=>document.getElementById(id);let catalog,book,entry,page=0,base,scale
 function actionIcon(icon){const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 64 64');svg.setAttribute('aria-hidden','true');svg.classList.add('actionIcon');const use=document.createElementNS('http://www.w3.org/2000/svg','use');use.setAttribute('href','assets/action-icons.svg#'+icon);svg.append(use);return svg}
 function actionButton(id,label,icon){const b=$(id);b.classList.add('toyButton');b.replaceChildren(actionIcon(icon));const text=document.createElement('span');text.className='actionLabel';text.textContent=label;b.append(text)}
 for(const [id,label,icon] of [['back','书架','home'],['contentsBtn','目录','book'],['prev','上一页','prev'],['next','下一页','next'],['sidePrev','上一页','prev'],['sideNext','下一页','next'],['play','听故事','play'],['sentencesBtn','逐句听','sentence'],['queueBtn','熏听列表','playlist'],['startQueue','熏听列表','playlist'],['queueStart','开始熏听','play'],['queueStop','停止熏听','stop'],['closeQueue','关闭','close'],['closeContents','关闭','close'],['closeSentences','关闭','close'],['resetZoom','恢复画面','zoom'],['listenView','打开绘本','book'],['addListening','加入熏听','playlist']])actionButton(id,label,icon);
+// Page arrows are icon-only; accessible names remain on the buttons.
+for(const [id,right] of [['prev',false],['next',true],['sidePrev',false],['sideNext',true]]){
+ const b=$(id);b.replaceChildren();
+ const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+ svg.setAttribute('viewBox','0 0 32 48');svg.setAttribute('aria-hidden','true');svg.classList.add('pageChevron');
+ const path=document.createElementNS(svg.namespaceURI,'path');path.setAttribute('d',right?'M8 7 L25 24 L8 41':'M24 7 L7 24 L24 41');svg.append(path);b.append(svg);
+}
 const pageSound=new PageTurnSound();document.addEventListener('pointerdown',()=>pageSound.unlock(),{capture:true});document.addEventListener('keydown',()=>pageSound.unlock(),{capture:true});
 const url=(path,b=document.baseURI)=>new URL(path,b).href;
 let pointRead=true,followPages=false,audioOnlyMode=false;
