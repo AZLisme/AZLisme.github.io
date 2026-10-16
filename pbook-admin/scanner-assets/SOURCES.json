@@ -1,0 +1,19 @@
+{
+  "detector": "DocsaidLab DocAligner LCNet100 heatmap",
+  "model": "lcnet100_h_e_bifpn_256_fp32.onnx",
+  "modelSha256": "f4117b786e3a18470f3865c93f3c2bd69d9b998edd60f385574a5c665e79594e",
+  "modelAuthor": "https://github.com/DocsaidLab/DocAligner",
+  "upstreamGoogleDriveFileId": "1IlbLPkCv-TdaBLOPh_4J97P1_KHYYJ7a",
+  "artifactMirror": "https://github.com/storrealbac/quadscan/blob/5bbd55b58cabc196323ce541e0528deb42c57ee5/models/lcnet100_h_e_bifpn_256_fp32.onnx",
+  "modelLicense": "Apache-2.0",
+  "preprocessing": "BGR CHW float32 /255, direct resize 256x256, no mean/std or letterbox. Matches DocAligner heatmap_reg/infer.py and README OpenCV input convention. Quadscan RGB convention was deliberately corrected.",
+  "preprocessingSource": "https://github.com/DocsaidLab/DocAligner/blob/main/docaligner/heatmap_reg/infer.py",
+  "decode": "Four 128x128 heatmaps, per-channel maximum, local radius 4 weighted centroid above 0.3 times local maximum; geometry validated separately. Peak scores are model activations, not calibrated accuracy probabilities.",
+  "secondPass": "If original inference is invalid or min heatmap peak <0.2, retry with an artificial dark context border of 13% of source long edge on all sides, then map predicted coordinates back to the unchanged original. This is image preprocessing, not invented corners. Reject predictions beyond original by >3.5%; clamp slight excursions and require manual review when any corner touches a 1.5% photo-edge zone. Both failed passes return corners:null; no default rectangle is reported as detection.",
+  "decodeWarpReference": "https://github.com/storrealbac/quadscan/tree/5bbd55b58cabc196323ce541e0528deb42c57ee5/src",
+  "referenceCodeLicense": "MIT",
+  "runtime": "Existing local PaddleOCR demo ONNX Runtime Web 1.30.0 with matched local WASM, one thread, dedicated worker",
+  "officialControlImage": "https://github.com/DocsaidLab/DocAligner/blob/main/docs/run_test_card.jpg",
+  "imageLimits": "JPEG/PNG header dimensions and EXIF orientation; maximum 60 megapixels accepted. Detection decode <=1600px; projective output and source decode <=4096px long edge. Original Blob retained by UI; four-point warp does not flatten book spines.",
+  "network": "Model, runtime and test photo served locally. No remote requests or uploads from scanner."
+}
