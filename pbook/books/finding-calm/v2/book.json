@@ -1,0 +1,3096 @@
+{
+  "schemaVersion": "1.2",
+  "id": "finding-calm",
+  "revision": "v2-restored-artwork",
+  "title": "Finding Calm · 寻找平静",
+  "subtitle": "和孩子一起寻找平静的方法",
+  "author": "",
+  "language": "en",
+  "translationLanguage": "zh-CN",
+  "readingDirection": "ltr",
+  "cover": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p01.webp",
+  "pages": [
+    {
+      "id": "p01",
+      "title": "寻找平静",
+      "kind": "cover",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p01.webp",
+      "source": {
+        "filename": "IMG_5703.jpeg",
+        "printedPages": null
+      },
+      "text": {
+        "en": "A World Full of Feelings\n\nFinding Calm",
+        "zh": "充满情绪的世界\n\n寻找平静"
+      },
+      "translationPairs": [
+        {
+          "en": "A World Full of Feelings",
+          "zh": "充满情绪的世界"
+        },
+        {
+          "en": "Finding Calm",
+          "zh": "寻找平静"
+        }
+      ],
+      "audio": {
+        "status": "omitted",
+        "reason": "封面保留图片与文字",
+        "src": null
+      },
+      "sentences": [],
+      "contents": {
+        "titleEn": "Finding Calm",
+        "titleZh": "寻找平静",
+        "en": "A World Full of Feelings",
+        "zh": "认识各种情绪，寻找让自己平静的方法。"
+      }
+    },
+    {
+      "id": "p02",
+      "title": "今天你感觉怎么样",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p02.webp",
+      "source": {
+        "filename": "IMG_5704.jpeg",
+        "printedPages": [
+          2,
+          3
+        ]
+      },
+      "text": {
+        "en": "Everyone in the world has feelings.\n\nWe all have different feelings all day long.\n\nSometimes we feel peaceful, quiet and calm.\n\nSometimes we feel upset, cross or restless.\n\nHow do you feel today?",
+        "zh": "世界上的每个人都有情绪。\n\n一天当中，我们都会有各种不同的感受。\n\n有时，我们感觉安宁、安静又平和。\n\n有时，我们会难过、生气，或者坐立不安。\n\n你今天感觉怎么样？"
+      },
+      "translationPairs": [
+        {
+          "en": "Everyone in the world has feelings.",
+          "zh": "世界上的每个人都有情绪。"
+        },
+        {
+          "en": "We all have different feelings all day long.",
+          "zh": "一天当中，我们都会有各种不同的感受。"
+        },
+        {
+          "en": "Sometimes we feel peaceful, quiet and calm.",
+          "zh": "有时，我们感觉安宁、安静又平和。"
+        },
+        {
+          "en": "Sometimes we feel upset, cross or restless.",
+          "zh": "有时，我们会难过、生气，或者坐立不安。"
+        },
+        {
+          "en": "How do you feel today?",
+          "zh": "你今天感觉怎么样？"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p02.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 13.249,
+        "textSha256": "eb646801aa93686aa70c08e6db0f459eee68c3a4a19b590e0629f7dfcada410f"
+      },
+      "sentences": [
+        {
+          "id": "p02-s01",
+          "text": "Everyone in the world has feelings.",
+          "spokenText": "Everyone in the world has feelings.",
+          "zh": "世界上的每个人都有情绪。",
+          "anchor": {
+            "x": 0.126,
+            "y": 0.06098,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 0.0,
+          "end": 1.92
+        },
+        {
+          "id": "p02-s02",
+          "text": "We all have different feelings all day long.",
+          "spokenText": "We all have different feelings all day long.",
+          "zh": "一天当中，我们都会有各种不同的感受。",
+          "anchor": {
+            "x": 0.346,
+            "y": 0.11235,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 2.3,
+          "end": 4.71067
+        },
+        {
+          "id": "p02-s03",
+          "text": "Sometimes we feel peaceful, quiet and calm.",
+          "spokenText": "Sometimes we feel peaceful, quiet and calm.",
+          "zh": "有时，我们感觉安宁、安静又平和。",
+          "anchor": {
+            "x": 0.1965,
+            "y": 0.65822,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 5.09067,
+          "end": 7.82133
+        },
+        {
+          "id": "p02-s04",
+          "text": "Sometimes we feel upset, cross or restless.",
+          "spokenText": "Sometimes we feel upset, cross or restless.",
+          "zh": "有时，我们会难过、生气，或者坐立不安。",
+          "anchor": {
+            "x": 0.558,
+            "y": 0.1259,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 8.20133,
+          "end": 11.06
+        },
+        {
+          "id": "p02-s05",
+          "text": "How do you feel today?",
+          "spokenText": "How do you feel today?",
+          "zh": "你今天感觉怎么样？",
+          "anchor": {
+            "x": 0.791,
+            "y": 0.88681,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 11.44,
+          "end": 12.86933
+        }
+      ],
+      "contents": {
+        "titleEn": "How Do You Feel Today?",
+        "titleZh": "今天你感觉怎么样",
+        "en": "Everyone in the world has feelings.",
+        "zh": "每个人都有不同的情绪，平静和烦躁都很正常。"
+      },
+      "narrationText": "Everyone in the world has feelings. We all have different feelings all day long. Sometimes we feel peaceful, quiet and calm. Sometimes we feel upset, cross or restless. How do you feel today?"
+    },
+    {
+      "id": "p03",
+      "title": "睡前还很兴奋",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p03.webp",
+      "source": {
+        "filename": "IMG_5705.jpeg",
+        "printedPages": [
+          4,
+          5
+        ]
+      },
+      "text": {
+        "en": "At Mia and Jackson's house, it's time for bed.\n\nBut they feel bouncy and excited!\n\nThey are tired but they can't calm down.\n\nHow do other people around the world find their calm?",
+        "zh": "在米娅和杰克逊家里，到了睡觉的时间。\n\n可他们还是活蹦乱跳，特别兴奋！\n\n他们已经累了，却没法让自己平静下来。\n\n世界上其他人是怎样找到平静的呢？"
+      },
+      "translationPairs": [
+        {
+          "en": "At Mia and Jackson's house, it's time for bed.",
+          "zh": "在米娅和杰克逊家里，到了睡觉的时间。"
+        },
+        {
+          "en": "But they feel bouncy and excited!",
+          "zh": "可他们还是活蹦乱跳，特别兴奋！"
+        },
+        {
+          "en": "They are tired but they can't calm down.",
+          "zh": "他们已经累了，却没法让自己平静下来。"
+        },
+        {
+          "en": "How do other people around the world find their calm?",
+          "zh": "世界上其他人是怎样找到平静的呢？"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p03.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 11.803,
+        "textSha256": "1028f9fc6132666e8747f0733cd857b4ed0d392b40fe13a227dc6baea36d9483"
+      },
+      "sentences": [
+        {
+          "id": "p03-s01",
+          "text": "At Mia and Jackson's house, it's time for bed.",
+          "spokenText": "At Mia and Jackson's house, it's time for bed.",
+          "zh": "在米娅和杰克逊家里，到了睡觉的时间。",
+          "anchor": {
+            "x": 0.056,
+            "y": 0.11911,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 13.24933,
+          "end": 16.172
+        },
+        {
+          "id": "p03-s02",
+          "text": "But they feel bouncy and excited!",
+          "spokenText": "But they feel bouncy and excited!",
+          "zh": "可他们还是活蹦乱跳，特别兴奋！",
+          "anchor": {
+            "x": 0.3275,
+            "y": 0.17221,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 16.552,
+          "end": 18.728
+        },
+        {
+          "id": "p03-s03",
+          "text": "They are tired but they can't calm down.",
+          "spokenText": "They are tired but they can't calm down.",
+          "zh": "他们已经累了，却没法让自己平静下来。",
+          "anchor": {
+            "x": 0.709,
+            "y": 0.12153,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 19.108,
+          "end": 21.49733
+        },
+        {
+          "id": "p03-s04",
+          "text": "How do other people around the world find their calm?",
+          "spokenText": "How do other people around the world find their calm?",
+          "zh": "世界上其他人是怎样找到平静的呢？",
+          "anchor": {
+            "x": 0.9725,
+            "y": 0.17811,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 21.87733,
+          "end": 24.672
+        }
+      ],
+      "contents": {
+        "titleEn": "Too Excited for Bed",
+        "titleZh": "睡前还很兴奋",
+        "en": "At Mia and Jackson's house, it's time for bed.",
+        "zh": "米娅和杰克逊该睡觉了，却还兴奋得停不下来。"
+      },
+      "narrationText": "At Mia and Jackson's house, it's time for bed. But they feel bouncy and excited! They are tired but they can't calm down. How do other people around the world find their calm?"
+    },
+    {
+      "id": "p04",
+      "title": "生日会上的雨果",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p04.webp",
+      "source": {
+        "filename": "IMG_5706.jpeg",
+        "printedPages": [
+          6,
+          7
+        ]
+      },
+      "text": {
+        "en": "Hugo is having a birthday party.\n\nHe is feeling very excited.\n\nIt's usually fun to feel happy and excited.\n\nBut today it is getting too much for Hugo to control.\n\nHugo feels hot and shaky.\n\nHe can't wait for his gifts.\n\nHe snatches the presents from his friends' hands.\n\nThe other children don't like it.\n\nHe doesn't like the feeling either.",
+        "zh": "雨果正在举办生日会。\n\n他感到特别兴奋。\n\n感到开心和兴奋，通常是很快乐的事。\n\n可今天的雨果太兴奋了，都快控制不住自己了。\n\n雨果觉得身体发热，直发抖。\n\n他迫不及待地想要礼物。\n\n他一把抢过朋友们手里的礼物。\n\n其他小朋友不喜欢他这样做。\n\n他自己也不喜欢这种感觉。"
+      },
+      "translationPairs": [
+        {
+          "en": "Hugo is having a birthday party.",
+          "zh": "雨果正在举办生日会。"
+        },
+        {
+          "en": "He is feeling very excited.",
+          "zh": "他感到特别兴奋。"
+        },
+        {
+          "en": "It's usually fun to feel happy and excited.",
+          "zh": "感到开心和兴奋，通常是很快乐的事。"
+        },
+        {
+          "en": "But today it is getting too much for Hugo to control.",
+          "zh": "可今天的雨果太兴奋了，都快控制不住自己了。"
+        },
+        {
+          "en": "Hugo feels hot and shaky.",
+          "zh": "雨果觉得身体发热，直发抖。"
+        },
+        {
+          "en": "He can't wait for his gifts.",
+          "zh": "他迫不及待地想要礼物。"
+        },
+        {
+          "en": "He snatches the presents from his friends' hands.",
+          "zh": "他一把抢过朋友们手里的礼物。"
+        },
+        {
+          "en": "The other children don't like it.",
+          "zh": "其他小朋友不喜欢他这样做。"
+        },
+        {
+          "en": "He doesn't like the feeling either.",
+          "zh": "他自己也不喜欢这种感觉。"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p04.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 22.684,
+        "textSha256": "175e3795ed54e5c940b2afdbae728eddd5606291c4f54a1f0551b717b01ffcbe"
+      },
+      "sentences": [
+        {
+          "id": "p04-s01",
+          "text": "Hugo is having a birthday party.",
+          "spokenText": "Hugo is having a birthday party.",
+          "zh": "雨果正在举办生日会。",
+          "anchor": {
+            "x": 0.0635,
+            "y": 0.09357,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 25.052,
+          "end": 27.164
+        },
+        {
+          "id": "p04-s02",
+          "text": "He is feeling very excited.",
+          "spokenText": "He is feeling very excited.",
+          "zh": "他感到特别兴奋。",
+          "anchor": {
+            "x": 0.3525,
+            "y": 0.12415,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 27.544,
+          "end": 29.37867
+        },
+        {
+          "id": "p04-s03",
+          "text": "It's usually fun to feel happy and excited.",
+          "spokenText": "It's usually fun to feel happy and excited.",
+          "zh": "感到开心和兴奋，通常是很快乐的事。",
+          "anchor": {
+            "x": 0.0635,
+            "y": 0.14872,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 29.75867,
+          "end": 32.38267
+        },
+        {
+          "id": "p04-s04",
+          "text": "But today it is getting too much for Hugo to control.",
+          "spokenText": "But today it is getting too much for Hugo to control.",
+          "zh": "可今天的雨果太兴奋了，都快控制不住自己了。",
+          "anchor": {
+            "x": 0.352,
+            "y": 0.18818,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 32.76267,
+          "end": 35.87733
+        },
+        {
+          "id": "p04-s05",
+          "text": "Hugo feels hot and shaky.",
+          "spokenText": "Hugo feels hot and shaky.",
+          "zh": "雨果觉得身体发热，直发抖。",
+          "anchor": {
+            "x": 0.5695,
+            "y": 0.42518,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 36.25733,
+          "end": 38.11333
+        },
+        {
+          "id": "p04-s06",
+          "text": "He can't wait for his gifts.",
+          "spokenText": "He can't wait for his gifts.",
+          "zh": "他迫不及待地想要礼物。",
+          "anchor": {
+            "x": 0.7345,
+            "y": 0.47825,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 38.49333,
+          "end": 40.17867
+        },
+        {
+          "id": "p04-s07",
+          "text": "He snatches the presents from his friends' hands.",
+          "spokenText": "He snatches the presents from his friends' hands.",
+          "zh": "他一把抢过朋友们手里的礼物。",
+          "anchor": {
+            "x": 0.568,
+            "y": 0.52064,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 40.55867,
+          "end": 43.012
+        },
+        {
+          "id": "p04-s08",
+          "text": "The other children don't like it.",
+          "spokenText": "The other children don't like it.",
+          "zh": "其他小朋友不喜欢他这样做。",
+          "anchor": {
+            "x": 0.7325,
+            "y": 0.61752,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 43.392,
+          "end": 45.22667
+        },
+        {
+          "id": "p04-s09",
+          "text": "He doesn't like the feeling either.",
+          "spokenText": "He doesn't like the feeling either.",
+          "zh": "他自己也不喜欢这种感觉。",
+          "anchor": {
+            "x": 0.5665,
+            "y": 0.66641,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 45.60667,
+          "end": 47.356
+        }
+      ],
+      "contents": {
+        "titleEn": "Hugo at His Birthday Party",
+        "titleZh": "生日会上的雨果",
+        "en": "Hugo is having a birthday party.",
+        "zh": "雨果太兴奋了，抢过朋友的礼物，自己和朋友都不舒服。"
+      },
+      "narrationText": "Hugo is having a birthday party. He is feeling very excited. It's usually fun to feel happy and excited. But today it is getting too much for Hugo to control. Hugo feels hot and shaky. He can't wait for his gifts. He snatches the presents from his friends' hands. The other children don't like it. He doesn't like the feeling either."
+    },
+    {
+      "id": "p05",
+      "title": "慢慢数到十",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p05.webp",
+      "source": {
+        "filename": "IMG_5707.jpeg",
+        "printedPages": [
+          8,
+          9
+        ]
+      },
+      "text": {
+        "en": "Hugo's mum helps him to find his calm.\n\nThey go to a quiet corner.\n\nHugo counts to ten on his fingers, very quietly.\n\nHe does it again, this time even more slowly.\n\nIt worked!\n\nHugo feels calmer.\n\nHe's not hot and shaky anymore.\n\nHe feels excited, but not too much.\n\nNow he and his friends can all enjoy his party.",
+        "zh": "雨果的妈妈帮他找回平静。\n\n他们来到一个安静的角落。\n\n雨果用手指轻轻地数到十。\n\n他又数了一遍，这次数得更慢了。\n\n这个办法有用！\n\n雨果感觉平静多了。\n\n他不再觉得身体发热，也不再发抖了。\n\n他还是很兴奋，但已经不会兴奋过头了。\n\n现在，他和朋友们都能尽情享受生日会了。"
+      },
+      "translationPairs": [
+        {
+          "en": "Hugo's mum helps him to find his calm.",
+          "zh": "雨果的妈妈帮他找回平静。"
+        },
+        {
+          "en": "They go to a quiet corner.",
+          "zh": "他们来到一个安静的角落。"
+        },
+        {
+          "en": "Hugo counts to ten on his fingers, very quietly.",
+          "zh": "雨果用手指轻轻地数到十。"
+        },
+        {
+          "en": "He does it again, this time even more slowly.",
+          "zh": "他又数了一遍，这次数得更慢了。"
+        },
+        {
+          "en": "It worked!",
+          "zh": "这个办法有用！"
+        },
+        {
+          "en": "Hugo feels calmer.",
+          "zh": "雨果感觉平静多了。"
+        },
+        {
+          "en": "He's not hot and shaky anymore.",
+          "zh": "他不再觉得身体发热，也不再发抖了。"
+        },
+        {
+          "en": "He feels excited, but not too much.",
+          "zh": "他还是很兴奋，但已经不会兴奋过头了。"
+        },
+        {
+          "en": "Now he and his friends can all enjoy his party.",
+          "zh": "现在，他和朋友们都能尽情享受生日会了。"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p05.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 23.345,
+        "textSha256": "3dfd2dedb5638a678fc28ca0d1ad7bf30eaff7352ac3b0d6789b8ba27749f03b"
+      },
+      "sentences": [
+        {
+          "id": "p05-s01",
+          "text": "Hugo's mum helps him to find his calm.",
+          "spokenText": "Hugo's mum helps him to find his calm.",
+          "zh": "雨果的妈妈帮他找回平静。",
+          "anchor": {
+            "x": 0.077,
+            "y": 0.64093,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 47.736,
+          "end": 50.33867
+        },
+        {
+          "id": "p05-s02",
+          "text": "They go to a quiet corner.",
+          "spokenText": "They go to a quiet corner.",
+          "zh": "他们来到一个安静的角落。",
+          "anchor": {
+            "x": 0.417,
+            "y": 0.65271,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 50.71867,
+          "end": 52.44667
+        },
+        {
+          "id": "p05-s03",
+          "text": "Hugo counts to ten on his fingers, very quietly.",
+          "spokenText": "Hugo counts to ten on his fingers, very quietly.",
+          "zh": "雨果用手指轻轻地数到十。",
+          "anchor": {
+            "x": 0.0775,
+            "y": 0.69552,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 52.82667,
+          "end": 55.89867
+        },
+        {
+          "id": "p05-s04",
+          "text": "He does it again, this time even more slowly.",
+          "spokenText": "He does it again, this time even more slowly.",
+          "zh": "他又数了一遍，这次数得更慢了。",
+          "anchor": {
+            "x": 0.417,
+            "y": 0.70795,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 56.27867,
+          "end": 59.116
+        },
+        {
+          "id": "p05-s05",
+          "text": "It worked!",
+          "spokenText": "It worked!",
+          "zh": "这个办法有用！",
+          "anchor": {
+            "x": 0.5915,
+            "y": 0.46538,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 59.496,
+          "end": 60.41333
+        },
+        {
+          "id": "p05-s06",
+          "text": "Hugo feels calmer.",
+          "spokenText": "Hugo feels calmer.",
+          "zh": "雨果感觉平静多了。",
+          "anchor": {
+            "x": 0.9405,
+            "y": 0.47695,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 60.79333,
+          "end": 62.18
+        },
+        {
+          "id": "p05-s07",
+          "text": "He's not hot and shaky anymore.",
+          "spokenText": "He's not hot and shaky anymore.",
+          "zh": "他不再觉得身体发热，也不再发抖了。",
+          "anchor": {
+            "x": 0.5915,
+            "y": 0.51792,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 62.56,
+          "end": 64.58667
+        },
+        {
+          "id": "p05-s08",
+          "text": "He feels excited, but not too much.",
+          "spokenText": "He feels excited, but not too much.",
+          "zh": "他还是很兴奋，但已经不会兴奋过头了。",
+          "anchor": {
+            "x": 0.9405,
+            "y": 0.52991,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 64.96667,
+          "end": 67.24933
+        },
+        {
+          "id": "p05-s09",
+          "text": "Now he and his friends can all enjoy his party.",
+          "spokenText": "Now he and his friends can all enjoy his party.",
+          "zh": "现在，他和朋友们都能尽情享受生日会了。",
+          "anchor": {
+            "x": 0.591,
+            "y": 0.57046,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 67.62933,
+          "end": 70.70133
+        }
+      ],
+      "contents": {
+        "titleEn": "Counting Slowly to Ten",
+        "titleZh": "慢慢数到十",
+        "en": "Hugo's mum helps him to find his calm.",
+        "zh": "妈妈陪雨果安静地数数，他又能开心地参加生日会了。"
+      },
+      "narrationText": "Hugo's mum helps him to find his calm. They go to a quiet corner. Hugo counts to ten on his fingers, very quietly. He does it again, this time even more slowly. It worked! Hugo feels calmer. He's not hot and shaky anymore. He feels excited, but not too much. Now he and his friends can all enjoy his party."
+    },
+    {
+      "id": "p06",
+      "title": "闹市里看蝴蝶",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p06.webp",
+      "source": {
+        "filename": "IMG_5708.jpeg",
+        "printedPages": [
+          10,
+          11
+        ]
+      },
+      "text": {
+        "en": "This is not a calm place.\n\nIt's noisy and busy.\n\nCars are honking.\n\nLights are flashing.\n\nThere are lots of people rushing about and talking loudly.\n\nSo, how come Harper feels so calm?\n\nShe is looking carefully at a brightly coloured butterfly.\n\nShe watches its wings gently open and close.\n\nShe's forgotten about all the hustle and bustle around her!",
+        "zh": "这可不是一个宁静的地方。\n\n这里又吵又忙。\n\n汽车的喇叭响个不停。\n\n灯光不停地闪烁。\n\n许多人匆匆忙忙地走来走去，大声说话。\n\n那么，为什么哈珀还能这么平静呢？\n\n她正在仔细地看着一只色彩鲜艳的蝴蝶。\n\n她看着蝴蝶的翅膀轻轻地张开、合上。\n\n她已经忘了周围所有的喧闹和忙乱！"
+      },
+      "translationPairs": [
+        {
+          "en": "This is not a calm place.",
+          "zh": "这可不是一个宁静的地方。"
+        },
+        {
+          "en": "It's noisy and busy.",
+          "zh": "这里又吵又忙。"
+        },
+        {
+          "en": "Cars are honking.",
+          "zh": "汽车的喇叭响个不停。"
+        },
+        {
+          "en": "Lights are flashing.",
+          "zh": "灯光不停地闪烁。"
+        },
+        {
+          "en": "There are lots of people rushing about and talking loudly.",
+          "zh": "许多人匆匆忙忙地走来走去，大声说话。"
+        },
+        {
+          "en": "So, how come Harper feels so calm?",
+          "zh": "那么，为什么哈珀还能这么平静呢？"
+        },
+        {
+          "en": "She is looking carefully at a brightly coloured butterfly.",
+          "zh": "她正在仔细地看着一只色彩鲜艳的蝴蝶。"
+        },
+        {
+          "en": "She watches its wings gently open and close.",
+          "zh": "她看着蝴蝶的翅膀轻轻地张开、合上。"
+        },
+        {
+          "en": "She's forgotten about all the hustle and bustle around her!",
+          "zh": "她已经忘了周围所有的喧闹和忙乱！"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p06.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 23.665,
+        "textSha256": "6742f7410b8422609339d0b16e2f729f89b0d302b8edead94da3f2d9c960a137"
+      },
+      "sentences": [
+        {
+          "id": "p06-s01",
+          "text": "This is not a calm place.",
+          "spokenText": "This is not a calm place.",
+          "zh": "这可不是一个宁静的地方。",
+          "anchor": {
+            "x": 0.0575,
+            "y": 0.0568,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 71.08133,
+          "end": 72.68133
+        },
+        {
+          "id": "p06-s02",
+          "text": "It's noisy and busy.",
+          "spokenText": "It's noisy and busy.",
+          "zh": "这里又吵又忙。",
+          "anchor": {
+            "x": 0.3395,
+            "y": 0.08546,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 73.06133,
+          "end": 74.46933
+        },
+        {
+          "id": "p06-s03",
+          "text": "Cars are honking.",
+          "spokenText": "Cars are honking.",
+          "zh": "汽车的喇叭响个不停。",
+          "anchor": {
+            "x": 0.0575,
+            "y": 0.11339,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 74.84933,
+          "end": 76.08667
+        },
+        {
+          "id": "p06-s04",
+          "text": "Lights are flashing.",
+          "spokenText": "Lights are flashing.",
+          "zh": "灯光不停地闪烁。",
+          "anchor": {
+            "x": 0.339,
+            "y": 0.14091,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 76.46667,
+          "end": 77.81067
+        },
+        {
+          "id": "p06-s05",
+          "text": "There are lots of people rushing about and talking loudly.",
+          "spokenText": "There are lots of people rushing about and talking loudly.",
+          "zh": "许多人匆匆忙忙地走来走去，大声说话。",
+          "anchor": {
+            "x": 0.03,
+            "y": 0.49364,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 78.19067,
+          "end": 81.43333
+        },
+        {
+          "id": "p06-s06",
+          "text": "So, how come Harper feels so calm?",
+          "spokenText": "So, how come Harper feels so calm?",
+          "zh": "那么，为什么哈珀还能这么平静呢？",
+          "anchor": {
+            "x": 0.5485,
+            "y": 0.58344,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 81.81333,
+          "end": 84.032
+        },
+        {
+          "id": "p06-s07",
+          "text": "She is looking carefully at a brightly coloured butterfly.",
+          "spokenText": "She is looking carefully at a brightly coloured butterfly.",
+          "zh": "她正在仔细地看着一只色彩鲜艳的蝴蝶。",
+          "anchor": {
+            "x": 0.746,
+            "y": 0.63498,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 84.412,
+          "end": 87.63333
+        },
+        {
+          "id": "p06-s08",
+          "text": "She watches its wings gently open and close.",
+          "spokenText": "She watches its wings gently open and close.",
+          "zh": "她看着蝴蝶的翅膀轻轻地张开、合上。",
+          "anchor": {
+            "x": 0.5475,
+            "y": 0.7071,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 88.01333,
+          "end": 90.82933
+        },
+        {
+          "id": "p06-s09",
+          "text": "She's forgotten about all the hustle and bustle around her!",
+          "spokenText": "She's forgotten about all the hustle and bustle around her!",
+          "zh": "她已经忘了周围所有的喧闹和忙乱！",
+          "anchor": {
+            "x": 0.745,
+            "y": 0.77344,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 91.20933,
+          "end": 94.36667
+        }
+      ],
+      "contents": {
+        "titleEn": "Watching a Butterfly",
+        "titleZh": "闹市里看蝴蝶",
+        "en": "This is not a calm place.",
+        "zh": "哈珀专注地看着蝴蝶，在嘈杂的街头也能保持平静。"
+      },
+      "narrationText": "This is not a calm place. It's noisy and busy. Cars are honking. Lights are flashing. There are lots of people rushing about and talking loudly. So, how come Harper feels so calm? She is looking carefully at a brightly coloured butterfly. She watches its wings gently open and close. She's forgotten about all the hustle and bustle around her!"
+    },
+    {
+      "id": "p07",
+      "title": "滑梯顶上的害怕",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p07.webp",
+      "source": {
+        "filename": "IMG_5710.jpeg",
+        "printedPages": [
+          12,
+          13
+        ]
+      },
+      "text": {
+        "en": "This park is quiet, but Ryan doesn't feel calm.\n\nHe really wants to try the slide, but when he gets to the top of the ladder he feels scared.\n\nThe scared feeling makes Ryan's heart race.\n\nIt makes him breathe very quickly.\n\nWhat can he do to find calm?",
+        "zh": "公园里很安静，可瑞安并不平静。\n\n他很想试一试滑梯，可爬到梯子顶端时，他害怕了。\n\n害怕让瑞安的心怦怦直跳。\n\n也让他呼吸得特别急促。\n\n他能做些什么，让自己平静下来呢？"
+      },
+      "translationPairs": [
+        {
+          "en": "This park is quiet, but Ryan doesn't feel calm.",
+          "zh": "公园里很安静，可瑞安并不平静。"
+        },
+        {
+          "en": "He really wants to try the slide, but when he gets to the top of the ladder he feels scared.",
+          "zh": "他很想试一试滑梯，可爬到梯子顶端时，他害怕了。"
+        },
+        {
+          "en": "The scared feeling makes Ryan's heart race.",
+          "zh": "害怕让瑞安的心怦怦直跳。"
+        },
+        {
+          "en": "It makes him breathe very quickly.",
+          "zh": "也让他呼吸得特别急促。"
+        },
+        {
+          "en": "What can he do to find calm?",
+          "zh": "他能做些什么，让自己平静下来呢？"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p07.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 15.724,
+        "textSha256": "c75a65c084e6a5708cf0c8c0b0e85c6b58371f5c5593cbb5b46f09e5f29f8e97"
+      },
+      "sentences": [
+        {
+          "id": "p07-s01",
+          "text": "This park is quiet, but Ryan doesn't feel calm.",
+          "spokenText": "This park is quiet, but Ryan doesn't feel calm.",
+          "zh": "公园里很安静，可瑞安并不平静。",
+          "anchor": {
+            "x": 0.0475,
+            "y": 0.09274,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 94.74667,
+          "end": 97.60533
+        },
+        {
+          "id": "p07-s02",
+          "text": "He really wants to try the slide, but when he gets to the top of the ladder he feels scared.",
+          "spokenText": "He really wants to try the slide, but when he gets to the top of the ladder he feels scared.",
+          "zh": "他很想试一试滑梯，可爬到梯子顶端时，他害怕了。",
+          "anchor": {
+            "x": 0.2025,
+            "y": 0.16951,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 97.98533,
+          "end": 102.93467
+        },
+        {
+          "id": "p07-s03",
+          "text": "The scared feeling makes Ryan's heart race.",
+          "spokenText": "The scared feeling makes Ryan's heart race.",
+          "zh": "害怕让瑞安的心怦怦直跳。",
+          "anchor": {
+            "x": 0.6215,
+            "y": 0.09358,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 103.31467,
+          "end": 105.81067
+        },
+        {
+          "id": "p07-s04",
+          "text": "It makes him breathe very quickly.",
+          "spokenText": "It makes him breathe very quickly.",
+          "zh": "也让他呼吸得特别急促。",
+          "anchor": {
+            "x": 0.8655,
+            "y": 0.13893,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 106.19067,
+          "end": 108.08933
+        },
+        {
+          "id": "p07-s05",
+          "text": "What can he do to find calm?",
+          "spokenText": "What can he do to find calm?",
+          "zh": "他能做些什么，让自己平静下来呢？",
+          "anchor": {
+            "x": 0.621,
+            "y": 0.17598,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 108.46933,
+          "end": 110.09067
+        }
+      ],
+      "contents": {
+        "titleEn": "Feeling Scared on the Slide",
+        "titleZh": "滑梯顶上的害怕",
+        "en": "This park is quiet, but Ryan doesn't feel calm.",
+        "zh": "瑞安想玩滑梯，却在爬到高处时害怕起来。"
+      },
+      "narrationText": "This park is quiet, but Ryan doesn't feel calm. He really wants to try the slide, but when he gets to the top of the ladder he feels scared. The scared feeling makes Ryan's heart race. It makes him breathe very quickly. What can he do to find calm?"
+    },
+    {
+      "id": "p08",
+      "title": "像闻花一样深呼吸",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p08.webp",
+      "source": {
+        "filename": "IMG_5711.jpeg",
+        "printedPages": [
+          14,
+          15
+        ]
+      },
+      "text": {
+        "en": "Ryan picks some dandelions.\n\nHe breathes in through his nose to smell the flowers.\n\nHe holds his breath for a few seconds ...\n\nThen he breathes out and blows the seeds away into the air.\n\nBreathing in and out slowly helps people feel calm.\n\nRyan takes another deep breath and climbs the ladder.\n\nWheeeee - down the slide he goes!",
+        "zh": "瑞安摘了几朵蒲公英。\n\n他用鼻子吸气，闻闻花香。\n\n他屏住呼吸，停了几秒……\n\n接着，他呼出气来，把种子吹向空中。\n\n慢慢地吸气、呼气，能帮助人们平静下来。\n\n瑞安又深吸了一口气，爬上梯子。\n\n哇——他顺着滑梯滑下来了！"
+      },
+      "translationPairs": [
+        {
+          "en": "Ryan picks some dandelions.",
+          "zh": "瑞安摘了几朵蒲公英。"
+        },
+        {
+          "en": "He breathes in through his nose to smell the flowers.",
+          "zh": "他用鼻子吸气，闻闻花香。"
+        },
+        {
+          "en": "He holds his breath for a few seconds ...",
+          "zh": "他屏住呼吸，停了几秒……"
+        },
+        {
+          "en": "Then he breathes out and blows the seeds away into the air.",
+          "zh": "接着，他呼出气来，把种子吹向空中。"
+        },
+        {
+          "en": "Breathing in and out slowly helps people feel calm.",
+          "zh": "慢慢地吸气、呼气，能帮助人们平静下来。"
+        },
+        {
+          "en": "Ryan takes another deep breath and climbs the ladder.",
+          "zh": "瑞安又深吸了一口气，爬上梯子。"
+        },
+        {
+          "en": "Wheeeee - down the slide he goes!",
+          "zh": "哇——他顺着滑梯滑下来了！"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p08.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 20.473,
+        "textSha256": "fbfee5771bd6c2f8455ceaf7dfa17380d92b0ead13d5bd97270ae84e6409882d"
+      },
+      "sentences": [
+        {
+          "id": "p08-s01",
+          "text": "Ryan picks some dandelions.",
+          "spokenText": "Ryan picks some dandelions.",
+          "zh": "瑞安摘了几朵蒲公英。",
+          "anchor": {
+            "x": 0.0625,
+            "y": 0.17219,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 110.47067,
+          "end": 112.24133
+        },
+        {
+          "id": "p08-s02",
+          "text": "He breathes in through his nose to smell the flowers.",
+          "spokenText": "He breathes in through his nose to smell the flowers.",
+          "zh": "他用鼻子吸气，闻闻花香。",
+          "anchor": {
+            "x": 0.358,
+            "y": 0.19972,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 112.62133,
+          "end": 115.416
+        },
+        {
+          "id": "p08-s03",
+          "text": "He holds his breath for a few seconds ...",
+          "spokenText": "He holds his breath for a few seconds ...",
+          "zh": "他屏住呼吸，停了几秒……",
+          "anchor": {
+            "x": 0.062,
+            "y": 0.2414,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 115.796,
+          "end": 117.88667
+        },
+        {
+          "id": "p08-s04",
+          "text": "Then he breathes out and blows the seeds away into the air.",
+          "spokenText": "Then he breathes out and blows the seeds away into the air.",
+          "zh": "接着，他呼出气来，把种子吹向空中。",
+          "anchor": {
+            "x": 0.0635,
+            "y": 0.32645,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 118.26667,
+          "end": 121.424
+        },
+        {
+          "id": "p08-s05",
+          "text": "Breathing in and out slowly helps people feel calm.",
+          "spokenText": "Breathing in and out slowly helps people feel calm.",
+          "zh": "慢慢地吸气、呼气，能帮助人们平静下来。",
+          "anchor": {
+            "x": 0.684,
+            "y": 0.07856,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 121.804,
+          "end": 124.85467
+        },
+        {
+          "id": "p08-s06",
+          "text": "Ryan takes another deep breath and climbs the ladder.",
+          "spokenText": "Ryan takes another deep breath and climbs the ladder.",
+          "zh": "瑞安又深吸了一口气，爬上梯子。",
+          "anchor": {
+            "x": 0.9345,
+            "y": 0.13935,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 125.23467,
+          "end": 128.41333
+        },
+        {
+          "id": "p08-s07",
+          "text": "Wheeeee - down the slide he goes!",
+          "spokenText": "Wheeeee - down the slide he goes!",
+          "zh": "哇——他顺着滑梯滑下来了！",
+          "anchor": {
+            "x": 0.683,
+            "y": 0.19239,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 128.79333,
+          "end": 130.564
+        }
+      ],
+      "contents": {
+        "titleEn": "Breathing Slowly",
+        "titleZh": "像闻花一样深呼吸",
+        "en": "Ryan picks some dandelions.",
+        "zh": "瑞安闻花、吸气、慢慢呼气，然后鼓起勇气滑下滑梯。"
+      },
+      "narrationText": "Ryan picks some dandelions. He breathes in through his nose to smell the flowers. He holds his breath for a few seconds ... Then he breathes out and blows the seeds away into the air. Breathing in and out slowly helps people feel calm. Ryan takes another deep breath and climbs the ladder. Wheeeee - down the slide he goes!"
+    },
+    {
+      "id": "p09",
+      "title": "一个温暖的拥抱",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p09.webp",
+      "source": {
+        "filename": "IMG_5712.jpeg",
+        "printedPages": [
+          16,
+          17
+        ]
+      },
+      "text": {
+        "en": "It's hard to feel calm when we get bumped or cut, bruised or stung.\n\nIt hurts and it can feel scary too.\n\nOur brain is telling us to be scared and our body is telling us we're in pain.\n\nHugs can help.\n\nKarina just fell off her sledge, but a big, long hug with Mum is helping her to feel calm.\n\nAs she cries and hugs, she notices the pain is going away.",
+        "zh": "当我们撞伤、划伤、碰青或被蜇时，很难保持平静。\n\n那会很疼，也可能让人害怕。\n\n大脑让我们感到害怕，身体则在提醒我们正在疼痛。\n\n拥抱能帮上忙。\n\n卡丽娜刚从雪橇上摔了下来，但妈妈一个长长的大拥抱正让她慢慢平静下来。\n\n她一边哭，一边拥抱妈妈，渐渐发现没那么疼了。"
+      },
+      "translationPairs": [
+        {
+          "en": "It's hard to feel calm when we get bumped or cut, bruised or stung.",
+          "zh": "当我们撞伤、划伤、碰青或被蜇时，很难保持平静。"
+        },
+        {
+          "en": "It hurts and it can feel scary too.",
+          "zh": "那会很疼，也可能让人害怕。"
+        },
+        {
+          "en": "Our brain is telling us to be scared and our body is telling us we're in pain.",
+          "zh": "大脑让我们感到害怕，身体则在提醒我们正在疼痛。"
+        },
+        {
+          "en": "Hugs can help.",
+          "zh": "拥抱能帮上忙。"
+        },
+        {
+          "en": "Karina just fell off her sledge, but a big, long hug with Mum is helping her to feel calm.",
+          "zh": "卡丽娜刚从雪橇上摔了下来，但妈妈一个长长的大拥抱正让她慢慢平静下来。"
+        },
+        {
+          "en": "As she cries and hugs, she notices the pain is going away.",
+          "zh": "她一边哭，一边拥抱妈妈，渐渐发现没那么疼了。"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p09.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 23.251,
+        "textSha256": "169dc1e74f6f7c16c75ad33f013a2778e0089b2d8ece32de94a61f91fbafdada"
+      },
+      "sentences": [
+        {
+          "id": "p09-s01",
+          "text": "It's hard to feel calm when we get bumped or cut, bruised or stung.",
+          "spokenText": "It's hard to feel calm when we get bumped or cut, bruised or stung.",
+          "zh": "当我们撞伤、划伤、碰青或被蜇时，很难保持平静。",
+          "anchor": {
+            "x": 0.0605,
+            "y": 0.07995,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 130.944,
+          "end": 134.80533
+        },
+        {
+          "id": "p09-s02",
+          "text": "It hurts and it can feel scary too.",
+          "spokenText": "It hurts and it can feel scary too.",
+          "zh": "那会很疼，也可能让人害怕。",
+          "anchor": {
+            "x": 0.4575,
+            "y": 0.12443,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 135.18533,
+          "end": 137.34
+        },
+        {
+          "id": "p09-s03",
+          "text": "Our brain is telling us to be scared and our body is telling us we're in pain.",
+          "spokenText": "Our brain is telling us to be scared and our body is telling us we're in pain.",
+          "zh": "大脑让我们感到害怕，身体则在提醒我们正在疼痛。",
+          "anchor": {
+            "x": 0.0605,
+            "y": 0.14797,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 137.72,
+          "end": 142.2
+        },
+        {
+          "id": "p09-s04",
+          "text": "Hugs can help.",
+          "spokenText": "Hugs can help.",
+          "zh": "拥抱能帮上忙。",
+          "anchor": {
+            "x": 0.566,
+            "y": 0.08776,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 142.58,
+          "end": 143.668
+        },
+        {
+          "id": "p09-s05",
+          "text": "Karina just fell off her sledge, but a big, long hug with Mum is helping her to feel calm.",
+          "spokenText": "Karina just fell off her sledge, but a big, long hug with Mum is helping her to feel calm.",
+          "zh": "卡丽娜刚从雪橇上摔了下来，但妈妈一个长长的大拥抱正让她慢慢平静下来。",
+          "anchor": {
+            "x": 0.915,
+            "y": 0.08829,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 144.048,
+          "end": 149.76533
+        },
+        {
+          "id": "p09-s06",
+          "text": "As she cries and hugs, she notices the pain is going away.",
+          "spokenText": "As she cries and hugs, she notices the pain is going away.",
+          "zh": "她一边哭，一边拥抱妈妈，渐渐发现没那么疼了。",
+          "anchor": {
+            "x": 0.566,
+            "y": 0.15994,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 150.14533,
+          "end": 153.81467
+        }
+      ],
+      "contents": {
+        "titleEn": "A Big Hug",
+        "titleZh": "一个温暖的拥抱",
+        "en": "It's hard to feel calm when we get bumped or cut, bruised or stung.",
+        "zh": "受伤会让人疼痛、害怕；一个长长的拥抱能带来安慰。"
+      },
+      "narrationText": "It's hard to feel calm when we get bumped or cut, bruised or stung. It hurts and it can feel scary too. Our brain is telling us to be scared and our body is telling us we're in pain. Hugs can help. Karina just fell off her sledge, but a big, long hug with Mum is helping her to feel calm. As she cries and hugs, she notices the pain is going away."
+    },
+    {
+      "id": "p10",
+      "title": "用画画表达感受",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p10.webp",
+      "source": {
+        "filename": "IMG_5713.jpeg",
+        "printedPages": [
+          18,
+          19
+        ]
+      },
+      "text": {
+        "en": "Akiki feels upset, but he doesn't know why.\n\nHe just does.\n\nHe picks up some chalk and starts to draw.\n\nHe doodles and makes shapes without thinking about what he is drawing.\n\nScribbling and drawing can let your feelings out.\n\nAkiki feels calmer by doing lots of big, wild scribbles.\n\nYou could try this too.",
+        "zh": "阿基基很难过，但他不知道为什么。\n\n他就是觉得不开心。\n\n他拿起粉笔，开始画画。\n\n他随手涂涂画画，画出各种形状，不去想自己画的是什么。\n\n涂鸦和画画能让你把情绪释放出来。\n\n阿基基大大地、自由地涂画了一番，感觉平静多了。\n\n你也可以试一试。"
+      },
+      "translationPairs": [
+        {
+          "en": "Akiki feels upset, but he doesn't know why.",
+          "zh": "阿基基很难过，但他不知道为什么。"
+        },
+        {
+          "en": "He just does.",
+          "zh": "他就是觉得不开心。"
+        },
+        {
+          "en": "He picks up some chalk and starts to draw.",
+          "zh": "他拿起粉笔，开始画画。"
+        },
+        {
+          "en": "He doodles and makes shapes without thinking about what he is drawing.",
+          "zh": "他随手涂涂画画，画出各种形状，不去想自己画的是什么。"
+        },
+        {
+          "en": "Scribbling and drawing can let your feelings out.",
+          "zh": "涂鸦和画画能让你把情绪释放出来。"
+        },
+        {
+          "en": "Akiki feels calmer by doing lots of big, wild scribbles.",
+          "zh": "阿基基大大地、自由地涂画了一番，感觉平静多了。"
+        },
+        {
+          "en": "You could try this too.",
+          "zh": "你也可以试一试。"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p10.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 20.452,
+        "textSha256": "bce6854cb7617250029fbac50d0bbf0e78eb3316a09404d1a163973555555758"
+      },
+      "sentences": [
+        {
+          "id": "p10-s01",
+          "text": "Akiki feels upset, but he doesn't know why.",
+          "spokenText": "Akiki feels upset, but he doesn't know why.",
+          "zh": "阿基基很难过，但他不知道为什么。",
+          "anchor": {
+            "x": 0.6585,
+            "y": 0.08636,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 154.19467,
+          "end": 156.92533
+        },
+        {
+          "id": "p10-s02",
+          "text": "He just does.",
+          "spokenText": "He just does.",
+          "zh": "他就是觉得不开心。",
+          "anchor": {
+            "x": 0.9395,
+            "y": 0.11723,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 157.30533,
+          "end": 158.41467
+        },
+        {
+          "id": "p10-s03",
+          "text": "He picks up some chalk and starts to draw.",
+          "spokenText": "He picks up some chalk and starts to draw.",
+          "zh": "他拿起粉笔，开始画画。",
+          "anchor": {
+            "x": 0.6585,
+            "y": 0.14343,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 158.79467,
+          "end": 161.26933
+        },
+        {
+          "id": "p10-s04",
+          "text": "He doodles and makes shapes without thinking about what he is drawing.",
+          "spokenText": "He doodles and makes shapes without thinking about what he is drawing.",
+          "zh": "他随手涂涂画画，画出各种形状，不去想自己画的是什么。",
+          "anchor": {
+            "x": 0.9395,
+            "y": 0.17614,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 161.64933,
+          "end": 165.42533
+        },
+        {
+          "id": "p10-s05",
+          "text": "Scribbling and drawing can let your feelings out.",
+          "spokenText": "Scribbling and drawing can let your feelings out.",
+          "zh": "涂鸦和画画能让你把情绪释放出来。",
+          "anchor": {
+            "x": 0.662,
+            "y": 0.84199,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 165.80533,
+          "end": 168.38667
+        },
+        {
+          "id": "p10-s06",
+          "text": "Akiki feels calmer by doing lots of big, wild scribbles.",
+          "spokenText": "Akiki feels calmer by doing lots of big, wild scribbles.",
+          "zh": "阿基基大大地、自由地涂画了一番，感觉平静多了。",
+          "anchor": {
+            "x": 0.9525,
+            "y": 0.90431,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 168.76667,
+          "end": 172.5
+        },
+        {
+          "id": "p10-s07",
+          "text": "You could try this too.",
+          "spokenText": "You could try this too.",
+          "zh": "你也可以试一试。",
+          "anchor": {
+            "x": 0.6615,
+            "y": 0.93632,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 172.88,
+          "end": 174.26667
+        }
+      ],
+      "contents": {
+        "titleEn": "Drawing Your Feelings",
+        "titleZh": "用画画表达感受",
+        "en": "Akiki feels upset, but he doesn't know why.",
+        "zh": "阿基基用粉笔涂画，把说不清的情绪表达出来。"
+      },
+      "narrationText": "Akiki feels upset, but he doesn't know why. He just does. He picks up some chalk and starts to draw. He doodles and makes shapes without thinking about what he is drawing. Scribbling and drawing can let your feelings out. Akiki feels calmer by doing lots of big, wild scribbles. You could try this too."
+    },
+    {
+      "id": "p11",
+      "title": "丢掉气球以后",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p11.webp",
+      "source": {
+        "filename": "IMG_5715.jpeg",
+        "printedPages": [
+          20,
+          21
+        ]
+      },
+      "text": {
+        "en": "What happened here?\n\nOh no!\n\nLi Wei has lost his balloon.\n\nIt's floating away, high in the sky.\n\nHe is so upset.\n\nHe is hot and bothered, sad and cross.\n\nHave you ever felt like this?\n\nNow, Li Wei has found a way to be calm again.\n\nHe is staying very still and watching the clouds go by.\n\nHe is looking very closely to see what shapes he can spot among the clouds!",
+        "zh": "这里发生了什么？\n\n哦，不！\n\n李伟的气球飞走了。\n\n气球越飘越远，飞向高高的天空。\n\n他特别难过。\n\n他觉得又热又烦，既伤心又生气。\n\n你有没有过这样的感受？\n\n现在，李伟找到了重新平静下来的办法。\n\n他静静地待着，看着云朵飘过。\n\n他仔细观察，看看能从云朵里发现哪些形状！"
+      },
+      "translationPairs": [
+        {
+          "en": "What happened here?",
+          "zh": "这里发生了什么？"
+        },
+        {
+          "en": "Oh no!",
+          "zh": "哦，不！"
+        },
+        {
+          "en": "Li Wei has lost his balloon.",
+          "zh": "李伟的气球飞走了。"
+        },
+        {
+          "en": "It's floating away, high in the sky.",
+          "zh": "气球越飘越远，飞向高高的天空。"
+        },
+        {
+          "en": "He is so upset.",
+          "zh": "他特别难过。"
+        },
+        {
+          "en": "He is hot and bothered, sad and cross.",
+          "zh": "他觉得又热又烦，既伤心又生气。"
+        },
+        {
+          "en": "Have you ever felt like this?",
+          "zh": "你有没有过这样的感受？"
+        },
+        {
+          "en": "Now, Li Wei has found a way to be calm again.",
+          "zh": "现在，李伟找到了重新平静下来的办法。"
+        },
+        {
+          "en": "He is staying very still and watching the clouds go by.",
+          "zh": "他静静地待着，看着云朵飘过。"
+        },
+        {
+          "en": "He is looking very closely to see what shapes he can spot among the clouds!",
+          "zh": "他仔细观察，看看能从云朵里发现哪些形状！"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p11.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 25.795,
+        "textSha256": "96bbae3a44f60453a291fc151a987523182ebdc6b4352562d8a85cd5d6e90212"
+      },
+      "sentences": [
+        {
+          "id": "p11-s01",
+          "text": "What happened here?",
+          "spokenText": "What happened here?",
+          "zh": "这里发生了什么？",
+          "anchor": {
+            "x": 0.1475,
+            "y": 0.06149,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 174.64667,
+          "end": 175.756
+        },
+        {
+          "id": "p11-s02",
+          "text": "Oh no!",
+          "spokenText": "Oh no!",
+          "zh": "哦，不！",
+          "anchor": {
+            "x": 0.405,
+            "y": 0.0839,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 176.136,
+          "end": 177.01067
+        },
+        {
+          "id": "p11-s03",
+          "text": "Li Wei has lost his balloon.",
+          "spokenText": "Li Wei has lost his balloon.",
+          "zh": "李伟的气球飞走了。",
+          "anchor": {
+            "x": 0.147,
+            "y": 0.11814,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 177.39067,
+          "end": 179.31067
+        },
+        {
+          "id": "p11-s04",
+          "text": "It's floating away, high in the sky.",
+          "spokenText": "It's floating away, high in the sky.",
+          "zh": "气球越飘越远，飞向高高的天空。",
+          "anchor": {
+            "x": 0.4045,
+            "y": 0.14063,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 179.69067,
+          "end": 181.93067
+        },
+        {
+          "id": "p11-s05",
+          "text": "He is so upset.",
+          "spokenText": "He is so upset.",
+          "zh": "他特别难过。",
+          "anchor": {
+            "x": 0.147,
+            "y": 0.17478,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 182.31067,
+          "end": 183.548
+        },
+        {
+          "id": "p11-s06",
+          "text": "He is hot and bothered, sad and cross.",
+          "spokenText": "He is hot and bothered, sad and cross.",
+          "zh": "他觉得又热又烦，既伤心又生气。",
+          "anchor": {
+            "x": 0.404,
+            "y": 0.19735,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 183.928,
+          "end": 186.33867
+        },
+        {
+          "id": "p11-s07",
+          "text": "Have you ever felt like this?",
+          "spokenText": "Have you ever felt like this?",
+          "zh": "你有没有过这样的感受？",
+          "anchor": {
+            "x": 0.1465,
+            "y": 0.23143,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 186.71867,
+          "end": 188.38267
+        },
+        {
+          "id": "p11-s08",
+          "text": "Now, Li Wei has found a way to be calm again.",
+          "spokenText": "Now, Li Wei has found a way to be calm again.",
+          "zh": "现在，李伟找到了重新平静下来的办法。",
+          "anchor": {
+            "x": 0.5815,
+            "y": 0.8266,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 188.76267,
+          "end": 191.68533
+        },
+        {
+          "id": "p11-s09",
+          "text": "He is staying very still and watching the clouds go by.",
+          "spokenText": "He is staying very still and watching the clouds go by.",
+          "zh": "他静静地待着，看着云朵飘过。",
+          "anchor": {
+            "x": 0.953,
+            "y": 0.88507,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 192.06533,
+          "end": 195.45733
+        },
+        {
+          "id": "p11-s10",
+          "text": "He is looking very closely to see what shapes he can spot among the clouds!",
+          "spokenText": "He is looking very closely to see what shapes he can spot among the clouds!",
+          "zh": "他仔细观察，看看能从云朵里发现哪些形状！",
+          "anchor": {
+            "x": 0.5805,
+            "y": 0.90139,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 195.83733,
+          "end": 200.06133
+        }
+      ],
+      "contents": {
+        "titleEn": "When a Balloon Floats Away",
+        "titleZh": "丢掉气球以后",
+        "en": "What happened here?",
+        "zh": "李伟的气球飞走了；静静看云朵，帮助他找回平静。"
+      },
+      "narrationText": "What happened here? Oh no! Li Wei has lost his balloon. It's floating away, high in the sky. He is so upset. He is hot and bothered, sad and cross. Have you ever felt like this? Now, Li Wei has found a way to be calm again. He is staying very still and watching the clouds go by. He is looking very closely to see what shapes he can spot among the clouds!"
+    },
+    {
+      "id": "p12",
+      "title": "生气时不伤害别人",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p12.webp",
+      "source": {
+        "filename": "IMG_5717.jpeg",
+        "printedPages": [
+          22,
+          23
+        ]
+      },
+      "text": {
+        "en": "It's okay to feel angry sometimes.\n\nEveryone does.\n\nBut it's not okay to lose your temper and push or hurt others.\n\nAfter Maryam's anger bursts out, she gets into trouble.\n\nShe says sorry, but her body still feels hot and stiff and her fists are clenched tight.",
+        "zh": "有时感到生气，没关系。\n\n每个人都会生气。\n\n但是，不可以乱发脾气，推搡或伤害别人。\n\n玛丽娅姆大发脾气后，惹了麻烦。\n\n她道了歉，可身体还是发热、紧绷，拳头也握得紧紧的。"
+      },
+      "translationPairs": [
+        {
+          "en": "It's okay to feel angry sometimes.",
+          "zh": "有时感到生气，没关系。"
+        },
+        {
+          "en": "Everyone does.",
+          "zh": "每个人都会生气。"
+        },
+        {
+          "en": "But it's not okay to lose your temper and push or hurt others.",
+          "zh": "但是，不可以乱发脾气，推搡或伤害别人。"
+        },
+        {
+          "en": "After Maryam's anger bursts out, she gets into trouble.",
+          "zh": "玛丽娅姆大发脾气后，惹了麻烦。"
+        },
+        {
+          "en": "She says sorry, but her body still feels hot and stiff and her fists are clenched tight.",
+          "zh": "她道了歉，可身体还是发热、紧绷，拳头也握得紧紧的。"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p12.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 17.303,
+        "textSha256": "279708187441d61bcba1e022a5fa8982d7dbf4ff465ee7acebc89827996e4b73"
+      },
+      "sentences": [
+        {
+          "id": "p12-s01",
+          "text": "It's okay to feel angry sometimes.",
+          "spokenText": "It's okay to feel angry sometimes.",
+          "zh": "有时感到生气，没关系。",
+          "anchor": {
+            "x": 0.2565,
+            "y": 0.14033,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 200.44133,
+          "end": 202.596
+        },
+        {
+          "id": "p12-s02",
+          "text": "Everyone does.",
+          "spokenText": "Everyone does.",
+          "zh": "每个人都会生气。",
+          "anchor": {
+            "x": 0.4455,
+            "y": 0.19555,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 202.976,
+          "end": 204.08533
+        },
+        {
+          "id": "p12-s03",
+          "text": "But it's not okay to lose your temper and push or hurt others.",
+          "spokenText": "But it's not okay to lose your temper and push or hurt others.",
+          "zh": "但是，不可以乱发脾气，推搡或伤害别人。",
+          "anchor": {
+            "x": 0.2565,
+            "y": 0.22452,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 204.46533,
+          "end": 208.028
+        },
+        {
+          "id": "p12-s04",
+          "text": "After Maryam's anger bursts out, she gets into trouble.",
+          "spokenText": "After Maryam's anger bursts out, she gets into trouble.",
+          "zh": "玛丽娅姆大发脾气后，惹了麻烦。",
+          "anchor": {
+            "x": 0.549,
+            "y": 0.09199,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 208.408,
+          "end": 211.69333
+        },
+        {
+          "id": "p12-s05",
+          "text": "She says sorry, but her body still feels hot and stiff and her fists are clenched tight.",
+          "spokenText": "She says sorry, but her body still feels hot and stiff and her fists are clenched tight.",
+          "zh": "她道了歉，可身体还是发热、紧绷，拳头也握得紧紧的。",
+          "anchor": {
+            "x": 0.7635,
+            "y": 0.15747,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 212.07333,
+          "end": 217.364
+        }
+      ],
+      "contents": {
+        "titleEn": "When Anger Bursts Out",
+        "titleZh": "生气时不伤害别人",
+        "en": "It's okay to feel angry sometimes.",
+        "zh": "生气是正常的，但发脾气、推搡或伤害别人不可以。"
+      },
+      "narrationText": "It's okay to feel angry sometimes. Everyone does. But it's not okay to lose your temper and push or hurt others. After Maryam's anger bursts out, she gets into trouble. She says sorry, but her body still feels hot and stiff and her fists are clenched tight."
+    },
+    {
+      "id": "p13",
+      "title": "听听柔和的声音",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p13.webp",
+      "source": {
+        "filename": "IMG_5719.jpeg",
+        "printedPages": [
+          24,
+          25
+        ]
+      },
+      "text": {
+        "en": "Maryam stomps off.\n\nShe feels like sulking.\n\nBut, in a corner of the garden she finds her grandfather.\n\nHe is playing his flute.\n\nShe sits in the cool shade and listens.\n\nThe music is soft and dreamy.\n\nSlowly, Maryam relaxes.\n\nShe hums along with the tune.\n\nListening to soothing music or gentle sounds is a great way to find your calm.",
+        "zh": "玛丽娅姆跺着脚走开了。\n\n她想一个人闷闷地生气。\n\n不过，在花园的一角，她看见了爷爷。\n\n他正在吹笛子。\n\n她坐在凉爽的树荫下，静静地听着。\n\n音乐轻柔，如梦一般。\n\n慢慢地，玛丽娅姆放松下来了。\n\n她跟着曲调轻轻哼唱。\n\n听舒缓的音乐或轻柔的声音，是找回平静的好办法。"
+      },
+      "translationPairs": [
+        {
+          "en": "Maryam stomps off.",
+          "zh": "玛丽娅姆跺着脚走开了。"
+        },
+        {
+          "en": "She feels like sulking.",
+          "zh": "她想一个人闷闷地生气。"
+        },
+        {
+          "en": "But, in a corner of the garden she finds her grandfather.",
+          "zh": "不过，在花园的一角，她看见了爷爷。"
+        },
+        {
+          "en": "He is playing his flute.",
+          "zh": "他正在吹笛子。"
+        },
+        {
+          "en": "She sits in the cool shade and listens.",
+          "zh": "她坐在凉爽的树荫下，静静地听着。"
+        },
+        {
+          "en": "The music is soft and dreamy.",
+          "zh": "音乐轻柔，如梦一般。"
+        },
+        {
+          "en": "Slowly, Maryam relaxes.",
+          "zh": "慢慢地，玛丽娅姆放松下来了。"
+        },
+        {
+          "en": "She hums along with the tune.",
+          "zh": "她跟着曲调轻轻哼唱。"
+        },
+        {
+          "en": "Listening to soothing music or gentle sounds is a great way to find your calm.",
+          "zh": "听舒缓的音乐或轻柔的声音，是找回平静的好办法。"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p13.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 23.708,
+        "textSha256": "505ae4edae66cba410b2f0a73fceab4f00a1b8bd7656c9010d5295630bf274db"
+      },
+      "sentences": [
+        {
+          "id": "p13-s01",
+          "text": "Maryam stomps off.",
+          "spokenText": "Maryam stomps off.",
+          "zh": "玛丽娅姆跺着脚走开了。",
+          "anchor": {
+            "x": 0.048,
+            "y": 0.84503,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 217.744,
+          "end": 219.17333
+        },
+        {
+          "id": "p13-s02",
+          "text": "She feels like sulking.",
+          "spokenText": "She feels like sulking.",
+          "zh": "她想一个人闷闷地生气。",
+          "anchor": {
+            "x": 0.4295,
+            "y": 0.85371,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 219.55333,
+          "end": 221.04667
+        },
+        {
+          "id": "p13-s03",
+          "text": "But, in a corner of the garden she finds her grandfather.",
+          "spokenText": "But, in a corner of the garden she finds her grandfather.",
+          "zh": "不过，在花园的一角，她看见了爷爷。",
+          "anchor": {
+            "x": 0.048,
+            "y": 0.90081,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 221.42667,
+          "end": 224.66933
+        },
+        {
+          "id": "p13-s04",
+          "text": "He is playing his flute.",
+          "spokenText": "He is playing his flute.",
+          "zh": "他正在吹笛子。",
+          "anchor": {
+            "x": 0.4295,
+            "y": 0.91548,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 225.04933,
+          "end": 226.5
+        },
+        {
+          "id": "p13-s05",
+          "text": "She sits in the cool shade and listens.",
+          "spokenText": "She sits in the cool shade and listens.",
+          "zh": "她坐在凉爽的树荫下，静静地听着。",
+          "anchor": {
+            "x": 0.0485,
+            "y": 0.9566,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 226.88,
+          "end": 229.14133
+        },
+        {
+          "id": "p13-s06",
+          "text": "The music is soft and dreamy.",
+          "spokenText": "The music is soft and dreamy.",
+          "zh": "音乐轻柔，如梦一般。",
+          "anchor": {
+            "x": 0.575,
+            "y": 0.85102,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 229.52133,
+          "end": 231.46267
+        },
+        {
+          "id": "p13-s07",
+          "text": "Slowly, Maryam relaxes.",
+          "spokenText": "Slowly, Maryam relaxes.",
+          "zh": "慢慢地，玛丽娅姆放松下来了。",
+          "anchor": {
+            "x": 0.9405,
+            "y": 0.87836,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 231.84267,
+          "end": 233.74133
+        },
+        {
+          "id": "p13-s08",
+          "text": "She hums along with the tune.",
+          "spokenText": "She hums along with the tune.",
+          "zh": "她跟着曲调轻轻哼唱。",
+          "anchor": {
+            "x": 0.575,
+            "y": 0.90642,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 234.12133,
+          "end": 235.764
+        },
+        {
+          "id": "p13-s09",
+          "text": "Listening to soothing music or gentle sounds is a great way to find your calm.",
+          "spokenText": "Listening to soothing music or gentle sounds is a great way to find your calm.",
+          "zh": "听舒缓的音乐或轻柔的声音，是找回平静的好办法。",
+          "anchor": {
+            "x": 0.94,
+            "y": 0.93479,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 236.144,
+          "end": 241.072
+        }
+      ],
+      "contents": {
+        "titleEn": "Listening to Gentle Sounds",
+        "titleZh": "听听柔和的声音",
+        "en": "Maryam stomps off.",
+        "zh": "玛丽娅姆听爷爷吹笛子，伴着轻柔的音乐放松下来。"
+      },
+      "narrationText": "Maryam stomps off. She feels like sulking. But, in a corner of the garden she finds her grandfather. He is playing his flute. She sits in the cool shade and listens. The music is soft and dreamy. Slowly, Maryam relaxes. She hums along with the tune. Listening to soothing music or gentle sounds is a great way to find your calm."
+    },
+    {
+      "id": "p14",
+      "title": "伸展身体，重新开始",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p14.webp",
+      "source": {
+        "filename": "IMG_5720.jpeg",
+        "printedPages": [
+          26,
+          27
+        ]
+      },
+      "text": {
+        "en": "Ava usually feels calm when she plays with her bricks.\n\nBut today it's all gone wrong.\n\nShe spent a long time making that castle.\n\nNow it's broken.\n\nAva has an idea.\n\nShe finds a space to stretch.\n\nShe reaches her arms up high.\n\nShe moves slowly and concentrates hard on balancing.\n\nSoon she will feel calm and she'll be ready to make a new castle.",
+        "zh": "艾娃玩积木时，通常会感到很平静。\n\n可今天，一切都不顺利。\n\n她花了很长时间才搭好那座城堡。\n\n现在，它却倒了。\n\n艾娃有了一个主意。\n\n她找了个地方伸展身体。\n\n她把双臂高高举起。\n\n她慢慢地移动，专心保持平衡。\n\n不久，她就会平静下来，准备好再搭一座新城堡。"
+      },
+      "translationPairs": [
+        {
+          "en": "Ava usually feels calm when she plays with her bricks.",
+          "zh": "艾娃玩积木时，通常会感到很平静。"
+        },
+        {
+          "en": "But today it's all gone wrong.",
+          "zh": "可今天，一切都不顺利。"
+        },
+        {
+          "en": "She spent a long time making that castle.",
+          "zh": "她花了很长时间才搭好那座城堡。"
+        },
+        {
+          "en": "Now it's broken.",
+          "zh": "现在，它却倒了。"
+        },
+        {
+          "en": "Ava has an idea.",
+          "zh": "艾娃有了一个主意。"
+        },
+        {
+          "en": "She finds a space to stretch.",
+          "zh": "她找了个地方伸展身体。"
+        },
+        {
+          "en": "She reaches her arms up high.",
+          "zh": "她把双臂高高举起。"
+        },
+        {
+          "en": "She moves slowly and concentrates hard on balancing.",
+          "zh": "她慢慢地移动，专心保持平衡。"
+        },
+        {
+          "en": "Soon she will feel calm and she'll be ready to make a new castle.",
+          "zh": "不久，她就会平静下来，准备好再搭一座新城堡。"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p14.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 23.623,
+        "textSha256": "cfeb6c6640ea0bc67d0ace5078761d137d8320640e3491820c43655fe54bf08b"
+      },
+      "sentences": [
+        {
+          "id": "p14-s01",
+          "text": "Ava usually feels calm when she plays with her bricks.",
+          "spokenText": "Ava usually feels calm when she plays with her bricks.",
+          "zh": "艾娃玩积木时，通常会感到很平静。",
+          "anchor": {
+            "x": 0.032,
+            "y": 0.061,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 241.452,
+          "end": 244.50267
+        },
+        {
+          "id": "p14-s02",
+          "text": "But today it's all gone wrong.",
+          "spokenText": "But today it's all gone wrong.",
+          "zh": "可今天，一切都不顺利。",
+          "anchor": {
+            "x": 0.245,
+            "y": 0.13558,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 244.88267,
+          "end": 246.65333
+        },
+        {
+          "id": "p14-s03",
+          "text": "She spent a long time making that castle.",
+          "spokenText": "She spent a long time making that castle.",
+          "zh": "她花了很长时间才搭好那座城堡。",
+          "anchor": {
+            "x": 0.0325,
+            "y": 0.1742,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 247.03333,
+          "end": 249.40133
+        },
+        {
+          "id": "p14-s04",
+          "text": "Now it's broken.",
+          "spokenText": "Now it's broken.",
+          "zh": "现在，它却倒了。",
+          "anchor": {
+            "x": 0.2445,
+            "y": 0.23079,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 249.78133,
+          "end": 251.08267
+        },
+        {
+          "id": "p14-s05",
+          "text": "Ava has an idea.",
+          "spokenText": "Ava has an idea.",
+          "zh": "艾娃有了一个主意。",
+          "anchor": {
+            "x": 0.5385,
+            "y": 0.07935,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 251.46267,
+          "end": 252.892
+        },
+        {
+          "id": "p14-s06",
+          "text": "She finds a space to stretch.",
+          "spokenText": "She finds a space to stretch.",
+          "zh": "她找了个地方伸展身体。",
+          "anchor": {
+            "x": 0.71,
+            "y": 0.10417,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 253.272,
+          "end": 255.04267
+        },
+        {
+          "id": "p14-s07",
+          "text": "She reaches her arms up high.",
+          "spokenText": "She reaches her arms up high.",
+          "zh": "她把双臂高高举起。",
+          "anchor": {
+            "x": 0.538,
+            "y": 0.15929,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 255.42267,
+          "end": 257.21467
+        },
+        {
+          "id": "p14-s08",
+          "text": "She moves slowly and concentrates hard on balancing.",
+          "spokenText": "She moves slowly and concentrates hard on balancing.",
+          "zh": "她慢慢地移动，专心保持平衡。",
+          "anchor": {
+            "x": 0.709,
+            "y": 0.208,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 257.59467,
+          "end": 260.85867
+        },
+        {
+          "id": "p14-s09",
+          "text": "Soon she will feel calm and she'll be ready to make a new castle.",
+          "spokenText": "Soon she will feel calm and she'll be ready to make a new castle.",
+          "zh": "不久，她就会平静下来，准备好再搭一座新城堡。",
+          "anchor": {
+            "x": 0.5375,
+            "y": 0.30042,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 261.23867,
+          "end": 264.69467
+        }
+      ],
+      "contents": {
+        "titleEn": "Stretching and Balancing",
+        "titleZh": "伸展身体，重新开始",
+        "en": "Ava usually feels calm when she plays with her bricks.",
+        "zh": "艾娃的积木城堡倒了；伸展、平衡让她恢复平静。"
+      },
+      "narrationText": "Ava usually feels calm when she plays with her bricks. But today it's all gone wrong. She spent a long time making that castle. Now it's broken. Ava has an idea. She finds a space to stretch. She reaches her arms up high. She moves slowly and concentrates hard on balancing. Soon she will feel calm and she'll be ready to make a new castle."
+    },
+    {
+      "id": "p15",
+      "title": "在故事里安心入睡",
+      "kind": "story",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p15.webp",
+      "source": {
+        "filename": "IMG_5721.jpeg",
+        "printedPages": [
+          28,
+          29
+        ]
+      },
+      "text": {
+        "en": "Back at Mia and Jackson's house, it's all calm now ...\n\nWhat's happened?\n\nThey are listening to a story.\n\nMia is cuddling her favourite toy and Jackson is stroking their cat.\n\nThey'll soon be fast asleep ...",
+        "zh": "再回到米娅和杰克逊家里，现在一切都平静下来了……\n\n发生了什么呢？\n\n他们正在听故事。\n\n米娅抱着最喜欢的玩具，杰克逊正轻轻抚摸他们的小猫。\n\n他们很快就会甜甜地睡着了……"
+      },
+      "translationPairs": [
+        {
+          "en": "Back at Mia and Jackson's house, it's all calm now ...",
+          "zh": "再回到米娅和杰克逊家里，现在一切都平静下来了……"
+        },
+        {
+          "en": "What's happened?",
+          "zh": "发生了什么呢？"
+        },
+        {
+          "en": "They are listening to a story.",
+          "zh": "他们正在听故事。"
+        },
+        {
+          "en": "Mia is cuddling her favourite toy and Jackson is stroking their cat.",
+          "zh": "米娅抱着最喜欢的玩具，杰克逊正轻轻抚摸他们的小猫。"
+        },
+        {
+          "en": "They'll soon be fast asleep ...",
+          "zh": "他们很快就会甜甜地睡着了……"
+        }
+      ],
+      "audio": {
+        "status": "ready",
+        "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/p15.mp3",
+        "engine": "Kokoro-82M",
+        "voice": "af_heart",
+        "speed": 0.9,
+        "durationSeconds": 13.335,
+        "textSha256": "a37d449dc23acb7bc6b0b826f2fa2a4eb1b85dfa29d5115e90270b1e425f0692"
+      },
+      "sentences": [
+        {
+          "id": "p15-s01",
+          "text": "Back at Mia and Jackson's house, it's all calm now ...",
+          "spokenText": "Back at Mia and Jackson's house, it's all calm now ...",
+          "zh": "再回到米娅和杰克逊家里，现在一切都平静下来了……",
+          "anchor": {
+            "x": 0.057,
+            "y": 0.1314,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 265.07467,
+          "end": 268.08267
+        },
+        {
+          "id": "p15-s02",
+          "text": "What's happened?",
+          "spokenText": "What's happened?",
+          "zh": "发生了什么呢？",
+          "anchor": {
+            "x": 0.316,
+            "y": 0.1881,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 268.46267,
+          "end": 269.52933
+        },
+        {
+          "id": "p15-s03",
+          "text": "They are listening to a story.",
+          "spokenText": "They are listening to a story.",
+          "zh": "他们正在听故事。",
+          "anchor": {
+            "x": 0.6905,
+            "y": 0.11664,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 269.90933,
+          "end": 271.59467
+        },
+        {
+          "id": "p15-s04",
+          "text": "Mia is cuddling her favourite toy and Jackson is stroking their cat.",
+          "spokenText": "Mia is cuddling her favourite toy and Jackson is stroking their cat.",
+          "zh": "米娅抱着最喜欢的玩具，杰克逊正轻轻抚摸他们的小猫。",
+          "anchor": {
+            "x": 0.969,
+            "y": 0.13546,
+            "offsetX": 24,
+            "offsetY": 0
+          },
+          "start": 271.97467,
+          "end": 276.00667
+        },
+        {
+          "id": "p15-s05",
+          "text": "They'll soon be fast asleep ...",
+          "spokenText": "They'll soon be fast asleep ...",
+          "zh": "他们很快就会甜甜地睡着了……",
+          "anchor": {
+            "x": 0.69,
+            "y": 0.20062,
+            "offsetX": -24,
+            "offsetY": 0
+          },
+          "start": 276.38667,
+          "end": 278.02933
+        }
+      ],
+      "contents": {
+        "titleEn": "A Calm Bedtime Story",
+        "titleZh": "在故事里安心入睡",
+        "en": "Back at Mia and Jackson's house, it's all calm now ...",
+        "zh": "米娅抱着玩具，杰克逊抚摸小猫，听故事后安静地睡去。"
+      },
+      "narrationText": "Back at Mia and Jackson's house, it's all calm now ... What's happened? They are listening to a story. Mia is cuddling her favourite toy and Jackson is stroking their cat. They'll soon be fast asleep ..."
+    },
+    {
+      "id": "p16",
+      "title": "你想试试哪一种方法",
+      "kind": "reference",
+      "image": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v2/images/p16.webp",
+      "source": {
+        "filename": "IMG_5722.jpeg",
+        "printedPages": [
+          30,
+          31
+        ]
+      },
+      "text": {
+        "en": "Which activity will you use to calm down when you feel upset or cross?\n\nCount to ten on your fingers, quietly and slowly.\n\nFocus all your attention on watching an object closely.\n\nBreathe in and out very slowly and think about what you're doing.\n\nHave a big hug with someone you love.\n\nScribble, draw or do some colouring.\n\nLook for animals in the clouds.\n\nListen to soothing music or gentle sounds.\n\nStretch and balance to help your whole body relax.\n\nRead or listen to a story in a quiet place.",
+        "zh": "当你难过或生气时，你会用哪种活动让自己平静下来？\n\n用手指轻轻地、慢慢地数到十。\n\n集中注意力，仔细观察一样东西。\n\n慢慢地吸气、呼气，留意自己正在做的动作。\n\n给你爱的人一个大大的拥抱。\n\n涂鸦、画画，或者涂涂颜色。\n\n看看云朵里藏着哪些小动物。\n\n听舒缓的音乐或轻柔的声音。\n\n伸展身体、练习平衡，帮助全身放松。\n\n在安静的地方读故事，或者听故事。"
+      },
+      "translationPairs": [
+        {
+          "en": "Which activity will you use to calm down when you feel upset or cross?",
+          "zh": "当你难过或生气时，你会用哪种活动让自己平静下来？"
+        },
+        {
+          "en": "Count to ten on your fingers, quietly and slowly.",
+          "zh": "用手指轻轻地、慢慢地数到十。"
+        },
+        {
+          "en": "Focus all your attention on watching an object closely.",
+          "zh": "集中注意力，仔细观察一样东西。"
+        },
+        {
+          "en": "Breathe in and out very slowly and think about what you're doing.",
+          "zh": "慢慢地吸气、呼气，留意自己正在做的动作。"
+        },
+        {
+          "en": "Have a big hug with someone you love.",
+          "zh": "给你爱的人一个大大的拥抱。"
+        },
+        {
+          "en": "Scribble, draw or do some colouring.",
+          "zh": "涂鸦、画画，或者涂涂颜色。"
+        },
+        {
+          "en": "Look for animals in the clouds.",
+          "zh": "看看云朵里藏着哪些小动物。"
+        },
+        {
+          "en": "Listen to soothing music or gentle sounds.",
+          "zh": "听舒缓的音乐或轻柔的声音。"
+        },
+        {
+          "en": "Stretch and balance to help your whole body relax.",
+          "zh": "伸展身体、练习平衡，帮助全身放松。"
+        },
+        {
+          "en": "Read or listen to a story in a quiet place.",
+          "zh": "在安静的地方读故事，或者听故事。"
+        }
+      ],
+      "audio": {
+        "status": "omitted",
+        "reason": "亲子讨论页，保留中英文文字，不配音",
+        "src": null
+      },
+      "sentences": [],
+      "contents": {
+        "titleEn": "Find Your Own Calm",
+        "titleZh": "你想试试哪一种方法",
+        "en": "Which activity will you use to calm down when you feel upset or cross?",
+        "zh": "回顾九种平静方法，和爸爸妈妈聊聊你想试哪一种。"
+      }
+    }
+  ],
+  "narration": {
+    "src": "https://pbook-1252924514.cos.ap-guangzhou.myqcloud.com/books/finding-calm/v1/audio/story-final.mp3",
+    "engine": "Kokoro-82M",
+    "voice": "af_heart",
+    "speed": 0.9,
+    "duration": 278.40933,
+    "pages": [
+      {
+        "pageId": "p02",
+        "start": 0.0,
+        "end": 12.86933
+      },
+      {
+        "pageId": "p03",
+        "start": 13.24933,
+        "end": 24.672
+      },
+      {
+        "pageId": "p04",
+        "start": 25.052,
+        "end": 47.356
+      },
+      {
+        "pageId": "p05",
+        "start": 47.736,
+        "end": 70.70133
+      },
+      {
+        "pageId": "p06",
+        "start": 71.08133,
+        "end": 94.36667
+      },
+      {
+        "pageId": "p07",
+        "start": 94.74667,
+        "end": 110.09067
+      },
+      {
+        "pageId": "p08",
+        "start": 110.47067,
+        "end": 130.564
+      },
+      {
+        "pageId": "p09",
+        "start": 130.944,
+        "end": 153.81467
+      },
+      {
+        "pageId": "p10",
+        "start": 154.19467,
+        "end": 174.26667
+      },
+      {
+        "pageId": "p11",
+        "start": 174.64667,
+        "end": 200.06133
+      },
+      {
+        "pageId": "p12",
+        "start": 200.44133,
+        "end": 217.364
+      },
+      {
+        "pageId": "p13",
+        "start": 217.744,
+        "end": 241.072
+      },
+      {
+        "pageId": "p14",
+        "start": 241.452,
+        "end": 264.69467
+      },
+      {
+        "pageId": "p15",
+        "start": 265.07467,
+        "end": 278.02933
+      }
+    ],
+    "segments": [
+      {
+        "pageId": "p02",
+        "sentenceId": "p02-s01",
+        "start": 0.0,
+        "end": 1.92
+      },
+      {
+        "pageId": "p02",
+        "sentenceId": "p02-s02",
+        "start": 2.3,
+        "end": 4.71067
+      },
+      {
+        "pageId": "p02",
+        "sentenceId": "p02-s03",
+        "start": 5.09067,
+        "end": 7.82133
+      },
+      {
+        "pageId": "p02",
+        "sentenceId": "p02-s04",
+        "start": 8.20133,
+        "end": 11.06
+      },
+      {
+        "pageId": "p02",
+        "sentenceId": "p02-s05",
+        "start": 11.44,
+        "end": 12.86933
+      },
+      {
+        "pageId": "p03",
+        "sentenceId": "p03-s01",
+        "start": 13.24933,
+        "end": 16.172
+      },
+      {
+        "pageId": "p03",
+        "sentenceId": "p03-s02",
+        "start": 16.552,
+        "end": 18.728
+      },
+      {
+        "pageId": "p03",
+        "sentenceId": "p03-s03",
+        "start": 19.108,
+        "end": 21.49733
+      },
+      {
+        "pageId": "p03",
+        "sentenceId": "p03-s04",
+        "start": 21.87733,
+        "end": 24.672
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s01",
+        "start": 25.052,
+        "end": 27.164
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s02",
+        "start": 27.544,
+        "end": 29.37867
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s03",
+        "start": 29.75867,
+        "end": 32.38267
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s04",
+        "start": 32.76267,
+        "end": 35.87733
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s05",
+        "start": 36.25733,
+        "end": 38.11333
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s06",
+        "start": 38.49333,
+        "end": 40.17867
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s07",
+        "start": 40.55867,
+        "end": 43.012
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s08",
+        "start": 43.392,
+        "end": 45.22667
+      },
+      {
+        "pageId": "p04",
+        "sentenceId": "p04-s09",
+        "start": 45.60667,
+        "end": 47.356
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s01",
+        "start": 47.736,
+        "end": 50.33867
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s02",
+        "start": 50.71867,
+        "end": 52.44667
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s03",
+        "start": 52.82667,
+        "end": 55.89867
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s04",
+        "start": 56.27867,
+        "end": 59.116
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s05",
+        "start": 59.496,
+        "end": 60.41333
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s06",
+        "start": 60.79333,
+        "end": 62.18
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s07",
+        "start": 62.56,
+        "end": 64.58667
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s08",
+        "start": 64.96667,
+        "end": 67.24933
+      },
+      {
+        "pageId": "p05",
+        "sentenceId": "p05-s09",
+        "start": 67.62933,
+        "end": 70.70133
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s01",
+        "start": 71.08133,
+        "end": 72.68133
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s02",
+        "start": 73.06133,
+        "end": 74.46933
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s03",
+        "start": 74.84933,
+        "end": 76.08667
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s04",
+        "start": 76.46667,
+        "end": 77.81067
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s05",
+        "start": 78.19067,
+        "end": 81.43333
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s06",
+        "start": 81.81333,
+        "end": 84.032
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s07",
+        "start": 84.412,
+        "end": 87.63333
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s08",
+        "start": 88.01333,
+        "end": 90.82933
+      },
+      {
+        "pageId": "p06",
+        "sentenceId": "p06-s09",
+        "start": 91.20933,
+        "end": 94.36667
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s01",
+        "start": 94.74667,
+        "end": 97.60533
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s02",
+        "start": 97.98533,
+        "end": 102.93467
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s03",
+        "start": 103.31467,
+        "end": 105.81067
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s04",
+        "start": 106.19067,
+        "end": 108.08933
+      },
+      {
+        "pageId": "p07",
+        "sentenceId": "p07-s05",
+        "start": 108.46933,
+        "end": 110.09067
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s01",
+        "start": 110.47067,
+        "end": 112.24133
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s02",
+        "start": 112.62133,
+        "end": 115.416
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s03",
+        "start": 115.796,
+        "end": 117.88667
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s04",
+        "start": 118.26667,
+        "end": 121.424
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s05",
+        "start": 121.804,
+        "end": 124.85467
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s06",
+        "start": 125.23467,
+        "end": 128.41333
+      },
+      {
+        "pageId": "p08",
+        "sentenceId": "p08-s07",
+        "start": 128.79333,
+        "end": 130.564
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s01",
+        "start": 130.944,
+        "end": 134.80533
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s02",
+        "start": 135.18533,
+        "end": 137.34
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s03",
+        "start": 137.72,
+        "end": 142.2
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s04",
+        "start": 142.58,
+        "end": 143.668
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s05",
+        "start": 144.048,
+        "end": 149.76533
+      },
+      {
+        "pageId": "p09",
+        "sentenceId": "p09-s06",
+        "start": 150.14533,
+        "end": 153.81467
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s01",
+        "start": 154.19467,
+        "end": 156.92533
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s02",
+        "start": 157.30533,
+        "end": 158.41467
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s03",
+        "start": 158.79467,
+        "end": 161.26933
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s04",
+        "start": 161.64933,
+        "end": 165.42533
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s05",
+        "start": 165.80533,
+        "end": 168.38667
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s06",
+        "start": 168.76667,
+        "end": 172.5
+      },
+      {
+        "pageId": "p10",
+        "sentenceId": "p10-s07",
+        "start": 172.88,
+        "end": 174.26667
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s01",
+        "start": 174.64667,
+        "end": 175.756
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s02",
+        "start": 176.136,
+        "end": 177.01067
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s03",
+        "start": 177.39067,
+        "end": 179.31067
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s04",
+        "start": 179.69067,
+        "end": 181.93067
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s05",
+        "start": 182.31067,
+        "end": 183.548
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s06",
+        "start": 183.928,
+        "end": 186.33867
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s07",
+        "start": 186.71867,
+        "end": 188.38267
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s08",
+        "start": 188.76267,
+        "end": 191.68533
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s09",
+        "start": 192.06533,
+        "end": 195.45733
+      },
+      {
+        "pageId": "p11",
+        "sentenceId": "p11-s10",
+        "start": 195.83733,
+        "end": 200.06133
+      },
+      {
+        "pageId": "p12",
+        "sentenceId": "p12-s01",
+        "start": 200.44133,
+        "end": 202.596
+      },
+      {
+        "pageId": "p12",
+        "sentenceId": "p12-s02",
+        "start": 202.976,
+        "end": 204.08533
+      },
+      {
+        "pageId": "p12",
+        "sentenceId": "p12-s03",
+        "start": 204.46533,
+        "end": 208.028
+      },
+      {
+        "pageId": "p12",
+        "sentenceId": "p12-s04",
+        "start": 208.408,
+        "end": 211.69333
+      },
+      {
+        "pageId": "p12",
+        "sentenceId": "p12-s05",
+        "start": 212.07333,
+        "end": 217.364
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s01",
+        "start": 217.744,
+        "end": 219.17333
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s02",
+        "start": 219.55333,
+        "end": 221.04667
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s03",
+        "start": 221.42667,
+        "end": 224.66933
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s04",
+        "start": 225.04933,
+        "end": 226.5
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s05",
+        "start": 226.88,
+        "end": 229.14133
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s06",
+        "start": 229.52133,
+        "end": 231.46267
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s07",
+        "start": 231.84267,
+        "end": 233.74133
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s08",
+        "start": 234.12133,
+        "end": 235.764
+      },
+      {
+        "pageId": "p13",
+        "sentenceId": "p13-s09",
+        "start": 236.144,
+        "end": 241.072
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s01",
+        "start": 241.452,
+        "end": 244.50267
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s02",
+        "start": 244.88267,
+        "end": 246.65333
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s03",
+        "start": 247.03333,
+        "end": 249.40133
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s04",
+        "start": 249.78133,
+        "end": 251.08267
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s05",
+        "start": 251.46267,
+        "end": 252.892
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s06",
+        "start": 253.272,
+        "end": 255.04267
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s07",
+        "start": 255.42267,
+        "end": 257.21467
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s08",
+        "start": 257.59467,
+        "end": 260.85867
+      },
+      {
+        "pageId": "p14",
+        "sentenceId": "p14-s09",
+        "start": 261.23867,
+        "end": 264.69467
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s01",
+        "start": 265.07467,
+        "end": 268.08267
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s02",
+        "start": 268.46267,
+        "end": 269.52933
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s03",
+        "start": 269.90933,
+        "end": 271.59467
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s04",
+        "start": 271.97467,
+        "end": 276.00667
+      },
+      {
+        "pageId": "p15",
+        "sentenceId": "p15-s05",
+        "start": 276.38667,
+        "end": 278.02933
+      }
+    ]
+  }
+}
