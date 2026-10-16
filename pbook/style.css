@@ -48,3 +48,122 @@
 .listenLibrary,.listenPlayer{background:linear-gradient(135deg,#cbb7df,#bea4d6 60%,#c5addb);color:#503769}.listenDrawer,.queuePanel.listenQueueDrawer{background:#c0a7d8fc!important;color:#503769!important}.listenLibrary h1,.listenLibrary h2,.listenLibrary p,.listenLibrary button,.listenPlayer h1,.listenPlayer p,.listenPlayer span,.listenTop,.listenTop button,.listenTop h2,.listenTopTools #listenView,.listenPlayer #listenView .actionLabel,.listenTransport,.listenTransportButtons>button,.listenTransportButtons>button>span,.listenDrawer h2,.listenDrawer h3,.listenDrawer button,.listenDrawer select,.listenQueueDrawer h2,.listenQueueDrawer h3,.listenQueueDrawer button,.listenQueueDrawer .queueHint,.listenQueueDrawer .queueEmpty,.listenQueueDrawer #queueStatus,.listenQueueDrawer .queueActions .actionLabel,.listenQueueDrawer .queueRemove,.listenQueueDrawer .queueRow.current .queueBookName,.listenQueueDrawer .queueRow:not(.current) .queueBookName{color:#503769!important}.listenDrawer header button,.listenQueueDrawer #closeQueue{color:#503769!important}.listenDrawer .captionLanguages button{background:#ffffff30;color:#503769!important}.listenDrawer .captionLanguages button[aria-pressed="true"]{background:#fbf6ff;color:#503769!important}.listenDrawer .queueModeButtons button[aria-pressed="true"]{color:#503769!important}.listenPlayer #listenPause .actionLabel{color:#503769!important}.listenCaption{opacity:.7}.listenCaption.current{opacity:1}.listenSeek input{accent-color:#725091}.listenLibraryBook{border-color:#71508d25}.listenLibraryBooks{border-color:#71508d25}
 
 .listenTransportButtons>button{border:0!important;border-radius:0!important;background:none!important;box-shadow:none!important;padding:12px!important;min-width:64px;min-height:64px;display:flex;align-items:center;justify-content:center}.listenTransportButtons>button>svg{width:38px;height:38px;display:block}.listenPlayer #listenPause{display:flex!important;align-items:center!important;justify-content:center!important;border-radius:50%!important;background:#fbf7ff!important;width:80px;height:80px;min-width:80px;min-height:80px!important;color:#9572b7!important}.listenPlayer #listenPause svg{width:43px;height:43px}.listenTransportButtons{gap:34px}@media(max-width:650px){.listenTransportButtons{gap:12px}.listenPlayer #listenPause{width:70px;height:70px;min-width:70px;min-height:70px!important}.listenTransportButtons>button>svg{width:34px;height:34px}}
+
+/* Give the complete illustration priority; keep controls in compact, stable rows. */
+#reader{background:#f3f8fa;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+#reader [hidden]{display:none!important}
+#reader .readerHeader{height:64px;padding:4px 12px;gap:12px;border-bottom:1px solid #35526712}
+#reader .readerHeader>div:not(.readerTools){overflow:hidden}
+#reader .readerHeader strong{font-size:22px;max-width:none;line-height:1.25}
+#reader #pageTitle{font-size:15px;line-height:1.25;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#reader .readerHeader .toyButton{flex-direction:row;gap:5px!important;min-width:48px;min-height:48px!important;padding:4px 6px!important}
+#reader .readerHeader .actionIcon{width:29px;height:29px}
+#reader .readerHeader .actionLabel{font-size:18px!important}
+#reader .readerTools{gap:12px;flex-wrap:nowrap;max-width:none}
+#reader .readerSwitch{flex-direction:row;gap:6px;min-width:0;min-height:48px}
+#reader .readerSwitch>span{font-size:18px}
+#reader .readerSwitch i{width:46px;height:28px;flex:none}
+#reader .readerSwitch i:before{width:20px;height:20px}
+#reader .readerSwitch input:checked+i:before{transform:translateX(18px)}
+#reader .readingStage{padding:0 2px;gap:2px}
+#reader .readingStage #viewport{margin:4px 0;border-radius:4px;background:transparent;box-shadow:none}
+#reader .pageTurn.toyButton{flex:0 0 52px;min-width:52px;min-height:100px!important;padding:4px 0!important;gap:4px!important}
+#reader .pageTurn .actionIcon{width:44px;height:44px}
+#reader .pageTurn .actionLabel{font-size:16px!important}
+#reader .controls{flex-wrap:nowrap;gap:20px;padding:5px 12px;min-height:64px;border-top:1px solid #35526712}
+#reader .controls .toyButton{flex-direction:row;min-width:0;min-height:50px!important;padding:4px 8px!important;gap:6px!important}
+#reader .controls .actionIcon{width:34px;height:34px}
+#reader .controls .actionLabel{font-size:21px!important}
+#reader .progress{min-width:62px;margin:0 6px 0 0;font-size:17px}
+#reader .progress>div{margin-top:5px;height:4px}
+#reader .speedControl{flex-direction:row;gap:4px;margin:0;font-size:20px}
+#reader .speedControl select{min-height:48px;padding:4px;width:82px}
+#reader #notice{position:absolute;z-index:4;left:50%;bottom:calc(72px + env(safe-area-inset-bottom));transform:translateX(-50%);width:max-content;max-width:calc(100% - 128px);min-height:0;margin:0;padding:8px 16px;border-radius:14px;background:#fffdf6f5;box-shadow:0 2px 16px #35526720;font-size:17px;pointer-events:none}
+#reader #notice:empty{display:none}
+#reader #notice.quietNotice{width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;box-shadow:none}
+#reader #resetZoom.toyButton{right:8px;bottom:8px;flex-direction:row;gap:5px!important;min-height:44px!important;padding:4px 8px!important}
+#reader #resetZoom .actionIcon{width:28px;height:28px}
+#reader #resetZoom .actionLabel{font-size:17px!important}
+#reader .panel{z-index:6}
+/* Only the sentence body scrolls, so its close button is always within reach. */
+#reader #sentencesPanel{display:flex;flex-direction:column;max-height:74%;padding:0;overflow:hidden}
+#reader #sentencesPanel>header{flex:none;min-height:76px;padding:10px 24px;border-bottom:1px solid var(--line);background:var(--paper);gap:16px}
+#reader #sentencesPanel>header>div{min-width:0}
+#reader #sentencesTitle{margin:4px 0 0;font-size:25px;line-height:1.3}
+#reader #closeSentences{flex:none;flex-direction:row;gap:6px!important;min-width:86px;min-height:48px!important;padding:6px 10px!important}
+#reader #closeSentences .actionIcon{width:28px;height:28px}
+#reader #closeSentences .actionLabel{font-size:19px!important}
+#reader .sentenceScroll{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch;scroll-padding-block:20px;padding:0 28px max(24px,env(safe-area-inset-bottom));touch-action:pan-y}
+@media(max-width:1050px){
+ #reader .readerHeader{padding-inline:8px;gap:8px}
+ #reader .readerTools{gap:8px}
+ #reader .readerHeader strong{font-size:20px}
+ #reader .readerHeader .actionLabel,#reader .readerSwitch>span{font-size:17px!important}
+ #reader .controls{gap:12px}
+ #reader .controls .actionLabel{font-size:20px!important}
+}
+@media(max-width:800px){
+ #reader .readerHeader{height:68px}
+ #reader .readerHeader .toyButton{flex-direction:column;gap:1px!important;padding:2px 4px!important;min-height:54px!important}
+ #reader .readerHeader .actionIcon{width:27px;height:27px}
+ #reader .readerTools{gap:8px}
+ #reader .readerSwitch{flex-direction:column;gap:3px;min-width:54px;min-height:54px}
+ #reader .readerHeader .actionLabel,#reader .readerSwitch>span{font-size:16px!important}
+ #reader .controls{gap:8px;padding:4px 8px}
+ #reader .controls .toyButton{padding:4px!important}
+ #reader .controls .actionLabel{font-size:18px!important}
+ #reader .controls .actionIcon{width:29px;height:29px}
+ #reader .speedControl{font-size:18px}
+}
+@media(max-width:600px){
+ #reader .readerHeader{display:grid;grid-template-columns:auto minmax(0,1fr);height:106px;padding:3px 8px;gap:0 10px}
+ #reader .readerHeader>div:not(.readerTools){text-align:right}
+ #reader .readerHeader strong{font-size:20px}
+ #reader #pageTitle{font-size:14px}
+ #reader .readerHeader #back{flex-direction:row;min-height:44px!important}
+ #reader .readerTools{grid-column:1 / -1;justify-content:space-between;gap:6px}
+ #reader .readerHeader .readerTools .toyButton{flex-direction:row;min-height:44px!important}
+ #reader .readerSwitch{flex-direction:row;gap:4px;min-height:44px;min-width:0}
+ #reader .readerSwitch i{width:40px;height:26px}
+ #reader .readerSwitch i:before{width:18px;height:18px}
+ #reader .readerSwitch input:checked+i:before{transform:translateX(14px)}
+ #reader .readerHeader .actionLabel,#reader .readerSwitch>span{font-size:15px!important}
+ #reader .readerHeader .readerTools .actionIcon{width:24px;height:24px}
+ #reader .pageTurn.toyButton{flex-basis:44px;min-width:44px;min-height:88px!important}
+ #reader .pageTurn .actionIcon{width:38px;height:38px}
+ #reader .pageTurn .actionLabel{font-size:14px!important}
+ #reader .controls{gap:4px;justify-content:space-evenly;padding:4px;min-height:68px}
+ #reader .controls .toyButton{flex-direction:column;gap:1px!important;min-height:58px!important;padding:2px 3px!important}
+ #reader .controls .actionIcon{width:28px;height:28px}
+ #reader .controls .actionLabel{font-size:16px!important}
+ #reader .progress{min-width:38px;margin:0;font-size:14px}
+ #reader .speedControl{flex-direction:column;gap:0;font-size:16px}
+ #reader .speedControl select{width:72px;min-height:36px}
+ #reader #notice{max-width:calc(100% - 32px);font-size:15px;bottom:calc(76px + env(safe-area-inset-bottom))}
+ #reader #sentencesPanel>header{padding:10px 16px}
+ #reader #sentencesTitle{font-size:22px}
+ #reader .sentenceScroll{padding-inline:18px}
+}
+@media(max-height:500px) and (min-width:601px){
+ #reader .readerHeader{height:54px;padding-block:2px}
+ #reader .readerHeader .toyButton{flex-direction:row;min-height:44px!important}
+ #reader .readerSwitch{flex-direction:row;min-height:44px;gap:4px}
+ #reader .readerHeader .actionLabel,#reader .readerSwitch>span{font-size:15px!important}
+ #reader .readerHeader .actionIcon{width:25px;height:25px}
+ #reader .readerHeader strong{font-size:18px}
+ #reader #pageTitle{font-size:13px}
+ #reader .controls{min-height:52px;padding-block:2px}
+ #reader .controls .toyButton{min-height:44px!important}
+ #reader .controls .actionIcon{width:28px;height:28px}
+ #reader .speedControl select{min-height:44px}
+ #reader #notice{bottom:calc(60px + env(safe-area-inset-bottom))}
+}
+@media(orientation:portrait) and (max-width:800px){
+ #reader .readingStage{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:minmax(0,1fr) 48px;gap:0;padding:0 4px}
+ #reader .readingStage #viewport{grid-column:1 / -1;grid-row:1;width:100%}
+ #reader .pageTurn.toyButton{grid-row:2;flex-direction:row;gap:6px!important;min-width:108px;min-height:44px!important;padding:0 8px!important}
+ #reader .pageTurnPrev{grid-column:1;justify-self:start}
+ #reader .pageTurnNext{grid-column:2;justify-self:end}
+ #reader .pageTurn .actionIcon{width:34px;height:34px}
+ #reader .pageTurn .actionLabel{font-size:18px!important}
+}
