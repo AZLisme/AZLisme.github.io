@@ -21,7 +21,7 @@ const player=new StoryPlayer(audio,{
  onSentence:id=>{markSentence(id);if(audioOnlyMode)drawListeningCaptions(id)},
  onError:t=>{notice(t);if(t&&audioOnlyMode)$('listenStatus').textContent=t;if(t&&queue.active){interruptQueue();$('queueStatus').textContent=t}},onComplete:()=>{if(audioOnlyMode)listeningVoyage.complete();if(queue.active)advanceQueue();else notice('故事读完啦！可以点一句再听，或返回书架。')}
 });
-let playbackSpeed=1;try{const saved=Number(localStorage.getItem('picturebook:playbackSpeed'));if([0.5,0.75,1,1.5,2].includes(saved))playbackSpeed=saved}catch{}
+let playbackSpeed=1;try{const saved=Number(localStorage.getItem('picturebook:playbackSpeed'));const speed=saved===0.5?0.6:saved===0.75?0.8:saved;if(StoryPlayer.speeds.includes(speed)){playbackSpeed=speed;if(speed!==saved)localStorage.setItem('picturebook:playbackSpeed',String(speed))}}catch{}
 const speedControls=['playbackSpeed','queueListeningSpeed'];
 function syncSpeed(){for(const id of speedControls)$(id).value=String(playbackSpeed)}
 player.setSpeed(playbackSpeed);syncSpeed();

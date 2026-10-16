@@ -3,7 +3,8 @@ class StoryPlayer {
  constructor(audio,callbacks={}){this.audio=audio;this.cb=callbacks;this.book=null;this.base='';this.mode='idle';this.auto=false;this.pageIndex=0;this.end=Infinity;this.token=0;this.frame=null;this.speed=1;this.turnTimer=null;this.turning=false;this.turnDelay=3000;
   audio.addEventListener('timeupdate',()=>this.tick());audio.addEventListener('ended',()=>this.finish());audio.addEventListener('play',()=>{this.state();this.animate()});audio.addEventListener('pause',()=>this.state());audio.addEventListener('error',()=>this.fail('音频加载失败，请检查网络后重试。'));
  }
- setSpeed(speed){if(![0.5,0.75,1,1.5,2].includes(speed))return false;this.speed=speed;this.audio.defaultPlaybackRate=speed;this.audio.playbackRate=speed;this.audio.preservesPitch=true;return true}
+ static get speeds(){return [0.6,0.7,0.8,0.9,1,1.1,1.2,1.5,2]}
+ setSpeed(speed){if(!StoryPlayer.speeds.includes(speed))return false;this.speed=speed;this.audio.defaultPlaybackRate=speed;this.audio.playbackRate=speed;this.audio.preservesPitch=true;return true}
  load(book,base){this.stop();this.book=book;this.base=base;this.timeline=(book.narration?.pages||[]).map(p=>({...p,index:book.pages.findIndex(x=>x.id===p.pageId)})).filter(p=>p.index>=0)}
  state(){this.cb.onState?.({auto:this.auto,paused:this.audio.paused,mode:this.mode,turning:this.turning})}
  clearTurn(){if(this.turnTimer!==null)clearTimeout(this.turnTimer);this.turnTimer=null;this.turning=false}
